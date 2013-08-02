@@ -1,0 +1,18 @@
+.notification_page {
+  .list_wrap {
+    width: 45%;
+    float: left;
+    margin-right: 2%;
+    .who {
+      padding: 3px;
+      background-color: #fff;
+      color: blue;
+      margin-top: 15px;
+    }
+
+    .member_wrap, .post_wrap {
+      overflow: auto;
+      padding: 3px;
+    }
+  }  
+}

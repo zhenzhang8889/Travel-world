@@ -1,0 +1,62 @@
+ul.tag_list {
+  overflow: hidden;
+  li {
+    background-color: #f8f8f8;
+    border: 1px solid #afafaf;
+    font-size: 14px;
+    color: #3f3f3f;
+    font-family: Helvetica;
+    font-weight: bold;
+    height: 19px;
+    position: relative;
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+
+    float: left;
+    margin-right: 5px;
+    padding: 5px 10px 5px 28px;
+
+    span.value {
+      margin-right: 5px;
+      white-space: nowrap;
+    }
+    span.del_tag_link {
+      height: 13px;
+      width: 15px;
+      text-indent: -99999px;
+      background-color: transparent;
+      position: absolute;
+      top: 8px;
+      left: 8px;
+      cursor: pointer;
+      background: url(<%= asset_path('tag_x.png') %>) no-repeat 0 0;
+    }
+
+    span.surfix {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 10px;
+      background: url(<%= asset_path('tag_surfix.png') %>) no-repeat 0 0;
+      display: block;
+      height: 31px;
+
+      z-index: 2;
+      margin-top: -1px;
+      margin-right: -3px;
+
+    }
+    &.surfix_blue {
+      span.surfix {
+        background: url(<%= asset_path('tag_surfix_blue.png') %>) no-repeat 0 0;
+      }
+    }
+  }
+  &.tag_shows {
+    li {
+      padding-left: 10px;
+    }
+  }
+}

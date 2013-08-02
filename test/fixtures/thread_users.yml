@@ -1,0 +1,22 @@
+# == Schema Information
+#
+# Table name: thread_users
+#
+#  id                :integer          not null, primary key
+#  deleted           :boolean
+#  archived          :boolean
+#  created_at        :datetime
+#  updated_at        :datetime
+#  user_id           :integer
+#  message_thread_id :integer
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  deleted: false
+  archived: false
+
+two:
+  deleted: false
+  archived: false

@@ -1,0 +1,10 @@
+/ .control_panel
+/ %h4 My Leads
+.mine
+  = render :partial => 'lead_generations/list', :locals => {:leads => current_user.lead_generations.order('created_at DESC'), :show_reply_count => true, :show_match_count => true}
+
+  / %h4 History Matches
+  / = render :partial => 'lead_generations/list', :locals => {:leads => LeadGeneration.replied_by_usr(current_user)}
+  / .lg_posts
+  /   / %h3 Click match button on the leftside to show Matched Leads here
+  /   .rs

@@ -1,0 +1,41 @@
+.lead_show{:'data-bind' => "if: own_lead && match_lead"}
+  / = link_to 'Back to matches', matched_mine_lead_generation_url(@lead)
+  / current_user.is_company? ? matched_mine_lead_generation_url(@lead) : match_traveller_lead_path(@lead)
+  / %hr
+  /= render :partial => 'abuses/links', :locals => {:url => request.fullpath}
+  .with{:'data-bind' => "with: match_lead"}
+    = render :partial => 'lead_generations/show', :locals => { :view_user => current_user, :for_mail => false, :show_match_count => false, :show_reply_count => false}
+
+  %h3{:'data-bind' => "text: 'Have a conversation with ' + match_lead().user.name"}
+
+  %ul.reply_users
+    %li.reply_user
+      %ul.replies{:'data-bind' => "foreach: replies"}
+        /       - cur_reply = @lead.last_replied_by?(@target_lead, current_user)
+        /       - total = @replies.count
+
+        /       - prev_reply = @lead.prev_latest_reply(@target_lead)
+
+        /       - @replies.each_with_index do |reply, index|
+        /         - need_collapse = (index < total - 1) && (cur_reply || (!cur_reply && prev_reply && reply.id <= prev_reply.id ))
+
+        %li{:'data-bind' => "attr: {class: original_lead.user.id ==  $parent.current_user_id || read ? 'reply need_collapse' : 'reply' }"}
+          = render :partial => 'lead_replies/show'
+
+      %ul.replies
+        %li.reply
+          .lead_reply
+            .user.avatar
+              = image_tag current_user.avatar.url(:medium) if current_user
+            .body
+              = form_for LeadReply.new, :html => {:class => :reply_form, :'data-bind' => "submit: post_reply"} do |f|
+                / %input{:type => 'hidden', :'data-bind' => "attr: {value: }"}
+                = f.hidden_field :original_lead_id, :'data-bind' => "attr: {value: own_lead().id}"
+                = f.hidden_field :target_lead_id, :'data-bind' => "attr: {value: match_lead().id}"
+                / = f.hidden_field :original_lead_id, :value => @lead.id
+                / = f.hidden_field :target_lead_id, :value => @target_lead.id
+                .control-group
+                  .controls
+                    = f.text_area :body, :placeholder => 'Have something to say?'
+                  .controls
+                    = f.submit 'Submit', :class => 'btn btn-mini btn-primary', :disable_with => 'Submit...'

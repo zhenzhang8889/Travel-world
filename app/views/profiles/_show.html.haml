@@ -1,0 +1,59 @@
+.profile_page
+  .post_feed{:'data-bind' => 'with: view_model_posts'}
+    = form_for Post.new, :url => account_posts_path, :multipart => true, :html => {:'data-bind' => 'submit: post'} do |f|
+      .control-group
+        %label Have something to say?
+        .controls
+          = f.text_area :body, :class => 'input-xlarge'
+
+      .control-group
+        .controls
+          .input-append
+            = f.file_field :data, :style => 'display: none', :class => 'file_input'
+            %input.fake_file_input.input-large{:type => "text"}
+            %a.btn.file_button Browse
+
+          :javascript
+            $(document).ready(function(){
+              $('a.btn.file_button, input.fake_file_input').click(function() {
+                $(this).parent().find('input.file_input').click();
+              });
+              $('input.file_input').change(function() {
+                $(this).next().val($(this).val());
+              });
+            });
+
+      .form-action
+        = f.submit 'Post', :class => 'btn btn-primary'
+
+    = render :partial => 'posts/list'
+
+  .profile_sect
+    .header_decoration
+    .decoration_content
+      .visible{:'data-bind' => 'visible: view_mode()'}
+        %a.btn.edit_link{:'data-bind' => "click: enter_edit_view_mode"} Edit
+        .with{:'data-bind' => 'with: profile()'}
+          .panel
+            %img.avatar_icon{:'data-bind' => 'attr: {src: prof_avatar_url()}'}
+            %a{:'data-bind' => 'click: $parent.to_photo_model'} Change
+
+            %h4 Travel Tagged
+
+            %ul.activities{:'data-bind' => 'foreach: activity_list()'}
+              %li{:'data-bind' => 'text: $data'}
+
+          .panel.pull-right
+            %h3{:'data-bind' => "text: name"}
+            .service{:'data-bind' => "text: service.name"}
+            .desc{:'data-bind' => "text: activity_details"}
+
+            .address{:'data-bind' => "text: full_address()"}
+            %a.view_on_map{:href => '#'} View on map
+            .phone{:'data-bind' => "text: address.phone"}
+            .website
+              %a{:'data-bind' => "attr: {href: website}, text: website"}
+
+      .visible{:'data-bind' => 'visible: !view_mode()'}
+        %a.btn.edit_link{:'data-bind' => "click: init"} Back
+        = render :partial => 'profiles/edit'

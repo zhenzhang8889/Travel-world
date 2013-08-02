@@ -1,0 +1,54 @@
+
+.right_block_user
+  .image
+    %img{:src =>"/assets/users/#{current_user.avatar_file_name}", :class => "currentuserimage"}
+  .text
+    %li.title #{@user.name}
+    .locationtext
+      %li.orange Location:
+      %li.location #{@location.name}
+    .servicetagstext
+      %li.orange Service Tags:
+      %li.servicetags #{@area.name}
+      %span{:'data-bind' => "text: service.name "}
+.right_mail
+  .right_mail_box
+    - @recieved_messages.each do |message|
+      .right_mail_body
+        = link_to mailer_recipientid_path(id: message.sender_id), class:"btn", remote: true do
+          .mail_picture
+            %img(src="/assets/users/#{message.sender.avatar_file_name}")
+        .mail_content
+          .contentheader
+            %p
+              %b #{message.sender.name}
+            %p               
+              = message.created_at.strftime("%b %d -%H:%M")
+            %p Received
+          .clear  
+          .contenttext
+            = msg_body( message.body ) 
+  .right_mail_relation
+    %input.mailrequiere{:type => "checkbox"} Requiere
+    %a.btn.btn-success.btn-large{ :href => "#", :id => "quick"} QUICK MESSAGE
+    = link_to  '#', class: "btn btn-success btn-large" do
+      %i.icon-search
+        
+     
+  .right_mail_send
+    = form_tag mailer_sendmail_path, :remote => true, :method => 'get', :id => "sending_frm" do
+      %textarea.send_mail_content{ :name => 'body', :placeholder => 'Send any mail!', :id => 'mailtext'}
+      %input{:type => 'hidden', :id => "recipient", :name => 'recipients', :value => "#{current_user.id}", :class => 'recipient'}      
+      %input{:type => 'hidden', :name => 'subject', :placeholder => 'Name', :value => "New Message" }
+      .send_relation
+        .icongroup
+          = link_to  '#' do
+            %i.icon-print
+          = link_to  '#' do
+            %i.icon-random
+        =submit_tag "Send Mail", class: "btn btn-warning btn-large", id: "sendbutton"
+.clear
+
+
+- if unread > 0
+  %input.messagemiscount{value: unread}

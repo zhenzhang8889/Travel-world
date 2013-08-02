@@ -1,0 +1,42 @@
+<br />
+
+<%= form_for([:admin, @badge]) do |f| %>
+  <% if @badge.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@badge.errors.count, "error") %> prohibited this badge from being saved:</h2>
+
+      <ul>
+      <% @badge.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+  </div>
+
+  <br />
+  <div class="field">
+    <%= f.label :point %>
+    <%= f.number_field :point %>
+  </div>
+
+  <br />
+  <div class="field">
+    <%= f.check_box :is_active %><%= f.label :is_active %>
+  </div>
+  <br />
+
+  <div class="field">
+    <%= f.label :category_badge_id %><br />
+    <%= f.collection_select :category_badge_id, CategoryBadge.all, :id, :name  %>
+  </div>
+
+  <br />
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

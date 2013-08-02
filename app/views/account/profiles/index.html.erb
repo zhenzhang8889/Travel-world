@@ -1,0 +1,57 @@
+<h1>Listing profiles</h1>
+
+<table>
+  <tr>
+    <th>Name of business</th>
+    <th>Activity details</th>
+    <th>Activity</th>
+    <th>Website</th>
+    <th>Marketing network</th>
+    <th>Country</th>
+    <th>Region</th>
+    <th>Commission offered</th>
+    <th>Street</th>
+    <th>City</th>
+    <th>Freephone</th>
+    <th>Phone</th>
+    <th>Fax</th>
+    <th>Activity category</th>
+    <th>Foreign languages supported</th>
+    <th>Business hours</th>
+    <th>Collateral available</th>
+    <th>Key facilities</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @profiles.each do |profile| %>
+  <tr>
+    <td><%= profile.name_of_business %></td>
+    <td><%= profile.activity_details %></td>
+    <td><%= profile.activity %></td>
+    <td><%= profile.website %></td>
+    <td><%= profile.marketing_network %></td>
+    <td><%= profile.country %></td>
+    <td><%= profile.region %></td>
+    <td><%= profile.commission_offered %></td>
+    <td><%= profile.street %></td>
+    <td><%= profile.city %></td>
+    <td><%= profile.freephone %></td>
+    <td><%= profile.phone %></td>
+    <td><%= profile.fax %></td>
+    <td><%= profile.activity_category %></td>
+    <td><%= profile.foreign_languages_supported %></td>
+    <td><%= profile.business_hours %></td>
+    <td><%= profile.collateral_available %></td>
+    <td><%= profile.key_facilities %></td>
+    <td><%= link_to 'Show', profile %></td>
+    <td><%= link_to 'Edit', edit_profile_path(profile) %></td>
+    <td><%= link_to 'Destroy', profile, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Profile', new_profile_path %>

@@ -1,0 +1,386 @@
+<script type='text/javascript'>
+// QueryLoader.init();
+</script>
+
+<div class="sidebar" data-bind="attr: { 'class': side_bar_need_full_screen() ? 'sidebar full_screen' : 'sidebar'}">
+  <div class="sidebar-select main_menu">
+    <a href='#' data-bind="click: view_home" class='menu-item home-item'>
+      Home
+    </a>
+
+    <a href='#' data-bind="click: viewLeads" class='menu-item leads-item'>
+      Leads
+    </a>
+
+    <a href='#' data-bind="click: viewChats" class='menu-item chat-item'>
+      Chat
+    </a>
+
+    <a href='#' data-bind="click: view_members_search" class='menu-item search-item'>
+      Search
+    </a>
+
+    <a href='#' data-bind="click: view_account_profile" class='menu-item profile-item'>
+      My Profile
+    </a>
+
+    <a href='#' data-bind="click: view_network" class='menu-item network-item'>
+      My Network
+    </a>
+
+    <a href='#' data-bind="click: view_profile_stats" class='menu-item stats-item'>
+      Stats
+    </a>
+  </div>
+
+  <div data-bind="visible: main_menu_type() == 'notifications'" class='sidebar-cont full_screen account_leads'>
+    <%= render :partial => 'account/notifications/index' %>
+  </div>
+
+  <div data-bind="visible: main_menu_type() == 'home'" class='sidebar-cont full_screen account_leads'>
+    <%= render :partial => 'account/homes/show' %>
+  </div>
+
+  <div data-bind="visible: main_menu_type() == 'leads'" class='sidebar-cont full_screen account_leads'>
+    <%= render :partial => 'account/lead_generations/list_bind_with_ko' %>
+  </div>
+
+  <div data-bind="visible: main_menu_type() == 'network'" class='sidebar-cont full_screen account_leads'>
+    <%= render :partial => 'account/contacts/index' %>
+  </div>
+
+  <div data-bind="visible: main_menu_type() == 'chats'" class='account_chats'>
+    <div class='chat_top_menu'>
+      <a href="#" class='contacts_sub_menu' data-bind='click: viewContacts'>
+        Contacts
+      </a>
+      <a href="#" class='groups_sub_menu' data-bind='click: viewGroups'>
+        Groups
+      </a>
+      <a href="#" class='recents_sub_menu' data-bind='click: viewRecents'>
+        Recents
+      </a>
+      <a href="#" class='search_sub_menu' data-bind='click: viewSearch'>
+        Search
+      </a>
+    </div>
+    <%= render :partial => 'chats/index' %>
+  </div>
+
+  <div data-bind="visible: main_menu_type() == 'search'" class="sidebar-cont full_screen">
+    <div data-bind="with: view_model_search">
+      <%= render :partial => 'members/index' %>
+    </div>
+  </div>
+
+  <div data-bind="visible: main_menu_type() == 'profile'" class="sidebar-cont full_screen">
+    <div data-bind="with: view_model_profiles">
+      <%= render :partial => 'profiles/show' %>
+    </div>
+  </div>
+
+  <div data-bind="visible: main_menu_type() == 'stats'" class="sidebar-cont full_screen">
+    <div data-bind="with: view_model_profile_stats">
+      <%= render :partial => 'profiles/stats' %>
+    </div>
+  </div>
+</div>
+
+<div class="pages" data-bind="visible: !fullSearching() && !side_bar_need_full_screen()">
+  <div data-bind='foreach: pages'>
+    <div class='chat-wrap'>
+      <div class="chat">
+        <div class="chat-header">
+          <img data-bind="attr: {src: currentPerson().image}" width="49" height="49" border="0" align="left"/>
+          <div class="chat-title">
+            <div class="bold" data-bind="text: currentPerson().name"></div>
+            <div class="deployed-rows-subName" data-bind="text: currentPerson().subName"></div>
+          </div>
+
+          <input name="" type="button" class="close" data-bind="click: $data.closePage"/>
+          <a href='' data-bind='click: toggle_show_profile' class='show_profile bold'>Show<br>Profile</a>
+        </div>
+        <div data-bind='visible: typePage() == "threads", style:"float:left;"'>
+          <div class="thread-new">
+            <a href="#" class="thread-new-link" data-bind="click: newThread">Create a new Chat</a>
+          </div>
+          <div class="threads-container" data-bind="foreach: threads()">
+            <div class="thread-row" data-bind="click: $parent.getConversation, event: { contextmenu: $data.contextMenuThreadClick }">
+              <div class="thread-row-subject" data-bind="text: $data.subject "></div>
+              <div class="thread-row-date" data-bind="text: getDateTime()"></div>
+              <div class="clear"></div>
+              <div data-bind="text: getLastMessage()"></div>
+            </div>
+            <div class="menu" style="display:none;" data-bind="attr: { id: 'menu' + $data.id() }">
+              <div class="link-menu left archive" data-bind="click: $parent.archiveThread">
+                ARCHIVE CONVERSATION
+              </div>
+              <div class="clear10">
+              </div>
+              <div class="link-menu left delete" data-bind="click: $parent.deleteThread">
+                DELETE CONVERSATION
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-bind='visible: typePage() == "message", style:"float:left;"'>
+          <div data-bind='with: currentThread'>
+            <div class="back-groups-action" title="Return to threads" data-bind="click: $parent.backThreads, visible: !editing() && !usingQM() && !searching()"></div>
+            <div class="subject" title="Click to edit the subject" data-bind='visible: !editing() && !usingQM() && !searching(), click: edit, text: subject'></div>
+            <input class="thread-subject-message" data-bind="visible: editing, value: subject,  event: { blur: saveSubject }, hasfocus: true" />
+            <div class="dotline" data-bind="visible: !editing() && !usingQM() && !searching()"></div>
+            <div class="threads" data-bind="visible: !usingQM() && !searching(), foreach: messages, attr: { id: id()}">
+              <div class="dialog">
+                <img data-bind="attr: {src: getPerson().image}" width="30" height="30" align="left" border="0"/>
+                <div data-bind="attr: { 'class': getMessageArrowClass()}"></div>
+                <div data-bind="attr: { 'class': getMessageClass}">
+                  <div class="name-data"><b data-bind="text: getPerson().name"></b>&nbsp-&nbsp</div>
+                  <div class="name-data" data-bind="text: getDateTime()"></div>
+                  <div class="name-data" data-bind="text: getStatus()"></div><br />
+                  <div data-bind="text: $data.fullRow"></div>
+                  <div data-bind='visible: (ack() && $root.currentUser != user_id)'>
+                    <a href="#" data-bind='text: "Send ACK", visible: !confirmedMessage(), click: sendAcknowledgement' ></a>
+                  </div>
+                  <div data-bind='visible: attachUrl().length > 0'>
+                    <a href="#" target="_blank" data-bind='text: "See the attachment", attr: { href: attachUrl() }'></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div data-bind="visible: searching()">
+              <input class="search-input" placeholder="Type here to search in the messages" data-bind="value: filterText,  event: { blur: disableSearch }, valueUpdate: ['afterkeydown', 'input'], hasfocus: true" />
+              <div class="close-action" title="Stop Searching" data-bind="click: closeAction"></div>
+              <div class="threads" data-bind="foreach: filteredMessages">
+                <div class="dialog">
+                  <img data-bind="attr: {src: getPerson().image}" width="30" height="30" align="left" border="0"/>
+                  <div data-bind="attr: { 'class': getMessageArrowClass()}"></div>
+                  <div data-bind="attr: { 'class': getMessageClass}">
+                    <div class="name-data"><b data-bind="text: getPerson().name"></b>&nbsp-&nbsp</div>
+                    <div class="name-data" data-bind="text: getDateTime()"></div>
+                    <div class="name-data" data-bind="text: getStatus()"></div><br />
+                    <div data-bind="text: $data.fullRow"></div>
+                    <div data-bind='visible: (ack() && $root.currentUser != user_id)'>
+                      <a href="#" data-bind='text: "Send ACK", visible: !confirmedMessage(), click: sendAcknowledgement' ></a>
+                    </div>
+                    <div data-bind='visible: attachUrl().length > 0'>
+                      <a href="#" target="_blank" data-bind='text: "See the attachment", attr: { href: attachUrl() }'></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div data-bind="visible: usingQM()">
+              <form data-bind="submit:$root.addQM" class="qm-form">
+                <div>
+                  <input type="text" class="add-quick-message" placeholder="Add your Quick Message here..." 
+                         data-bind='value:$root.qmToAdd, valueUpdate: "afterkeydown"' />
+                  <button type="submit" style="margin-top: 20px;" class="button" data-bind="enable: $root.qmToAdd().length > 0">Add</button>
+                </div>
+              </form>
+              <div class="close-action-qm" title="Go to the thread" data-bind="click: closeAction"></div>
+              <div class="deploy-rows-all" data-bind="foreach: $root.qm">
+                <div class="quick-message" title="Click to user the Quick Message" data-bind="visible: !editing()">
+                  <div class="quick-message-text" data-bind="text: body(), click: $parent.setQM"></div>
+                  <div class="quick-message-controls" >
+                    <a href="#" class="right" title="Delete the Quick Message" data-bind="click: deleteQM"><%= image_tag("close-gr.jpg") %></a>
+                    <a href="#" class="right" title="Edit the Quick Message" data-bind="click: editQM"><%= image_tag("edit-gr.jpg") %></a>
+                  </div>
+                </div>
+                <input class="add-quick-message" data-bind="visible: editing, value: body, event: { blur: updateQM }, hasfocus: true" />
+              </div>
+            </div>
+            <div data-bind="visible: !usingQM()">
+              <div class="separate-20"></div>
+              <form data-bind="submit:addMessage, visible: users().length > 0">
+                <label class="label_uncheck" data-bind="attr: { for: 'ack-check' + id(), id: 'label_checkbox-ack-check' + id() }">
+                  <input type="checkbox" style="display: none;" name="ack-check" data-bind="checked: requireAck, attr: { id: 'ack-check' + id() }" onchange="changeCheckClass(this.id);" />
+                  Require Acknowledgment
+                </label>
+                <a href="#" class="link-b right" data-bind="click: setSearching"><%= image_tag("ico-busqueda-blanco.jpg", :width => 14, :height => 14)%></a>
+                <a href="#" class="link-a right" data-bind="click: useQM, visible: users().length > 0">QUICK MESSAGE</a>
+                <div class="clear"></div>
+                <textarea class="message" data-bind='value:newMessage, valueUpdate: "afterkeydown", event: {keydown: function(data, event){if (event.keyCode == 13) { addMessage(); return false; } else return true;}}'  ></textarea>
+                <button type="submit" style="margin: 15px 10px 10px;" class="button right" data-bind="enable: (newMessage().length > 0) && (users().length > 0)">Send</button>
+              </form>
+              <h3 data-bind="visible: users().length == 0">This thread was deleted by all the users</h3>
+              <a target="_blank" class="print" title="Print the Thread" data-bind="attr: { href: printUrl }"><%= image_tag("ico-imprimir.jpg", :width => 22, :height => 22)%></a>
+              <br/>
+              <iframe class="iframe-attach" data-bind="attr: {src: '/upload/' + id(), id: 'iframe' + id() }"></iframe>
+            </div>
+          </div>
+        </div>
+
+        <script>
+        $(document).click(function(a,b) {
+          $('.menu').hide();
+          if (a.target.className != "search-input3")
+            application.selectType(false);
+          if (a.target.className != "search-input2")
+            application.selectTypeSearch(false);
+        });
+        </script>
+      </div>
+
+      <div class="chat" data-bind='visible: typePage() == "group"'>
+        <div class="chat-header">
+          <div class="chat-title">
+            <div class="bold manage" title="Click to change the name of the group" data-bind="visible: !currentGroup().editing(), click: currentGroup().edit, text: currentGroup().name"></div>
+            <input class="group-name" data-bind="visible: currentGroup().editing, value: currentGroup().name,  event: { blur: currentGroup().saveName }, hasfocus: true" />
+            <div class="deployed-rows-subName manage" data-bind="click: currentGroup().edit">Manage your Group here</div>
+          </div>
+          <input name="" type="button" class="close" data-bind="click: $data.closePage"/>
+        </div>
+        <div data-bind="with: currentGroup()">
+          <div data-bind="visible: !$parent.searchingUsers()">
+            <div class="user-group-contact-new">
+              <a href="#" class="user-group-new-link" data-bind="click: $parent.searchPerson">Add Contact</a>
+            </div>
+            <div class="user-group-contact-new">
+              <a href="#" class="user-group-new-link" data-bind="click: $parent.deleteGroup">Delete Group</a>
+            </div>
+            <div class="groupUsers" data-bind="foreach: groupUsers">
+              <div class="user-group" data-bind="click:$root.getThread">
+                <img data-bind="attr: {src: image}"></img>
+                <div class="user-group-text">
+                  <b data-bind="text: name"></b>
+                  <div class="" data-bind="text: subName"></div>
+                </div>
+                <div class="user-group-controls">
+                  <a href="#" class="right" title="Remove this person" data-bind="click: removePerson"><%= image_tag("close-gr.png") %></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-bind="visible: $parent.searchingUsers()">
+            <div class="back-groups-action" title="Return to group listing" data-bind="click: $parent.searchPerson"></div>
+            <div class="groupUsers" data-bind="foreach: $parent.usersToAdd(), visible: !$parent.searchingUsersToAdd() && $parent.usersToAdd().length > 0">
+              <div class="user-group" data-bind="">
+                <img data-bind="attr: {src: image}"></img>
+                <div class="user-group-text">
+                  <b data-bind="text: name"></b>
+                  <div class="" data-bind="text: subName"></div>
+                </div>
+                <div class="user-group-controls">
+                  <a href="#" class="right" title="Add this person" data-bind="click: addPerson"><%= image_tag("tick-na.png") %></a>
+                </div>
+              </div>
+            </div>
+            <div data-bind="visible: !$parent.searchingUsersToAdd() && $parent.usersToAdd().length == 0">
+              <div class="left">
+                <h4>All your contacts are already in this group</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='profile_detail' data-bind='visible: show_profile() == 1'>
+        <h2 data-bind="text: currentPerson().name"></h2>
+        <img data-bind="attr: {src: currentPerson().image}" class='detail_photo'/>
+
+        <h3 data-bind="text: currentPerson().category">Transport</h3>
+        <h4 data-bind="text: currentPerson().location2">Aucland, New Zealand</h4>
+        <div class='web_address'>www.transfercar.com, Tel: 23232323</div>
+        <ul class='friend_requests'>
+          <li>
+            <div class='add_box silent'>
+              <a class='req_link'>Request</a>
+            </div>
+          </li>
+          <li class='need_break'>
+            <div class='add_box'>
+              ABOUT
+            </div>            
+          </li>
+          <li>
+            <div class='add_box silent'>
+              <img data-bind="attr: {src: currentPerson().image}" class='fake_photo'/>
+            </div>
+          </li>
+          <li>
+            <div class='add_box'>
+              LOCAL<br />FRIENDS
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div style="clear: both; margin-bottom: 10px" />
+  </div>
+</div>
+  
+<div class="search-container" id="search-container" data-bind="visible: fullSearching()">
+  <div class="search-header">
+    <div class="left2">
+      <input name="" type="text" class="search-box" placeholder="Type to start searching" data-bind="value: messageSearch, valueUpdate: ['afterkeydown', 'input']"/>
+    </div>
+    <div class="left3">Type of Search</div>
+    <div class="left2">
+      <input name="" type="text" class="search-input2" title="Type" readonly="readonly" id="status" data-bind="value: searchPlace, valueUpdate: ['afterchange', 'input'], click: setSelectType"/>
+      <div class="select-container-short" data-bind="foreach: availablePlaces, visible: selectTypeSearch">
+        <div class="select-item" data-bind="text: $data, click: $root.setSearchPlace"></div>
+      </div>
+    </div>
+    <div class="left3">Filter by Date, From</div>
+    <div class="left2">
+      <input name="" type="text" class="search-input2" title="From" readonly="readonly" id="startDate" data-bind="value: startDate, valueUpdate: ['afterchange', 'input']"/>
+      <div class="ico-calendar"></div>
+    </div>
+    <div class="left2">
+      <input name="" type="text" class="search-input2" title="To" readonly="readonly" id="endDate" data-bind="value: endDate, valueUpdate: ['afterchange', 'input']"/>
+      <div class="ico-calendar"></div>
+    </div>
+    <div class="left2">
+      <input name="" type="text" class="search-input3" title="Status" readonly="readonly" id="status" data-bind="value: searchType, valueUpdate: ['afterchange', 'input'], click: setSelect"/>
+      <div class="select-container filter-status" data-bind="foreach: availableStatus, visible: selectType">
+        <div class="select-item" data-bind="text: $data, click: $root.setSearchType"></div>
+      </div>
+    </div>
+    <div class="link-b right"></div>
+    <div class="close-search">
+      <input name="" type="button" class="close" data-bind="click: viewSearch"/>
+    </div>
+  </div>
+  <div class="separate-20"></div>
+  <div class="search-title">
+    <div class="img-profile"></div>
+    <div class="search-a1">Name</div>
+    <div class="search-a2">Subject</div>
+    <div class="search-a3">Message</div>
+    <div class="search-a4">Timestamp</div>
+    <div class="search-a5">Status</div>
+    <div class="search-a6">Location</div>
+    <div class="search-a7">Description/Service type</div>
+  </div>
+  <div class="search-center" data-bind="foreach: filteredThreads">
+    <div class="search-line" title="See this thread" data-bind="click: getSearchedThread">
+      <div class="img-profile">
+        <img width="30" height="30" alt="" border="0" data-bind="attr: { src: $data.getPerson().image }"/>
+      </div>
+      <div class="search-a1" data-bind="text: $data.getPerson().name"></div>
+      <div class="search-a2" data-bind="text: $data.getThread().subject"></div>
+      <div class="search-a3" data-bind="text: $data.content"></div>
+      <div class="search-a4" data-bind="text: $data.getDateTimeRecent"></div>
+      <div class="search-a5" data-bind="text: $data.getStatus"></div>
+      <div class="search-a6" data-bind="text: $data.getPerson().location"></div>
+      <div class="search-a7" data-bind="text: $data.getPerson().category"></div>
+    </div>
+  </div>
+  <div class="separate-20"></div>
+</div>
+
+<script type='text/javascript'>
+$(document).ready(function() {
+
+  var channel = "/" + <%= current_user.id.to_s %>;
+  if(!$(window).data(channel)){
+    <%= super_subscribe_to "/" + current_user.id.to_s %>
+    $(window).data(channel, true);
+  }
+  $("#startDate").datepicker({"dateFormat": "yy-mm-dd"});
+  $("#endDate").datepicker({"dateFormat": "yy-mm-dd"});
+  application.setCurrentUser(<%= current_user.id %>);
+  application.currentPerson(new User(<%= current_user.to_json(:methods => [:imageUrlMedium, :imageUrlSmall, :categoryName ]).html_safe %>, application.datas));
+  
+});
+</script>

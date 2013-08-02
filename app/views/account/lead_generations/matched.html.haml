@@ -1,0 +1,9 @@
+.matched_list
+  %a{:'data-bind' => 'click: $parent.view_leads'} "Back to #{current_user.name}'s leads"
+  / = link_to , account_lead_generations_path
+  %hr
+  / %h3 My lead
+  / = render :partial => 'lead_generations/list', :locals => {:leads => [@lead], :to_conversation => true}
+
+  %h3 Matched leads
+  = render :partial => 'lead_generations/list', :locals => {:leads => @matched_leads, :to_conversation => true, :conver_lead => @lead, :show_reply_count => true}

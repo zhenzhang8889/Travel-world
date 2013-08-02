@@ -1,0 +1,79 @@
+.leads_page{:'data-bind' => 'with: view_model_leads'}
+  .lead_generations_index{:'data-bind' => "visible: on_page() == 'view_leads'"}
+    .content_title.noPading
+      %div
+        %span.content_title Leads
+        .content_headNav
+          %ul.ulnav
+            %li.ulnavLiFirst
+              %a My leads
+            %li
+              %a Browse Leads
+            %li.ulnavLiLast
+              %a Matched
+          %ul.ulnews
+            %li
+              %a{:'data-bind' => "click: view_new_lead"}
+                %img{:alt => "", :src => "/assets/plus.png"} New
+    .leads_block_Wrapper
+      .leads_block_filter
+        %form
+          %h6 Filters:
+          %span Service
+          %span Location
+          .radioholder
+            %label{:for => "SO"}
+              Sell/Offer
+              %input#SO.styled{:name => "radio1", :type => "radio"}
+            %label{:for => "BF"}
+              Buy/Find
+              %input#BF.styled{:name => "radio1", :type => "radio"}
+            %label{:for => "all"}
+              All
+              %input#all.styled{:name => "radio1", :type => "radio"}
+          %input#leads_block_filter_Search{:placeholder => "Search", :type => "text"}
+            .clear
+      = render :partial => 'lead_generations/list', :locals => {:show_reply_count => true, :show_match_count => true}
+      
+    .right_block
+      .rating.Rating_w
+        %p
+          Rating
+        .localtourism.Rating_Block.color1
+          %p
+            %a{:href => '#', :onclick => "javascript: $('.chat_block_Wrapper, .content_title, .TegO').hide(); $('.ecotask').show(); $('.succeed-notice').hide(); $('.localtask').show(); return false;"} Local tourism
+          %input{:'data-width' => "75", :'data-cursor' => 'false', :'data-fgColor' => "#ff9322", :'data-localscore' => "#{@localpoint}", :'data-thickness' => ".2",:'data-readOnly' => 'true', :value => "#{@user_localtourism_point}", :class => "knob", :id => "local-score" }
+        .ecotourism.Rating_Block.color2
+          %p
+            %a{:href => '#', :onclick => "javascript: $('.chat_block_Wrapper, .content_title, .TegO').hide(); $('.ecotask').show(); $('.succeed-notice').hide(); $('.localtask').show(); return false;"} Ecotourism
+          %input{:'data-width' => "75", :'data-cursor' => 'false', :'data-fgColor' => "#3bc168", :'data-ecoscore' => "#{@ecopoint}", :'data-thickness' => ".2",:'data-readOnly' => 'true', :value => "#{@user_ecotourism_point}", :class => "knob", :id => "eco-score" }
+      .TegO
+        <a href="#">Profile views 100</a>
+        <a href="#">Responce rating 100</a>
+        <a href="#">Top 5 countries by number of member</a>
+        <a href="#">Top 5 trade member by network</a>
+        <a href="#">Top 5 Ecotourism companies</a>
+        <a><span>Top 5 referral members</span> create a referral action next to memberer in feeds and chats and profile views.
+        </a>
+
+      .clear
+    .clear
+
+  .matched_list{:'data-bind' => "visible: on_page() == 'view_matches'"}
+    .with{:'data-bind' => "with: view_model_matches"}
+      %a{:'data-bind' => 'click: $parent.view_leads'} Back to #{current_user.name}'s leads
+      %hr
+
+      %h3 Matched leads
+      = render :partial => 'lead_generations/list', :locals => {:to_conversation => true, :conver_lead => @lead, :show_reply_count => true, :is_a_match => true}
+
+  .new_lead_generation{:'data-bind' => "visible: on_page() == 'view_new_lead'"}
+    = render :partial => 'lead_generations/form_ko', :locals => {:lead_generation => current_user.lead_generations.build, :remote => true}
+
+  .conversation_box{:'data-bind' => "visible: on_page() == 'view_conversation'"}
+    %a{:'data-bind' => 'click: back_to_matches'} Back to matches
+    %hr
+
+    .with{:'data-bind' => "with: view_model_matches.view_model_conversation"}
+      = render :partial => 'account/lead_generations/conversation_ko'
+

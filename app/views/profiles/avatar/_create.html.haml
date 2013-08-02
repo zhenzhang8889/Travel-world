@@ -1,0 +1,55 @@
+.avatar_upload_div
+  - @profile = current_user.profile
+  - @profile.pre_prof_avatar.destroy if @profile.pre_prof_avatar
+  - @profile.build_pre_prof_avatar if @profile.pre_prof_avatar.nil?
+
+
+  .visible{:'data-bind' => 'visible: chop_mode() == false'}
+    = form_for(@profile, :url => account_profile_avatar_path, :method => :post, :multipart => true, :html => {:class => 'avatar_upload form-horizontal'}) do |f|
+      %fieldset
+        %legend Upload Photo
+
+        .control-group
+          .controls.avatar_icon
+            %img{:'data-bind' => 'attr: {src: prof_avatar_url()}'}
+
+        = f.fields_for :pre_prof_avatar do |pf|
+          .control-group
+            = pf.label :data, 'Choose File',:class => 'control-label'
+            .controls
+              = pf.file_field :data, :class => "input-xlarge"
+
+          .control-group
+            .controls
+              .progress
+                .bar
+                .percent 0%
+              .status
+
+        .form-actions
+          = f.submit 'Upload', :class => 'btn btn-primary', :'disable_with' => 'Upload'
+          = image_tag 'lib/fancybox/fancybox_loading.gif', :class => 'hide'
+
+  .visible{:'data-bind' => 'visible: chop_mode()'}
+    = form_for :prof_avatar, :url => account_profile_avatar_path, :method => :put, :html => {:'data-bind' => "submit: chop_profile_avatar"} do |f|
+      = f.hidden_field :chop_x, :id => :chop_x
+      = f.hidden_field :chop_y, :id => :chop_y
+      = f.hidden_field :chop_w, :id => :chop_w
+      = f.hidden_field :chop_h, :id => :chop_h
+      = f.hidden_field :need_chop, :value => true
+
+      %fieldset
+        %legend Chop Photo
+
+        .control-group.crop-group
+          .controls.crop
+            %img#avat_ready_chop.real_pic{:'data-bind' => 'attr: {src: pre_prof_avatar_url()}'}
+            / # = image_tag @profile.pre_prof_avatar.data.url(:medium), :id => '', :class => ''
+            .preview_wrap
+              %img#preview{:'data-bind' => 'attr: {src: pre_prof_avatar_url()}'}
+              / # = image_tag @profile.pre_prof_avatar.data.url(:medium), :id => 'preview'
+      .form-actions
+        = f.submit 'OK', :class => 'btn btn-primary', :'disable_with' => 'OK'
+        = image_tag 'lib/fancybox/fancybox_loading.gif', :class => 'hide'
+
+

@@ -1,0 +1,17 @@
+
+<div id="cover_pic">
+  <% if cover.nil?%>
+    <%= image_tag "photo-bg.png", :id => "my_cover_pic" %>
+  <%else%>
+    <%= image_tag "/cover/#{cover.id}/photo_original.#{cover.photo_file_name.split('.').last}?unique=#{Time.now}", :id=>"my_cover_pic"%>
+  <%end%>  
+  <div id="cover_div"> Change cover photo</div>
+</div>
+
+<div id="profile_pic">
+    <%= image_tag user.profile.avatar_data.url(:medium), :id => "my_pic" %> 
+  <div id="profile_div"> Change profile image</div>
+  
+  <div id='photo_form_div' style='display:none'></div>
+</div>
+

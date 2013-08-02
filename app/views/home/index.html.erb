@@ -1,0 +1,45 @@
+<h1><%= current_user.email %></h1>
+<div style="float:left; display:block">
+<h2>User Groups</h2>
+<% current_user.groups.each do |g| %>
+  <div>
+    <h3><%= g.name %></h3>
+    <ul>
+      <% g.users.each do |u| %>
+        <% if u != current_user %>
+          <li><%= link_to u.email, "#", :class => "user_thread", :id => u.id  %></li>
+        <% end %>
+      <% end %>
+    </ul>
+  </div>
+<% end %>
+<h2>User QM</h2>
+<ul>
+<% current_user.quick_messages.each do |qm| %>
+  <li><%= qm.body %></li>
+<% end %>
+</ul>
+</div>
+
+<div id="threads" style="align:left; display:inline-block;"></div>
+
+
+<script>
+$(document).ready(function() {
+
+  $(".user_thread").click(function(e,data) {
+    $.get("/threads/" + this.id, function(data){
+      $("#threads").html(data);
+    });
+    return false;
+  })
+
+  $(document).on('click', ".message_thread", function(e,data) {
+    $.get("/threads_by_id/" + this.id, function(data){
+      $("#threads").html(data);
+    });
+    return false;
+  })
+
+});
+</script>

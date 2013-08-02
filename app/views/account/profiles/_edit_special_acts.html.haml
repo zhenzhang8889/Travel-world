@@ -1,0 +1,11 @@
+.chosen_push_to_right
+  .chzn-container.chzn-container-multi.mock
+    %ul.chzn-choices.input-xlarge
+      - profile.special_acts.order('created_at ASC').each do |st|
+        %li.search-choice
+          = st.name
+          = link_to '', account_special_act_path(st), :method => :delete, :remote => true, :class => 'search-choice-close'
+      %li.search-field
+        / = form_tag mine_special_acts_path, :remote => true, :method => :post do
+        = text_field_tag :special_act, '', :class => 'input-small add_special_act with_button'
+        = submit_tag 'Add', :class => 'with_button btn add_special_act_btn'

@@ -1,0 +1,24 @@
+.lead_reply
+  / .test{:'data-bind' => 'text: id'}
+
+  .user.avatar
+    %img{:'data-bind' => "attr: {src: original_lead.user.imageUrlMedium}"}
+    / # = image_tag reply.original_lead.user.avatar_data_url(:medium) if reply.original_lead.try(:user)
+
+  / .body{:class => !reply.read && reply.target_lead.user == current_user ? 'unread' : '' }
+  .body{:'data-bind' => "attr: {class: original_lead.user.id ==  $parent.current_user_id || read ? 'readed' : 'unread' }"}
+    %div.inner
+      .name{:'data-bind' => "text: original_lead.user.name"}
+      /   - if reply.original_lead.user.is_company?
+      /     = link_to reply.original_lead.user.try(:name), user_profile_path(reply.original_lead.user)
+      /   - else
+      /     %span
+      /       = reply.original_lead.user.try(:name)
+      .time{:'data-bind' => "text: created_at"}
+        /= time_ago_in_words(reply.created_at)
+        /ago
+      .content{:'data-bind' => "text: body"}
+        / - (reply.body || '').split( /\r?\n/ ).each do |line|
+        /  = line
+        /  <br>
+

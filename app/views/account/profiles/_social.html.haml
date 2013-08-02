@@ -1,0 +1,33 @@
+.edit_profile_social
+  = form_for(@profile, :url => mine_profile_path, :html => {:class => 'form-horizontal'}) do |f|
+    %fieldset
+      %legend Social
+
+      .control-group
+        = f.label :twitter, :class => 'control-label'
+        .controls
+          = f.text_field :twitter, :class => "input-xlarge", :placeholder => 'Twitter Username'
+
+      .control-group
+        = f.label :facebook, :class => 'control-label'
+        .controls
+          = f.text_field :facebook, :class => "input-xlarge", :placeholder => 'Facebook Username'
+
+      .control-group
+        = f.label :google_plus, :class => 'control-label'
+        .controls
+          = f.text_field :google_plus, :class => "input-xlarge", :placeholder => 'Google Plus Username'
+
+      .control-group
+        = f.label :tumblr, :class => 'control-label'
+        .controls
+          = f.text_field :tumblr, :class => "input-xlarge", :placeholder => 'Tumblr Username'
+
+      .control-group
+        = f.label :website, :class => 'control-label'
+        .controls
+          = f.text_field :website, :class => "input-xlarge"
+
+    .form-actions
+      = hidden_field_tag :tab, 'social'
+      = f.submit 'Save', :'data-disable-with' => 'Saving...', :class => 'btn btn-primary'

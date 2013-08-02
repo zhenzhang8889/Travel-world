@@ -1,0 +1,25 @@
+.edit_profile.sign_up_steps
+  .container
+    = render :partial => 'account/sign_up_steps', :locals => {:step => 5}
+    .step_4
+      .new_bill
+        /= render :partial => 'bills/form_with_card', :locals => {:bill => current_user.bills.build}
+
+        %ul.plans
+          - Plan.order('code ASC').each do |plan|
+            / %li.plan{:class => plan == current_user.plan ? 'current' : ''}
+            %li.plan
+              = link_to '<img src="https://www.paypal.com/en_US/i/btn/btn_xpressCheckout.gif" align="left" style="margin-right:7px;">'.html_safe, mine_payments_path(:payment => {:plan_id => plan.id}), :method => :post, :class => 'purchase_btn'
+
+              = render :partial => 'plans/view', :locals => {:plan => plan}
+
+      .coupon
+        = form_for Coupon.new, :url => coupons_path, :remote => true, :method => :get do |f|
+          %fieldset
+            %legend Got a coupon?
+            .control-group
+              .controls
+                .input-append
+                  = f.text_field :code
+                  = f.submit 'Look up', :class => 'btn'
+        .use_coupon

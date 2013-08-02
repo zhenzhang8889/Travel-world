@@ -1,0 +1,6 @@
+.edit_profile.sign_up_steps
+  .container
+    = render :partial => 'account/sign_up_steps', :locals => {:step => 4}
+
+    .new_lead_generation
+      = render :partial => 'lead_generations/form', :locals => {:lead_generation => current_user.lead_generations.build, :from_sign_up => true}

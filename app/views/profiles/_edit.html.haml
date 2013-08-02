@@ -1,0 +1,22 @@
+.edit_profile.sign_up_steps
+  .visible{:'data-bind' => "visible: photo_model()"}
+    = render :partial => 'profiles/avatar/create'
+
+  .visible{:'data-bind' => "visible: !photo_model()"}
+    = form_for(current_user.profile, :url => account_profile_path, :html => {:class => 'form-horizontal', :'data-bind' => "submit: update"}) do |f|
+      = render :partial => 'account/profiles/basic_info', :locals => {:f => f}
+      = render :partial => 'account/profiles/activities', :locals => {:f => f}
+
+      .control-group
+        = f.label :website, :class => 'control-label'
+        .controls
+          = f.text_field :website, :class => 'input-xlarge'
+      
+      .control-group
+        = f.label :activity_details, 'Short Desc.', :class => 'control-label'
+        .controls
+          = f.text_area :activity_details, :class => 'input-xlarge'
+      .form-actions
+        = f.submit 'Update', :class => 'btn btn-primary'
+
+    

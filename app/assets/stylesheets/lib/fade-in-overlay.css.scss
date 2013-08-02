@@ -1,0 +1,41 @@
+.fade-in-overlay {
+  position: absolute;
+  width: 100%;
+  display: none;
+
+  background: #222;
+  background: rgba(0, 0, 0, 0.7);
+
+  z-index: 99999;
+  top: 0;
+  left: 0;
+
+  .fade-in-box {
+    width: 360px;
+    position: absolute;
+    left: 50%;
+    margin-left: -190px;
+    top: 54px;
+    padding: 20px;
+    background-color: #F0F0F0;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+    a.close {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      -webkit-transition: opacity 0.2s ease;
+      -moz-transition: opacity 0.2s ease;
+      -o-transition: opacity 0.2s ease;
+      transition: opacity 0.2s ease;
+
+      opacity: 0.9;
+    }
+  }
+}

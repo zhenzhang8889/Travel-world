@@ -1,0 +1,29 @@
+= form_for(@profile, :url => mine_profile_path, :html => {:class => 'form-horizontal'}) do |f|
+  .control-group.security
+    = f.label :security_level, :class => 'control-label'
+    .controls
+      = f.check_box :open_for_public
+      = f.label :open_for_public, 'Make my profile available to view by all'
+
+      = f.check_box :open_for_member
+      = f.label :open_for_member, 'Restrict to members'
+      .clear
+
+  = render :partial => 'basic_info', :locals => {:f => f}
+
+
+  .fieldset
+    %legend Contact
+    .control-group
+      = f.label :contact_button, :class => 'control-label'
+      .controls
+        = f.text_field :contact_button, :class => 'input-xlarge'
+    .control-group.check_box_line
+      .controls
+        = f.check_box :show_contact_button
+        = f.label :show_contact_button, 'Show the button on my profile page'
+
+  .form-actions
+    = hidden_field_tag :tab, 'text'
+    = f.submit 'Click to Save', :class => 'btn btn-primary', :disable_with => 'Saving...'
+

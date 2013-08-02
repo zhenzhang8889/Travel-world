@@ -1,0 +1,34 @@
+.lead_show
+  = link_to 'Back to matches', matched_mine_lead_generation_url(@lead)
+  / current_user.is_company? ? matched_mine_lead_generation_url(@lead) : match_traveller_lead_path(@lead)
+  %hr
+  /= render :partial => 'abuses/links', :locals => {:url => request.fullpath}
+  = render :partial => 'lead_generations/show', :locals => {:lead_generation => @target_lead, :show_details => true, :conver_lead => @lead}
+
+  /  - if @replies.size == 0
+  %h3
+    = "Have a conversation with #{@target_lead.user.name}"
+
+  %ul.reply_users
+    %li.reply_user
+      %ul.replies
+        - cur_reply = @lead.last_replied_by?(@target_lead, current_user)
+        - total = @replies.count
+
+        - prev_reply = @lead.prev_latest_reply(@target_lead)
+
+        - @replies.each_with_index do |reply, index|
+          - need_collapse = (index < total - 1) && (cur_reply || (!cur_reply && prev_reply && reply.id <= prev_reply.id ))
+          %li.reply{:class =>  need_collapse ? 'need_collapse' : ''}
+            = render :partial => 'lead_replies/show', :locals => {:reply => reply}
+        %li.reply
+          .lead_reply
+            .user.avatar
+              = image_tag current_user.avatar_data_url(:medium) if current_user
+            .body        
+              = form_for LeadReply.new, :remote => true, :html => {:class => :reply_form} do |f|
+                = f.hidden_field :original_lead_id, :value => @lead.id
+                = f.hidden_field :target_lead_id, :value => @target_lead.id
+                .input-append
+                  = f.text_area :body, :placeholder => 'Have something to say?'
+                  = f.submit 'Submit', :class => 'btn btn-mini btn-primary', :disable_with => 'Submit...'

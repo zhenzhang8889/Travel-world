@@ -1,0 +1,57 @@
+.right_block_user
+  .image
+    %img{:src =>"/assets/users/#{current_user.avatar_file_name}", :class => "currentuserimage"}
+  .text
+    %li.title Snow Boarding
+    .locationtext
+      %li.orange Location:
+      %li.location #{@location.name}
+    .servicetagstext
+      %li.orange Service Tags:
+      %li.servicetags #{@area.name}
+      %span{:'data-bind' => "text: service.name "}
+        
+
+.content_title.noPading
+  %div
+    .content_headNav
+      %ul.ulnav#navul
+        %li.ulnavLiFirst
+          = link_to mailer_mailnotification_path(id: current_user.id), class:"btn", remote: true, id:"btnfirst" do
+            -if unread>0
+              Inbox(#{unread})
+            -else
+              Inbox 
+            
+        %li
+          = link_to "New", mailer_mailnew_path(id: current_user.id), id:"middle", class:"btn", remote: true
+        %li.ulnavLiLast
+          = link_to "Settings", mailer_mailsettings_path(id: current_user.id), id:"ulnavLiLast", class:"btn", remote: true
+.clear
+.right_mail
+  .right_bigmail_box
+    - @received_messages.each do |message|
+      .right_mail_body
+        .mail_picture
+          %img(src="/assets/users/#{current_user.avatar_file_name}")
+        
+        .mail_content
+          .contentheader
+            %p
+              %b #{message.sender.name}
+            .date
+              - if message.sender_id == current_user.id
+                %p Sent
+              - else
+                %p Received
+              %p               
+                = message.created_at.strftime("%d/%m/%y %H:%M")
+            %p.snow 
+              %b Snow Boarding
+        .clear 
+        .contenttext
+          %p
+            = message.body 
+        .replyform
+        = link_to "Reply ->",mailer_mailnew_path(mailbody: message.body, id: message.sender_id), id:"reply", remote: true
+        = link_to "<- Back",mailer_mailinbox_path(mailbody: message.body), id:"reply", remote: true

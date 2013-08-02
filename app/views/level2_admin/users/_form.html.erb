@@ -1,0 +1,155 @@
+<div class="box-color">
+  <%= form_for([:level2_admin, @level2_admin_user], :html => { :multipart => true }) do |f| %>
+    <% if @level2_admin_user.errors.any? %>
+      <div id="error_explanation">
+        <h2><%= pluralize(@level2_admin_user.errors.count, "error") %> prohibited this level2_admin_user from being saved:</h2>
+
+        <ul>
+          <% @level2_admin_user.errors.full_messages.each do |msg| %>
+            <li><%= msg %></li>
+          <% end %>
+        </ul>
+      </div>
+    <% end %>
+
+    <div class="box-float-left">
+      <h4> Account Information </h4>
+      <hr />
+
+      <fieldset>
+        <div class="field">
+          <%= f.label :email %>
+          <%= f.text_field :email %>
+        </div>
+        <div class="field">
+          <%= f.label :firstName %>
+          <%= f.text_field :firstName %>
+        </div>
+        <div class="field">
+          <%= f.label :lastName %>
+          <%= f.text_field :lastName %>
+        </div>
+
+        <div class="field">
+          <%= f.label :country %>
+          <%= f.collection_select :country, Area.country_scope, :name, :name  %>
+        </div>
+        <div class="field">
+          <%= f.label :city %>
+          <%= f.text_field :city %>
+        </div>
+        <div class="field">
+          <%= f.label :description %>
+          <%= f.text_area :description, :rows => 8, :cols => 80 %>
+        </div>
+
+        <% if params[:action] == "edit" or params[:action] == "update" %>
+
+          <div class="field">
+            <%= f.label :password %>
+            <%= f.password_field :password %>
+          </div>
+
+          <div class="field">
+            <%= f.label :password_confirmation %>
+            <%= f.password_field :password_confirmation %>
+          </div>
+
+          <div class="field">
+            <%= f.check_box :active %>
+            <%= f.label :active, "Enabled" %>
+          </div>
+
+        <% end %>
+      </fieldset>
+    </div>
+
+
+    <div class="box-float-left">
+
+      <h4> Avatar </h4>
+      <hr />
+      <div class="field">
+        <%= image_tag profile_pic(@profile) if @profile and @profile.prof_avatar %>
+        <%= label :prov_avatar, :data, "Choose File"%>
+        <%= file_field :prov_avatar, :data %>
+      </div>
+      <br />
+      <h4> Business Information </h4>
+      <hr />
+      <div class="field">
+        <%= label :profile, :activity_id %>
+        <%= collection_select :profile, :activity_id, Activity.all, :name, :name  %>
+      </div>
+
+      <div class="field">
+        <%= label :profile, :website %>
+        <%= text_field :profile, :website  %>
+      </div>
+
+      <div class="field">
+        <%= label :profile, :phone %>
+        <%= text_field :profile, :phone  %>
+      </div>
+
+      <br />
+      <h4> Service Information </h4>
+      <hr />
+
+      <div class="field">
+        <%= label :profile, :service_id %>
+        <%= collection_select :profile, :service_id, Service.all, :id, :name  %>
+      </div>
+
+      <div class="field">
+        <%= label :profile, :name %>
+        <%= text_field :profile, :name  %>
+      </div>
+
+      <div class="field">
+        <%= label :profile, :area_id, "Area" %>
+        <%= collection_select :profile, :area_id, Area.all, :name, :name  %>
+      </div>
+
+    </div>
+    <div class="box-float-left">
+
+      <h4> Address </h4>
+      <hr />
+
+      <%= fields_for @address do |profile_address|  %>
+        <div class="field">
+          <%= profile_address.label :street %>
+          <%= profile_address.text_field :street  %>
+        </div>
+
+        <div class="field">
+          <%= profile_address.label :city %>
+          <%= profile_address.text_field :city  %>
+        </div>
+
+        <div class="field">
+          <%= profile_address.label :region %>
+          <%= profile_address.text_field :region  %>
+        </div>
+
+        <div class="field">
+          <%= profile_address.label :country %>
+          <%= profile_address.collection_select :country, Area.country_scope, :name, :name  %>
+        </div>
+
+        <div class="field">
+          <%= profile_address.label :zip %>
+          <%= profile_address.text_field :zip  %>
+        </div>
+
+      <% end %>
+
+    </div>
+    <div class="clear"></div>
+    <div class="actions">
+      <%= f.submit %>
+    </div>
+  <% end %>
+
+</div>

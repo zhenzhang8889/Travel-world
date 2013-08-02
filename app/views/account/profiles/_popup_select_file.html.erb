@@ -1,0 +1,253 @@
+<%= javascript_include_tag "http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js" %>
+<%= stylesheet_link_tag "jquery-ui.css" %>
+<%= hidden_field_tag "user_cover_id" %>
+<%= hidden_field_tag "user_img_id" %>
+<div id="progressbar" style="display: none"></div>
+
+
+<div id="select_file" style="display: none">
+  <%= render :partial => 'profiles/avatar/upload', :locals => {:profile => current_user.profile} %>
+</div>
+
+<script type="text/javascript">
+// $('.jcrop-tracker').live('click', function(e){
+//     e.preventDefault();
+//  }); 
+$("#profile_div").mouseover(function () {
+    this.style.cursor='pointer';
+});
+
+$("#cover_div").mouseover(function () {
+  this.style.cursor='pointer';
+});
+
+function pg() {
+    $("#progressbar").progressbar({ value: 0 });
+    setTimeout(updateProgress, 100);
+}
+
+function updateProgress() {
+    var progress;
+    progress = $("#progressbar")
+            .progressbar("option", "value");
+    if (progress < 100) {
+        $("#progressbar")
+                .progressbar("option", "value", progress + 10);
+        setTimeout(updateProgress, 500);
+    }
+}
+
+  //  var api = null;
+    //var ext;
+
+//    function save_function() {   
+        //     $("#progressbar").dialog({width: 500,height: 50,modal: true});
+        //     pg();
+        //     ext = $("#upload_file").attr("value");
+        //     ext = ext.split('.');
+        //     ext=ext[ext.length-1];
+        // 
+        //     $("#upload_img").ajaxSubmit({
+        //         beforeSubmit: function(a, f, o) {
+        //             o.dataType = 'json';
+        //         },
+        // 
+        //         complete: function(XMLHttpRequest, textStatus) {
+        //             $("#progressbar").dialog("destroy");
+        //             var id = XMLHttpRequest.responseText.split(',')[0];
+        //             var status = XMLHttpRequest.responseText.split(',')[1];
+        //             if (status == "false") {
+        //               alert("Width  and height should be atleast 249px.");
+        //             } else {
+        //               if (api != null) {
+        //                 api.destroy();
+        //               }
+        // 
+        //               $("#select_file").dialog("destroy");
+        //               var url_site = window.location.href
+        //               url_site = url_site.split('/');
+        //               var top_x;
+        //               var url1 = url_site[url_site.length-1];
+        //                               if (url1 == "edit") {
+        //                                 top_x = -1100    
+        //                               } else {
+        //                                 top_x = -722
+        //                               }
+        // 
+        //               $("#crop_file").dialog({width: 595,height: 595,modal: true});
+        //               $("#crop_file").parent().attr("style", "display:block;height:600;left:150.5px;outline:0 none;position:relative;top:" + top_x +"px;width:800px;z-index: 1006;");
+        //               $(".ui-widget-overlay").attr("style","display: none;"); 
+        //               $("#user_img_id").attr("value", id);
+        //               $("#temp_img").attr({'src':"/avatars/" + id + "/photo_original." +ext+ "?unique=" + new Date().valueOf()});
+        //               $('#temp_img').load(function() {
+        //                 if (api != null) {
+        //                     api.destroy();
+        //                 }
+        //                 api = $.Jcrop('#temp_img', {allowSelect: false, aspectRatio:1 , onSelect: update_crop, onChange: update_crop , minSize: [121,121],setSelect: [0,0,249,249]});
+        //               })
+        //             }
+        //         }
+        //     });
+        // }
+    // function update_crop(coords) {
+    //   var ratio = 1.0;        
+    //   var rx = 100 / coords.w;
+    //   var ry = 100 / coords.h;
+    //   $("#crop_x").val(Math.floor(coords.x * ratio));
+    //   $("#crop_y").val(Math.floor(coords.y * ratio));
+    //   $("#crop_w").val(Math.floor(coords.w * ratio));
+    //   $("#crop_h").val(Math.floor(coords.h * ratio));
+    // };
+    // 
+    // function crop_edit_function() {
+    //     $("#upload_img1").ajaxSubmit({
+    //         beforeSubmit: function(a, f, o) {
+    //             o.dataType = 'json';
+    //         },
+    //         complete: function(XMLHttpRequest, textStatus) {
+    //             $("#crop_file").dialog("destroy");
+    //             $("#my_pic").attr({'src':"/avatars/" + XMLHttpRequest.responseText + "/photo_original." +ext+ "?unique=" + new Date().valueOf()});
+    //         }
+    //     });
+    // }
+
+    // var ext1;
+    // var apim = null;
+    // var cover_width;
+//     function save_function_cover() {
+//         $("#progressbar").dialog({width: 500,height: 50,modal: true});
+//         pg();
+//         ext1 = $("#upload_file_cover").attr("value");
+//         ext1 = ext1.split('.');
+//         ext1 = ext1[ext1.length-1];
+//         $("#upload_img_cover").ajaxSubmit({
+//             beforeSubmit: function(a, f, o) {
+//                 o.dataType = 'json';
+//             },
+//             complete: function(XMLHttpRequest, textStatus) {
+//                 $("#progressbar").dialog('destroy');
+//                 $("#select_file_crop").parent().dialog("destroy");
+//                 $("#select_file_crop").dialog("destroy");
+//                 var id = XMLHttpRequest.responseText.split(',')[0];
+//                 var status = XMLHttpRequest.responseText.split(',')[1];
+//                 if (status == "false") {
+//                   alert("Width should be atleast 840px and height should be atleast 180px.");
+//                 } else {
+//                   if (apim != null) {
+//                     apim.destroy();
+//                   }
+//                 
+//                 
+//                 var url_site = window.location.href
+//                 url_site= url_site.split('/');
+//                 var top_x;
+//                 var url1=url_site[url_site.length-1];
+//                 
+//                                 if (url1 == "edit")
+//                                 {
+//                                    top_x= -1100    
+//                                 }
+//                                 else{
+//                                        top_x= -722
+//                                 }
+// 
+//                 $("#crop_file_cover").dialog({width: 900,height: 1000,modal: true});
+// 
+//                 $("#crop_file_cover").parent().attr("style", "display:block;height:1000px;left:150.5px;outline:0 none;position:relative;top:"+top_x+"px;width:1000px;z-index: 1006;");
+// $(".ui-widget-overlay").attr("style","display: none;"); 
+//                 $("#user_cover_id").attr("value", id);
+//                 $("#temp_img_cover").attr({'src':"/cover/" + id + "/photo_original."+ext1+"?unique=" + new Date().valueOf()});
+//                 $('#temp_img_cover').load(
+// 
+//                         function() {
+//                            cover_width = $('#temp_img_cover').width();
+//                                                        if (apim != null) {
+//                                 apim.destroy();
+//                             }
+// 
+//                             apim = $.Jcrop('#temp_img_cover', {allowSelect: false,aspectRatio: 40 / 9, minSize: [450,111],maxSize: [834,173], onSelect: update_cropy, onChange: update_cropy, setSelect: [0,0,10,5]});
+//                            
+//                            
+//                         }) 
+//                 }
+//                 
+// 
+//             }
+//         });
+// 
+//     }
+    // function update_cropy(coords) {
+    //          var rx = 100 / coords.w;
+    //     var ry = 100 / coords.h;
+    //             var ratio = 1.0 ;
+    //     $("#crop_xx").val(Math.floor(coords.x * ratio));
+    //     $("#crop_yy").val(Math.floor(coords.y * ratio));
+    //     $("#crop_ww").val(Math.floor(coords.w * ratio));
+    //     $("#crop_hh").val(Math.floor(coords.h * ratio));
+    // 
+    // }
+    // ;
+
+    // function crop_cover_function() {
+    //     $("#upload_cover_crop").ajaxSubmit({
+    //         beforeSubmit: function(a, f, o) {
+    //             o.dataType = 'json';
+    //         },
+    //         complete: function(XMLHttpRequest, textStatus) {
+    //                 $("#crop_file_cover").parent().dialog("destroy");
+    //             $("#crop_file_cover").dialog("destroy");
+    //             $("#my_cover_pic").attr({'src':"/cover/" + XMLHttpRequest.responseText + "/photo_original."+ext1+"?unique=" + new Date().valueOf()});
+    // 
+    //         }
+    //     });
+    // 
+    // }
+
+</script>
+
+<div id="crop_file" style="display: none">
+  <%= form_for(:image_form1, :remote=>true, :url=>"/mine/profiles/upload_img1", :html=> {:method => :post, :id => 'upload_img1', :multipart =>true}) do |f| %>
+<center>
+      <%= image_tag "#", :id=> "temp_img", :class=> "ext", :title=> "close", :alt=> "" %>
+</center>
+
+      <% for attribute in [:crop_x, :crop_y, :crop_w, :crop_h] %>
+          <%= f.hidden_field attribute, :id=>attribute %>
+      <% end %>
+      <center>
+      <input value="Save" type="button" onclick="crop_edit_function();" style="height: 30px; width: 60px;"/>
+      <input value="Cancel" type="button" id="cancel_profile_crop" style="height: 30px; width: 60px;"/>
+  </center>
+  <% end %>
+</div>
+
+<div id="select_file_crop" style="display: none">
+  <%= form_for(:image_form_cover, :remote=>true, :url=>"/mine/profiles/upload_cover", :html=> {:method => :post, :id => 'upload_img_cover', :multipart =>true}) do |f| %>
+
+      Select Image
+      <%= file_field_tag :upload_file_cover %>
+
+      <input value="save" type="button" id="call_js" onclick="save_function_cover();" style="height: 30px; width: 60px;"/>
+      <input value="Cancel" type="button" id="cancel_cover_upload" style="height: 30px; width: 60px;"/>
+  <% end %>
+</div>
+
+
+<div id="crop_file_cover" style="display: none">
+  <%= form_for(:image_cover_crop, :remote=>true, :url=>"/mine/profiles/upload_crop_cover", :html=> {:method => :post, :id => 'upload_cover_crop', :multipart =>true}) do |f| %>
+      <center>    
+      <%= image_tag "#", :id=> "temp_img_cover", :title=> "close", :alt=> "" %>
+  </center>
+      <%=hidden_field_tag "image_cover_crop[crop_x]","",:id=>"crop_xx"%>
+      <input type="hidden" name="image_cover_crop[crop_y]" id="crop_yy"/>
+      <input type="hidden" name="image_cover_crop[crop_h]" id="crop_hh"/>
+      <input type="hidden" name="image_cover_crop[crop_w]" id="crop_ww"/>
+  <center>
+      <input value="Save" type="button" onclick="crop_cover_function();" style="height: 30px; width: 60px;"/>
+      <input value="Cancel" type="button" id="close_cover_crop" style="height: 30px; width: 60px;"/>
+  </center>
+  <% end %>
+</div> 
+
+     
+

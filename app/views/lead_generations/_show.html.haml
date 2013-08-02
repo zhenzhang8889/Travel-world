@@ -1,0 +1,72 @@
+/ - lead = lead_generation
+
+- conver_lead = nil if local_assigns[:conver_lead].nil?
+- dont_need_link = false if local_assigns[:dont_need_link].nil?
+- view_user = current_user if local_assigns[:view_user].nil?
+/ # - to_conversation = lead_generation.user != view_user if local_assigns[:to_conversation].nil?
+- show_details = false if local_assigns[:show_details].nil?
+- for_mail = false if local_assigns[:for_mail].nil?
+
+- show_match_count = false if local_assigns[:show_match_count].nil?
+- show_reply_count = false if local_assigns[:show_reply_count].nil?
+- is_a_match = false if local_assigns[:is_a_match].nil?
+/ # - match_lead_url = matched_account_lead_generation_url(lead_generation) 
+
+/ # - actionurl = lead_generation.user == view_user ? match_lead_url : conver_lead.nil? ? '#' : account_lead_generation_url(conver_lead, :lead_id => lead_generation.id)
+
+%section.Leads_section{:'data-bind' => "attr: {'data-lead-id' : id}"}
+  .Leads_sectionImg
+    %img.avatar_img{:'data-bind' => "attr: {src: user.imageUrlMedium}"}
+    %img{:src =>"/assets/users/#{current_user.avatar_file_name}", :class => "currentuserimage"}
+    .clear
+  .Leads_section_Title
+    %span.t1 Snow Boarding
+    %span.t1{:'data-bind' => "text: user.id"}
+    // %a{:'data-bind' => is_a_match ? "click: $parent.view_conversation" : "click: $parent.view_matches"}
+    %p
+      %span> Location:
+      %span{:'data-bind' => "text: area_text()"}
+    %p
+      %span> Service Tags:
+      %span{:'data-bind' => "text: service.name "}
+    .clear
+
+  .Leads_sectionL
+    .Leads_sectionL_info
+      %p
+        %span> Sell / Offer :
+        %span{:'data-bind' => "text: service.name "}
+      %p
+        %span> In :
+        %span{:'data-bind' => "text: area_text()"}
+    .clear
+    .Leads_sectionL_Mesage
+      %p{ :'data-bind' => "text: details" }
+      %a{:href => "#"} Ref : TT0001
+    .clear
+  .Leads_sectionR
+    .Leads_sectionR1
+      %p
+        Posted :
+        %text{:'data-bind' => "text: created_at"}
+      %p
+        %span Matched :
+        %text{:'data-bind' => "text: top_level_match_label()"}
+      %p
+        %span New Messages :
+        %text 7
+    
+    = link_to "refer to:", mailer_mailuser_path(id:current_user.id), class: "RT", remote: true
+    %span.Live Live
+  .Leads_sectionR2 
+    = link_to mailer_mailinbox_path(id:current_user.id), class: "RT", remote: true do
+      Mail:
+      -if unread>0
+        %p.mailnoti (#{unread})
+      -else
+        %p.mailnoti
+    
+    %input{:type => "hidden", :name => "areain", :'data-bind' => "value: created_at"}
+    .clear
+  .clear
+ 

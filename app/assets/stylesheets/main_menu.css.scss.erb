@@ -1,0 +1,37 @@
+.main_menu.sidebar-select {
+  padding: 20px;
+  a.menu-item {
+    display: block;
+    padding-top: 40px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    text-decoration: none;
+    width: 64px;
+    margin-bottom: 10px;
+    height: 30px;
+    border-bottom: 1px solid #40403F;
+
+    &.home-item {
+      background-image: url(<%= asset_path('main_menu/home.png') %>);
+      margin-top: 20px;
+    }
+    &.leads-item {
+      background-image: url(<%= asset_path('main_menu/leads.png') %>);
+    }
+    &.chat-item {
+      background-image: url(<%= asset_path('main_menu/chat.png') %>);
+    }
+    &.search-item {
+      background-image: url(<%= asset_path('main_menu/search.png') %>);
+    }
+    &.profile-item {
+      background-image: url(<%= asset_path('main_menu/profile.png') %>);
+    }
+    &.network-item {
+      background-image: url(<%= asset_path('main_menu/network.png') %>);
+    }
+    &.stats-item {
+      background-image: url(<%= asset_path('main_menu/stats.jpg') %>);
+    }
+  }
+}

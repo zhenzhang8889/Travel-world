@@ -1,0 +1,67 @@
+%fieldset
+  %legend Basic Information
+  .control-group
+    = f.label :service_id, :class => 'control-label'
+    .controls
+      = f.collection_select(:service_id, Service.order("name ASC").all, :id, :name, {}, :class => "input-xlarge reinvent-select")
+
+  .control-group
+    = f.label :name, :class => 'control-label'
+    .controls
+      = f.text_field :name, :class => "input-xlarge"
+
+  .control-group
+    = f.label :area_id, :class => 'control-label'
+    .controls
+      = f.grouped_collection_select(:area_id, LocationGroup.order('lorder ASC'), :areas, :name, :id, :name, {}, :class => "input-xlarge reinvent-select")
+
+  .control-group
+    = f.label :region, :class => 'control-label'
+    .controls
+      = f.text_field :region, :class => "input-xlarge"
+
+  .control-group
+    = f.label :show_location, 'Show on profile', :class => 'control-label'
+    .controls
+      = f.select :show_location, [['Location & Region', 'both'], ['Only Location', 'location'], ['Only Region', 'region']], {:include_blank => false }, :class => 'input-xlarge reinvent-select', :'data-need-first' => true
+
+
+%fieldset
+  %legend Address
+  = f.fields_for :address do |f|
+    .control-group
+      = f.label :number, :class => 'control-label'
+      .controls
+        = f.text_field :number, :class => "input-xlarge"
+    .control-group
+      = f.label :street, :class => 'control-label'
+      .controls
+        = f.text_field :street, :class => "input-xlarge"
+    .control-group
+      = f.label :city, "Town / City", :class => 'control-label'
+      .controls
+        = f.text_field :city, :class => "input-xlarge"
+    .control-group
+      = f.label :region, :class => 'control-label'
+      .controls
+        = f.text_field :region, :class => "input-xlarge"
+
+    .control-group
+      = f.label :country, :class => 'control-label'
+      .controls
+        = f.text_field :country, :class => "input-xlarge"
+    .control-group
+      = f.label :zip, "Post/Zip Code", :class => 'control-label'
+      .controls
+        = f.text_field :zip, :class => "input-xlarge"
+    .control-group
+      = f.label :phone, :class => 'control-label'
+      .controls
+        = f.text_field :phone, :class => "input-xlarge"
+
+    .control-group.security_single_check
+      = f.label ' ', :class => 'control-label'
+      .controls.need_inline
+        = f.check_box :security
+        = f.label :security, 'Click here to hide address from members'
+        .clear

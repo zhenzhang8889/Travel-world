@@ -1,0 +1,4 @@
+<div style="background: none repeat scroll 0 0 #F6F8F9; width:300px;height:34px;">
+  <%= link_to "", message_path(@new_message.id), :method => :delete, :class => "delete_attach" %>
+  <%= link_to @new_message.attach_file_name.truncate(25), @new_message.attach.url, :class => "delete-link" if @new_message.attach? %>
+</div>

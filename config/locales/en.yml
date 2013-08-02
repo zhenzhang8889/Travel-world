@@ -1,0 +1,14 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  activerecord:
+    models:
+      user: "User"
+    attributes:
+      user:
+        firstName: "First Name"
+        lastName: "Last Name"
+      profile:
+        activity_ids: "Activities"
+        special_act_list: "Activities not in the list"

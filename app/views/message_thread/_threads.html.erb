@@ -1,0 +1,67 @@
+<a href="#" id="<%= @id %>" class="new_thread">Create a new Chat</a>
+<% @threads.each do |t| %>
+  <a href="#" id="<%= t.id %>" class="message_thread">
+    <h5><%= t.subject %></h5>
+    <h6><%= t.updated_at %></h6>
+  </a>
+<% end %>
+
+<style>
+#menu {
+    display: none;
+    position: absolute;
+    padding: 10px;
+    background-color: #ddd;
+    border: 1px solid #000;
+}
+</style>
+
+<div id="menu">
+  <ul>
+    <li><a href="#" class="menu_item archive">Archive</a></li>
+    <li><a href="#" class="menu_item delete">Delete</a></li>
+  </ul>
+</div>
+
+<script>
+$(document).ready(function() {
+  $('.delete').click(function() {
+    $('#menu').hide();
+    if (confirm("Are you sure you want to delete this thread?")){
+      $.get("/threads/delete/" + this.id, function(data){
+        $("#threads").html(data);
+      });
+    }
+    return false;
+  });
+  
+  $('.archive').click(function() {
+    $('#menu').hide();
+    $.get("/threads/archive/" + this.id, function(data){
+      $("#threads").html(data);
+    });        
+    return false;
+  });
+
+  $('.new_thread').click(function() {
+    $.get("/threads/create/" + this.id, function(data){
+      $("#threads").html(data);
+    });        
+    return false;
+  });
+
+  $(document).click(function() {
+    $('#menu').hide();
+  });
+  
+  $(".message_thread").bind("contextmenu",function(e) {
+    $('.menu_item').attr('id', this.id)
+    $('#menu').css({
+      top: e.pageY+'px',
+      left: e.pageX+'px'
+    }).show();
+
+    return false;
+  });
+});
+</script>

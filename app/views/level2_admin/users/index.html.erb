@@ -1,0 +1,34 @@
+<div class="user_admin box-padding">
+
+  <table class="table table-bordered table-hover user_list">
+    <tr>
+      <th>Email</th>
+      <th>Name</th>
+      <th>Password</th>
+      <th>Country</th>
+      <th>City</th>
+      <th>Status</th>
+      <th></th>
+    </tr>
+
+    <% @level2_admin_users.each do |level2_admin_user| %>
+      <tr>
+        <td><%= level2_admin_user.email %></td>
+        <td><%= level2_admin_user.full_name %></td>
+        <td><%= level2_admin_user.decrypted %></td>
+        <td><%= level2_admin_user.country %></td>
+        <td><%= level2_admin_user.city %></td>
+        <td><%= level2_admin_user.active ? "Enabled" : "Disabled" %></td>
+        <td>
+          <%= link_to 'Show', [:level2_admin, level2_admin_user] %>
+          <%= link_to 'Edit', edit_level2_admin_user_path(level2_admin_user) %>
+          <%= link_to 'Destroy', [:level2_admin, level2_admin_user], method: :delete, data: { confirm: 'Are you sure?' } %>
+        </td>
+      </tr>
+    <% end %>
+  </table>
+
+  <br />
+
+  <%= link_to 'New User', new_level2_admin_user_path %>
+</div>

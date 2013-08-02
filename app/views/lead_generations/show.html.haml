@@ -1,0 +1,41 @@
+.lead_show
+  = link_to 'Back to leads', mine_lead_generations_path
+  %hr
+  = render :partial => 'lead_generations/show', :locals => {:lead_generation => @lead, :show_details => true}
+
+  %ul.reply_users
+    - users = (current_user == @lead.user) ? User.related_to_lead(@lead) : [current_user]
+
+    - users.uniq.each do |reply_user|
+      %li.reply_user
+        - new_reply_for_user = LeadReply.conversations_for_u(reply_user, @lead).where(:target_user_id => current_user.id).where(:read => false).count
+        - if new_reply_for_user > 0
+          .new_replies_noti
+            %span.badge.badge-warning
+              = pluralize(new_reply_for_user, 'new reply')
+
+            = link_to 'mark_read', read_replies_lead_generation_path(@lead, :reply_user_id => reply_user.id), :remote => true, :method => :put, :class => 'be_hidden'
+
+        %ul.replies
+          - cur_reply = @lead.last_replied_by?(reply_user, current_user)
+          - total = LeadReply.conversations_for_u(reply_user, @lead).count
+
+          - prev_reply = @lead.prev_latest_reply(reply_user)
+          - LeadReply.conversations_for_u(reply_user, @lead).order('created_at ASC').each_with_index do |reply, index|
+            - need_collapse = (index != 0 && index < total - 1) && (cur_reply || (!cur_reply && prev_reply && reply.id <= prev_reply.id ))
+            %li.reply{:class =>  need_collapse ? 'need_collapse' : ''}
+              = render :partial => 'lead_replies/show', :locals => {:reply => reply}
+
+        .reply_by_current_user
+          .user.avatar
+            = image_tag current_user.try(:profile).try(:avatar_data).url(:medium) if current_user.try(:profile)
+          .body        
+            = form_for @lead.lead_replies.build, :remote => true, :html => {:class => :reply_form, :id => "new_lead_reply_for_u_#{reply_user.id}"} do |f|
+              = f.hidden_field :lead_generation_id, :value => @lead.id
+              = f.hidden_field :target_user_id, :value => reply_user.id
+              .input-append
+                = f.text_area :body, :placeholder => 'Have something to say?'
+                = f.submit 'Submit', :class => 'btn btn-mini btn-primary', :disable_with => 'Submit...'
+
+    - if users.size == 0
+      %p No one replied yet!

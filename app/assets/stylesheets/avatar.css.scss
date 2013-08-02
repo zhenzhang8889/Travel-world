@@ -1,0 +1,19 @@
+.crop-group {
+  .controls.crop {
+    position: relative;
+    .jcrop-holder {
+      float: left;
+      margin-right: 5px;
+    }
+    .preview_wrap {
+      border: 1px solid #aaa;
+      width: 120px;
+      height: 120px;
+      display: block;
+      overflow: hidden;
+      img {
+        max-width: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.control-group.chosen_push_to_right
+  = f.label :activity_ids, :class => 'control-label'
+  .controls
+    = f.collection_select(:activity_ids, Activity.order("name ASC").all, :id, :name, {}, :multiple => true, :class => "input-xlarge chzn-select")
+
+.control-group
+  = f.label :special_act_list, :class => 'control-label'
+  .controls.edit_special_acts
+    = render :partial => 'account/profiles/edit_special_acts', :locals => {:profile => current_user.profile}
+

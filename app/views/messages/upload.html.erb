@@ -1,0 +1,15 @@
+<div style="background: none repeat scroll 0 0 #F6F8F9; width:100%;height:34px;">
+  <%= form_for :message, :url => "/upload", :html => { :multipart => true }, :id => "attachs", :remote => true do |f| %>
+    <a class="attach-ico" title="Attach a file" style="float:left;"></a>
+    <%= f.hidden_field :message_thread_id, :value => @new_message.message_thread_id %>
+    <%= f.hidden_field :user_id, :value => @new_message.user_id %>
+    <%= f.file_field :attach, :id => "attach", :class => "attach", :onchange => "$('#loader').show();submit()"%>
+    <%= image_tag "ajax-loader.gif", :id => "loader", :class => "loader" %>
+    <br/>
+  <% end %>
+</div>
+<script>
+$('.attach-ico').click(function(){
+  $('#attach').click();
+});
+</script>

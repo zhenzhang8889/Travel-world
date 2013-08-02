@@ -1,0 +1,41 @@
+!!! 5
+%html
+  %head
+    %meta{'charset' => 'UTF-8'}/
+    %meta{'http-equiv' => 'X-UA-Compatible', :content => 'IE=IE9,chrome=1'}/
+    %title Chatter Admin
+
+    = stylesheet_link_tag "app_admin"
+    = javascript_include_tag "app_admin"
+
+    = yield(:head)
+    = csrf_meta_tags
+
+%body
+
+  .navbar.navbar-fixed-top
+    .navbar-inner
+      .container
+        %a.brand{:href => "#"} TT Chat Admin
+
+        - if admin_signed_in?
+          %ul.nav
+            %li.active
+              = link_to 'Users', admin_users_path
+            %li
+              %a{:href => "#"} Leads
+
+            %li
+              %a{:href => "/admin/badges"} Badges
+            %li
+              %a{:href => "/admin/category_badges"} Badges Categories
+            %li
+              %a{:href => "/admin/level2_admins"} Level 2 Admins
+
+          %ul.nav.pull-right
+            %li
+              = link_to 'Sign out', destroy_admin_session_path, :method => :delete
+
+  .container
+    .page
+      = yield

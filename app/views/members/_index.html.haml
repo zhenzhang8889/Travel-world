@@ -1,0 +1,29 @@
+.search_page
+
+  .form-search.search_form.condition
+    = collection_select(:search, :category_id, Service.find(:all), :id, :name, {:include_blank => 'All Categories'}, {:'data-bind' => "event: { change: set_search_category_id}"})
+
+    %input.input-medium.search-query{:type => "text", :placeholder => 'Search', :'data-bind' => "event: { keyup: set_search_name}"}
+    / %button.btn{:type => "submit"} Search
+
+  %table.table.table-bordered.table-hover.user_list
+    %caption
+    %thead
+      %tr
+        %th Photo
+        %th Name
+        %th Category
+        %th Location
+        %th
+    %tbody{:'data-bind' => 'foreach: members'}
+      %tr{:'data-bind' => 'visible: match_name($parent.search_name(), $parent.search_category_id()) '}
+        %td
+          %img{:'data-bind' => 'attr: {src: imageUrlSmall}'} 
+        %td{:'data-bind' => 'text: full_name'} 
+        %td{:'data-bind' => 'text: categoryName'}
+        %td{:'data-bind' => 'text: location_desc()'}
+        %td
+          .if{:'data-bind' => 'ifnot: added()'}
+            %a.btn.btn-warning.btn-small{:href => '#', :'data-bind' => "click: add_contact.bind($data) "} Add Contact
+          .if{:'data-bind' => 'if: added()'}
+            %a.btn.btn-inverse.btn-small{:href => '#', :'data-bind' => "click: del_contact.bind($data)"} Delete

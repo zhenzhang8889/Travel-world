@@ -1,0 +1,9 @@
+- form = nil if local_assigns[:form].nil?
+- need_first = false if local_assigns[:need_first].nil?
+- prompt = nil if local_assigns[:prompt].nil?
+
+
+- if form
+  = form.collection_select(propty, areas.order('id ASC'), :id, :name, {:prompt => prompt}, :class => "reinvent-select input-middle #{clazz}", :'data-need-first' => need_first)
+- else
+  = collection_select(:lead_generation, propty, areas.order('id ASC'), :id, :name, {:prompt => prompt}, :class => "reinvent-select input-middle #{clazz}", :'data-need-first' => need_first)

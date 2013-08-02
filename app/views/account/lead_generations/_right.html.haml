@@ -1,0 +1,21 @@
+.rating.Rating_w
+        %p
+          Rating
+        .localtourism.Rating_Block.color1
+          %p
+            %a{:href => '#', :onclick => "javascript: $('.chat_block_Wrapper, .content_title, .TegO').hide(); $('.ecotask').show(); $('.succeed-notice').hide(); $('.localtask').show(); return false;"} Local tourism
+          %input{:'data-width' => "75", :'data-cursor' => 'false', :'data-fgColor' => "#ff9322", :'data-localscore' => "#{@localpoint}", :'data-thickness' => ".2",:'data-readOnly' => 'true', :value => "#{@user_localtourism_point}", :class => "knob", :id => "local-score" }
+        .ecotourism.Rating_Block.color2
+          %p
+            %a{:href => '#', :onclick => "javascript: $('.chat_block_Wrapper, .content_title, .TegO').hide(); $('.ecotask').show(); $('.succeed-notice').hide(); $('.localtask').show(); return false;"} Ecotourism
+          %input{:'data-width' => "75", :'data-cursor' => 'false', :'data-fgColor' => "#3bc168", :'data-ecoscore' => "#{@ecopoint}", :'data-thickness' => ".2",:'data-readOnly' => 'true', :value => "#{@user_ecotourism_point}", :class => "knob", :id => "eco-score" }
+      .TegO
+        <a href="#">Profile views 100</a>
+        <a href="#">Responce rating 100</a>
+        <a href="#">Top 5 countries by number of member</a>
+        <a href="#">Top 5 trade member by network</a>
+        <a href="#">Top 5 Ecotourism companies</a>
+        <a><span>Top 5 referral members</span> create a referral action next to memberer in feeds and chats and profile views.
+        </a>
+
+      .clear

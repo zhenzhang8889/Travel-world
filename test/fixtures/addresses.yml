@@ -1,0 +1,41 @@
+# == Schema Information
+#
+# Table name: addresses
+#
+#  id         :integer          not null, primary key
+#  number     :string(255)
+#  street     :text
+#  city       :string(255)
+#  region     :string(255)
+#  country    :string(255)
+#  zip        :string(255)
+#  phone      :string(255)
+#  profile_id :integer
+#  security   :boolean
+#  created_at :datetime
+#  updated_at :datetime
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  number: MyString
+  street: MyText
+  city: MyString
+  region: MyString
+  country: MyString
+  zip: MyString
+  phone: MyString
+  profile_id: 1
+  security: false
+
+two:
+  number: MyString
+  street: MyText
+  city: MyString
+  region: MyString
+  country: MyString
+  zip: MyString
+  phone: MyString
+  profile_id: 1
+  security: false

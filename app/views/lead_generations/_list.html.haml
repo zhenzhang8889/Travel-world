@@ -1,0 +1,18 @@
+- view_user = current_user if local_assigns[:view_user].nil?
+- for_mail = false if local_assigns[:for_mail].nil?
+- conver_lead = nil if local_assigns[:conver_lead].nil?
+- show_match_count = false if local_assigns[:show_match_count].nil?
+- show_reply_count = false if local_assigns[:show_reply_count].nil?
+- is_a_match = false if local_assigns[:is_a_match].nil?
+/ - new_entry = false if local_assigns[:new_entry].nil?
+
+.lead_list_new
+  / %ul.generation_list
+  /   - leads.each_with_index do |lead, index|
+  /     %li.lead_generation
+  /       = render :partial => 'lead_generations/show', :locals => {:lead_generation => lead, :view_user => view_user, :for_mail => for_mail, :conver_lead => conver_lead, :show_match_count => show_match_count, :show_reply_count => show_reply_count}
+
+  .box_list_new{:'data-bind' => "foreach: leads"}
+    .lead_box_new{:'data-bind' => 'visible: !ready_to_rm(), attr: {"data-index": $index}'}
+      = render :partial => 'lead_generations/show', :locals => { :view_user => view_user, :for_mail => for_mail, :conver_lead => conver_lead, :show_match_count => show_match_count, :show_reply_count => show_reply_count, :is_a_match => is_a_match}
+

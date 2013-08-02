@@ -1,0 +1,40 @@
+.sidebar {
+  background: url(<%= asset_path 'body_bg.png'%>);
+}
+.account_chats {
+
+  .chat_top_menu {
+    margin-left: 125px;
+    margin-top: 30px;
+    overflow: auto;
+    a {
+      display: block;
+      padding-top: 28px;
+      text-align: center;
+      text-decoration: none;
+      float: left;
+      background-repeat: no-repeat;
+      background-position: center top;
+      color: #929799;
+      margin-right: 13px;
+
+      &:hover {
+        color: #F0670F;
+      }
+
+      &.contacts_sub_menu {
+        background-image: url(<%= asset_path('chat_menu/contacts.png') %>);
+      }
+
+      &.groups_sub_menu {
+        background-image: url(<%= asset_path('chat_menu/groups.png') %>);
+      }
+      &.recents_sub_menu {
+        background-image: url(<%= asset_path('chat_menu/recents.png') %>); 
+      }
+      &.search_sub_menu {
+        background-image: url(<%= asset_path('chat_menu/search.png') %>); 
+      }
+    }
+  }
+}

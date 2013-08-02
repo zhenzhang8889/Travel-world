@@ -1,0 +1,3574 @@
+Afghanistan|||Asia|||country|||country
+Badakhshan|||Afghanistan||||||
+Badghis|||Afghanistan||||||
+Baghlān|||Afghanistan||||||
+Balkh|||Afghanistan||||||
+Bāmīān|||Afghanistan||||||
+Farah|||Afghanistan||||||
+Faryab|||Afghanistan||||||
+Ghaznī|||Afghanistan||||||
+Ghowr|||Afghanistan||||||
+Helmand|||Afghanistan||||||
+Herat|||Afghanistan||||||
+Jowzjān|||Afghanistan||||||
+Kabul|||Afghanistan||||||
+Kandahār|||Afghanistan||||||
+Kāpīsā|||Afghanistan||||||
+Khowst|||Afghanistan||||||
+Konar|||Afghanistan||||||
+Kunduz|||Afghanistan||||||
+Laghmān|||Afghanistan||||||
+Lowgar|||Afghanistan||||||
+Nangarhār|||Afghanistan||||||
+Nīmrūz|||Afghanistan||||||
+Nūrestān|||Afghanistan||||||
+Orūzgān|||Afghanistan||||||
+Paktia|||Afghanistan||||||
+Paktīkā|||Afghanistan||||||
+Panjshir|||Afghanistan||||||
+Parvān|||Afghanistan||||||
+Samangān|||Afghanistan||||||
+Sar-e Pol|||Afghanistan||||||
+Takhār|||Afghanistan||||||
+Vardak|||Afghanistan||||||
+Wilāyat-e Dāykundī|||Afghanistan||||||
+Zabul|||Afghanistan||||||
+Åland Islands|||Europe|||country|||country
+Albania|||Europe|||country|||country
+Berat|||Albania||||||
+Dibër|||Albania||||||
+Durrës|||Albania||||||
+Elbasan|||Albania||||||
+Fier|||Albania||||||
+Gjirokastër|||Albania||||||
+Korçë|||Albania||||||
+Kukës|||Albania||||||
+Lezhë|||Albania||||||
+Shkodër|||Albania||||||
+Tiranë|||Albania||||||
+Vlorë|||Albania||||||
+Algeria|||Africa|||country|||country
+Adrar|||Algeria||||||
+Aïn Defla|||Algeria||||||
+Aïn Temouchent|||Algeria||||||
+Alger|||Algeria||||||
+Annaba|||Algeria||||||
+Batna|||Algeria||||||
+Béchar|||Algeria||||||
+Bejaïa|||Algeria||||||
+Biskra|||Algeria||||||
+Blida|||Algeria||||||
+Bordj Bou Arréridj|||Algeria||||||
+Bouira|||Algeria||||||
+Boumerdes|||Algeria||||||
+Chlef|||Algeria||||||
+Constantine|||Algeria||||||
+Djelfa|||Algeria||||||
+El Bayadh|||Algeria||||||
+El Oued|||Algeria||||||
+El Tarf|||Algeria||||||
+Ghardaïa|||Algeria||||||
+Guelma|||Algeria||||||
+Illizi|||Algeria||||||
+Jijel|||Algeria||||||
+Khenchela|||Algeria||||||
+Laghouat|||Algeria||||||
+Mascara|||Algeria||||||
+Médéa|||Algeria||||||
+Mila|||Algeria||||||
+Mostaganem|||Algeria||||||
+Mʼsila|||Algeria||||||
+Naama النعامة|||Algeria||||||
+Oran|||Algeria||||||
+Ouargla|||Algeria||||||
+Oum el Bouaghi|||Algeria||||||
+Relizane|||Algeria||||||
+Saïda|||Algeria||||||
+Sétif|||Algeria||||||
+Sidi Bel Abbès|||Algeria||||||
+Skikda|||Algeria||||||
+Souk Ahras|||Algeria||||||
+Tamanghasset|||Algeria||||||
+Tébessa|||Algeria||||||
+Tiaret|||Algeria||||||
+Tindouf|||Algeria||||||
+Tipaza|||Algeria||||||
+Tissemsilt|||Algeria||||||
+Tizi Ouzou|||Algeria||||||
+Tlemcen|||Algeria||||||
+American Samoa|||Oceania|||country|||country
+Eastern District|||American Samoa||||||
+Manu'a|||American Samoa||||||
+Swains Island|||American Samoa||||||
+Western District|||American Samoa||||||
+Andorra|||Europe|||country|||country
+Parròquia d'Andorra la Vella|||Andorra||||||
+Parròquia d'Encamp|||Andorra||||||
+Parròquia d'Escaldes-Engordany|||Andorra||||||
+Parròquia d'Ordino|||Andorra||||||
+Parròquia de Canillo|||Andorra||||||
+Parròquia de la Massana|||Andorra||||||
+Parròquia de Sant Julià de Lòria|||Andorra||||||
+Angola|||Africa|||country|||country
+Bengo|||Angola||||||
+Benguela|||Angola||||||
+Bié|||Angola||||||
+Cabinda|||Angola||||||
+Cuando Cubango|||Angola||||||
+Cuanza Norte|||Angola||||||
+Cuanza Sul|||Angola||||||
+Cunene|||Angola||||||
+Huambo|||Angola||||||
+Huíla|||Angola||||||
+Luanda|||Angola||||||
+Lunda Norte|||Angola||||||
+Lunda Sul|||Angola||||||
+Malanje|||Angola||||||
+Moxico|||Angola||||||
+Namibe|||Angola||||||
+Uíge|||Angola||||||
+Zaire|||Angola||||||
+Antigua and Barbuda|||Americas|||country|||country
+Barbuda|||Antigua and Barbuda||||||
+Saint George|||Antigua and Barbuda||||||
+Saint John|||Antigua and Barbuda||||||
+Saint Mary|||Antigua and Barbuda||||||
+Saint Paul|||Antigua and Barbuda||||||
+Saint Peter|||Antigua and Barbuda||||||
+Saint Philip|||Antigua and Barbuda||||||
+Argentina|||Americas|||country|||country
+Buenos Aires|||Argentina||||||
+Buenos Aires F.D.|||Argentina||||||
+Catamarca|||Argentina||||||
+Chaco|||Argentina||||||
+Chubut|||Argentina||||||
+Córdoba|||Argentina||||||
+Corrientes|||Argentina||||||
+Entre Ríos|||Argentina||||||
+Formosa|||Argentina||||||
+Jujuy|||Argentina||||||
+La Pampa|||Argentina||||||
+La Rioja|||Argentina||||||
+Mendoza|||Argentina||||||
+Misiones|||Argentina||||||
+Neuquén|||Argentina||||||
+Río Negro|||Argentina||||||
+Salta|||Argentina||||||
+San Juan|||Argentina||||||
+San Luis|||Argentina||||||
+Santa Cruz|||Argentina||||||
+Santa Fe|||Argentina||||||
+Santiago del Estero|||Argentina||||||
+Tierra del Fuego|||Argentina||||||
+Tucumán|||Argentina||||||
+Armenia|||Asia|||country|||country
+Aragatsotn|||Armenia||||||
+Ararat|||Armenia||||||
+Armavir|||Armenia||||||
+Gegharkʼunikʼ|||Armenia||||||
+Kotaykʼ|||Armenia||||||
+Lorri|||Armenia||||||
+Shirak|||Armenia||||||
+Syunikʼ|||Armenia||||||
+Tavush|||Armenia||||||
+Vayotsʼ Dzor|||Armenia||||||
+Yerevan|||Armenia||||||
+Australia|||Oceania|||country|||country
+Australian Capital Territory|||Australia||||||
+New South Wales|||Australia||||||
+Northern Territory|||Australia||||||
+Queensland|||Australia||||||
+South Australia|||Australia||||||
+Tasmania|||Australia||||||
+Victoria|||Australia||||||
+Western Australia|||Australia||||||
+Austria|||Europe|||country|||country
+Burgenland|||Austria||||||
+Carinthia|||Austria||||||
+Lower Austria|||Austria||||||
+Salzburg|||Austria||||||
+Styria|||Austria||||||
+Tyrol|||Austria||||||
+Upper Austria|||Austria||||||
+Vienna|||Austria||||||
+Vorarlberg|||Austria||||||
+Azerbaijan|||Asia|||country|||country
+Abşeron|||Azerbaijan||||||
+Ağcabǝdi|||Azerbaijan||||||
+Ağdam|||Azerbaijan||||||
+Ağdaş|||Azerbaijan||||||
+Ağstafa|||Azerbaijan||||||
+Ağsu|||Azerbaijan||||||
+Astara|||Azerbaijan||||||
+Baki|||Azerbaijan||||||
+Balakǝn|||Azerbaijan||||||
+Beyləqan|||Azerbaijan||||||
+Bilǝsuvar|||Azerbaijan||||||
+Bǝrdǝ|||Azerbaijan||||||
+Cǝbrayıl|||Azerbaijan||||||
+Cəlilabad|||Azerbaijan||||||
+Daşkǝsǝn|||Azerbaijan||||||
+Dǝvǝçi|||Azerbaijan||||||
+Füzuli|||Azerbaijan||||||
+Goranboy|||Azerbaijan||||||
+Göyçay|||Azerbaijan||||||
+Goygol Rayon|||Azerbaijan||||||
+Gǝdǝbǝy|||Azerbaijan||||||
+Gǝncǝ|||Azerbaijan||||||
+Hacıqabul|||Azerbaijan||||||
+İmişli|||Azerbaijan||||||
+İsmayıllı|||Azerbaijan||||||
+Kürdǝmir|||Azerbaijan||||||
+Kǝlbǝcǝr|||Azerbaijan||||||
+Laçın|||Azerbaijan||||||
+Lerik|||Azerbaijan||||||
+Lənkəran|||Azerbaijan||||||
+Lənkəran Şəhəri|||Azerbaijan||||||
+Masallı|||Azerbaijan||||||
+Mingǝcevir|||Azerbaijan||||||
+Naftalan|||Azerbaijan||||||
+Nakhichevan|||Azerbaijan||||||
+Neftçala|||Azerbaijan||||||
+Oğuz|||Azerbaijan||||||
+Qazax|||Azerbaijan||||||
+Qobustan|||Azerbaijan||||||
+Quba|||Azerbaijan||||||
+Qubadlı|||Azerbaijan||||||
+Qusar|||Azerbaijan||||||
+Qǝbǝlǝ|||Azerbaijan||||||
+Qǝx|||Azerbaijan||||||
+Saatlı|||Azerbaijan||||||
+Sabirabad|||Azerbaijan||||||
+Salyan|||Azerbaijan||||||
+Şamaxı|||Azerbaijan||||||
+Samux|||Azerbaijan||||||
+Shaki City|||Azerbaijan||||||
+Siyǝzǝn|||Azerbaijan||||||
+Sumqayit|||Azerbaijan||||||
+Şuşa|||Azerbaijan||||||
+Şuşa Şəhəri|||Azerbaijan||||||
+Şǝki|||Azerbaijan||||||
+Şǝmkir|||Azerbaijan||||||
+Tovuz|||Azerbaijan||||||
+Tǝrtǝr|||Azerbaijan||||||
+Ucar|||Azerbaijan||||||
+Xaçmaz|||Azerbaijan||||||
+Xankǝndi|||Azerbaijan||||||
+Xızı|||Azerbaijan||||||
+Xocalı|||Azerbaijan||||||
+Xocavǝnd|||Azerbaijan||||||
+Yardımlı|||Azerbaijan||||||
+Yevlax|||Azerbaijan||||||
+Yevlax City|||Azerbaijan||||||
+Zaqatala|||Azerbaijan||||||
+Zǝngilan|||Azerbaijan||||||
+Zərdab|||Azerbaijan||||||
+Əli Bayramli|||Azerbaijan||||||
+Bahamas|||Americas|||country|||country
+Acklins and Crooked Islands|||Bahamas||||||
+Berry Islands District|||Bahamas||||||
+Bimini|||Bahamas||||||
+Black Point District|||Bahamas||||||
+Cat Island|||Bahamas||||||
+Central Abaco District|||Bahamas||||||
+Central Andros District|||Bahamas||||||
+Central Eleuthera District|||Bahamas||||||
+Crooked Island and Long Cay District|||Bahamas||||||
+East Grand Bahama District|||Bahamas||||||
+Exuma|||Bahamas||||||
+Freeport|||Bahamas||||||
+Governorʼs Harbour|||Bahamas||||||
+Harbour Island|||Bahamas||||||
+Hope Town District|||Bahamas||||||
+Inagua|||Bahamas||||||
+Long Island|||Bahamas||||||
+Mangrove Cay District|||Bahamas||||||
+Marsh Harbour|||Bahamas||||||
+Mayaguana|||Bahamas||||||
+Moore’s Island District|||Bahamas||||||
+New Providence|||Bahamas||||||
+North Abaco District|||Bahamas||||||
+North Andros District|||Bahamas||||||
+North Eleuthera District|||Bahamas||||||
+Ragged Island|||Bahamas||||||
+Rum Cay District|||Bahamas||||||
+San Salvador|||Bahamas||||||
+South Abaco District|||Bahamas||||||
+South Andros District|||Bahamas||||||
+South Eleuthera District|||Bahamas||||||
+West Grand Bahama District|||Bahamas||||||
+Bahrain|||Asia|||country|||country
+Capital Governorate|||Bahrain||||||
+Central Governorate|||Bahrain||||||
+Muharraq|||Bahrain||||||
+Northern Governorate|||Bahrain||||||
+Southern Governorate|||Bahrain||||||
+Bangladesh|||Asia|||country|||country
+Barisāl|||Bangladesh||||||
+Chittagong|||Bangladesh||||||
+Dhaka|||Bangladesh||||||
+Khulna|||Bangladesh||||||
+Rājshāhi|||Bangladesh||||||
+Rangpur Division|||Bangladesh||||||
+Sylhet|||Bangladesh||||||
+Barbados|||Americas|||country|||country
+Christ Church|||Barbados||||||
+Saint Andrew|||Barbados||||||
+Saint George|||Barbados||||||
+Saint James|||Barbados||||||
+Saint John|||Barbados||||||
+Saint Joseph|||Barbados||||||
+Saint Lucy|||Barbados||||||
+Saint Michael|||Barbados||||||
+Saint Peter|||Barbados||||||
+Saint Philip|||Barbados||||||
+Saint Thomas|||Barbados||||||
+Belarus|||Europe|||country|||country
+Brestskaya Voblastsʼ|||Belarus||||||
+Homyelʼskaya Voblastsʼ|||Belarus||||||
+Horad Minsk|||Belarus||||||
+Hrodzyenskaya Voblastsʼ|||Belarus||||||
+Mahilyowskaya Voblastsʼ|||Belarus||||||
+Minskaya Voblastsʼ|||Belarus||||||
+Vitsyebskaya Voblastsʼ|||Belarus||||||
+Belgium|||Europe|||country|||country
+Brussels Capital Region|||Belgium||||||
+Flanders|||Belgium||||||
+Walloon Region|||Belgium||||||
+Belize|||Americas|||country|||country
+Belize|||Belize||||||
+Cayo|||Belize||||||
+Corozal|||Belize||||||
+Orange Walk|||Belize||||||
+Stann Creek|||Belize||||||
+Toledo|||Belize||||||
+Benin|||Africa|||country|||country
+Alibori|||Benin||||||
+Atakora|||Benin||||||
+Atlantique|||Benin||||||
+Borgou|||Benin||||||
+Collines|||Benin||||||
+Donga|||Benin||||||
+Kouffo|||Benin||||||
+Littoral|||Benin||||||
+Mono|||Benin||||||
+Plateau|||Benin||||||
+Quémé|||Benin||||||
+Zou|||Benin||||||
+Bermuda|||Americas|||country|||country
+Devonshire|||Bermuda||||||
+Hamilton city|||Bermuda||||||
+Hamilton Parish|||Bermuda||||||
+Paget|||Bermuda||||||
+Saint George|||Bermuda||||||
+Saint Georgeʼs|||Bermuda||||||
+Sandys|||Bermuda||||||
+Smithʼs|||Bermuda||||||
+Warwick|||Bermuda||||||
+Bhutan|||Asia|||country|||country
+Bumthang|||Bhutan||||||
+Chhukha|||Bhutan||||||
+Chirang|||Bhutan||||||
+Daga|||Bhutan||||||
+Gasa|||Bhutan||||||
+Geylegphug|||Bhutan||||||
+Ha|||Bhutan||||||
+Lhuntshi|||Bhutan||||||
+Mongar|||Bhutan||||||
+Paro|||Bhutan||||||
+Pemagatsel|||Bhutan||||||
+Punakha|||Bhutan||||||
+Samchi|||Bhutan||||||
+Samdrup Jongkhar|||Bhutan||||||
+Shemgang|||Bhutan||||||
+Tashigang|||Bhutan||||||
+Thimphu|||Bhutan||||||
+Tongsa|||Bhutan||||||
+Trashi Yangste|||Bhutan||||||
+Wangdi Phodrang|||Bhutan||||||
+Bolivia|||Americas|||country|||country
+Chuquisaca|||Bolivia||||||
+Cochabamba|||Bolivia||||||
+El Beni|||Bolivia||||||
+La Paz|||Bolivia||||||
+Oruro|||Bolivia||||||
+Pando|||Bolivia||||||
+Potosí|||Bolivia||||||
+Santa Cruz|||Bolivia||||||
+Tarija|||Bolivia||||||
+Bosnia and Herzegovina|||Europe|||country|||country
+Brčko|||Bosnia and Herzegovina||||||
+Federation of Bosnia and Herzegovina|||Bosnia and Herzegovina||||||
+Republika Srpska|||Bosnia and Herzegovina||||||
+Botswana|||Africa|||country|||country
+Central|||Botswana||||||
+Ghanzi|||Botswana||||||
+Kgalagadi|||Botswana||||||
+Kgatleng|||Botswana||||||
+Kweneng|||Botswana||||||
+North East|||Botswana||||||
+North West|||Botswana||||||
+South East|||Botswana||||||
+Southern|||Botswana||||||
+Brazil|||Americas|||country|||country
+Acre|||Brazil||||||
+Alagoas|||Brazil||||||
+Amapá|||Brazil||||||
+Amazonas|||Brazil||||||
+Bahia|||Brazil||||||
+Ceará|||Brazil||||||
+Distrito Federal|||Brazil||||||
+Estado de Minas Gerais|||Brazil||||||
+Estado de Pernambuco|||Brazil||||||
+Estado do Espírito Santo|||Brazil||||||
+Goiás|||Brazil||||||
+Maranhão|||Brazil||||||
+Mato Grosso|||Brazil||||||
+Mato Grosso do Sul|||Brazil||||||
+Pará|||Brazil||||||
+Paraíba|||Brazil||||||
+Paraná|||Brazil||||||
+Piauí|||Brazil||||||
+Rio de Janeiro|||Brazil||||||
+Rio Grande do Norte|||Brazil||||||
+Rio Grande do Sul|||Brazil||||||
+Rondônia|||Brazil||||||
+Roraima|||Brazil||||||
+Santa Catarina|||Brazil||||||
+São Paulo|||Brazil||||||
+Sergipe|||Brazil||||||
+Tocantins|||Brazil||||||
+Brunei Darussalam|||Asia|||country|||country
+Brunei and Muara|||Brunei Darussalam||||||
+Bulgaria|||Europe|||country|||country
+Blagoevgrad|||Bulgaria||||||
+Burgas|||Bulgaria||||||
+Dobrich|||Bulgaria||||||
+Gabrovo|||Bulgaria||||||
+Khaskovo|||Bulgaria||||||
+Kŭrdzhali|||Bulgaria||||||
+Kyustendil|||Bulgaria||||||
+Lovech|||Bulgaria||||||
+Montana|||Bulgaria||||||
+Oblast Sofiya-Grad|||Bulgaria||||||
+Pazardzhit|||Bulgaria||||||
+Pernik|||Bulgaria||||||
+Pleven|||Bulgaria||||||
+Plovdiv|||Bulgaria||||||
+Razgrad|||Bulgaria||||||
+Ruse|||Bulgaria||||||
+Shumen|||Bulgaria||||||
+Silistra|||Bulgaria||||||
+Sliven|||Bulgaria||||||
+Smolyan|||Bulgaria||||||
+Sofiya|||Bulgaria||||||
+Stara Zagora|||Bulgaria||||||
+Tŭrgovishte|||Bulgaria||||||
+Varna|||Bulgaria||||||
+Veliko Tŭrnovo|||Bulgaria||||||
+Vidin|||Bulgaria||||||
+Vratsa|||Bulgaria||||||
+Yambol|||Bulgaria||||||
+Burkina Faso|||Africa|||country|||country
+Boucle du Mouhoun|||Burkina Faso||||||
+Cascades|||Burkina Faso||||||
+Centre|||Burkina Faso||||||
+Centre-Est|||Burkina Faso||||||
+Centre-Nord|||Burkina Faso||||||
+Centre-Ouest|||Burkina Faso||||||
+Centre-Sud|||Burkina Faso||||||
+Est|||Burkina Faso||||||
+Hauts-Bassins|||Burkina Faso||||||
+Nord|||Burkina Faso||||||
+Plateau-Central|||Burkina Faso||||||
+Sahel|||Burkina Faso||||||
+Sud-Ouest|||Burkina Faso||||||
+Burundi|||Africa|||country|||country
+Bubanza|||Burundi||||||
+Bujumbura Mairie|||Burundi||||||
+Bujumbura Rural|||Burundi||||||
+Bururi|||Burundi||||||
+Cankuzo|||Burundi||||||
+Cibitoke|||Burundi||||||
+Gitega|||Burundi||||||
+Karuzi|||Burundi||||||
+Kayanza|||Burundi||||||
+Kirundo|||Burundi||||||
+Makamba|||Burundi||||||
+Muramvya|||Burundi||||||
+Muyinga|||Burundi||||||
+Mwaro|||Burundi||||||
+Ngozi|||Burundi||||||
+Rutana|||Burundi||||||
+Ruyigi|||Burundi||||||
+Cambodia|||Asia|||country|||country
+Kâmpóng Cham|||Cambodia||||||
+Kâmpóng Chhnăng|||Cambodia||||||
+Kâmpóng Thum|||Cambodia||||||
+Kândal|||Cambodia||||||
+Kaôh Kŏng|||Cambodia||||||
+Khétt Bântéay Méan Choăy|||Cambodia||||||
+Khétt Bătdâmbâng|||Cambodia||||||
+Khétt Kâmpóng Spœ|||Cambodia||||||
+Khétt Kâmpôt|||Cambodia||||||
+Khétt Kêb|||Cambodia||||||
+Khétt Pailĭn|||Cambodia||||||
+Khétt Preăh Seihânŭ|||Cambodia||||||
+Khêtt Rôtânôkiri|||Cambodia||||||
+Khétt Siĕm Réab|||Cambodia||||||
+Krâchéh|||Cambodia||||||
+Krŏng Phnum Pénh|||Cambodia||||||
+Môndól Kiri|||Cambodia||||||
+Ŏtâr Méanchey|||Cambodia||||||
+Poŭthĭsăt|||Cambodia||||||
+Preăh Vĭhéar|||Cambodia||||||
+Prey Vêng|||Cambodia||||||
+Stœ̆ng Trêng|||Cambodia||||||
+Svay Riĕng|||Cambodia||||||
+Takêv|||Cambodia||||||
+Cameroon|||Africa|||country|||country
+Adamaoua Province|||Cameroon||||||
+Centre Region|||Cameroon||||||
+East Province|||Cameroon||||||
+Far North Province|||Cameroon||||||
+Littoral Province|||Cameroon||||||
+North Province|||Cameroon||||||
+North-West Region|||Cameroon||||||
+South Province|||Cameroon||||||
+South-West Region|||Cameroon||||||
+West Province|||Cameroon||||||
+Canada|||Americas|||country|||country
+Alberta|||Canada||||||
+British Columbia|||Canada||||||
+Manitoba|||Canada||||||
+New Brunswick|||Canada||||||
+Newfoundland and Labrador|||Canada||||||
+Northwest Territories|||Canada||||||
+Nova Scotia|||Canada||||||
+Nunavut|||Canada||||||
+Ontario|||Canada||||||
+Prince Edward Island|||Canada||||||
+Quebec|||Canada||||||
+Saskatchewan|||Canada||||||
+Yukon|||Canada||||||
+Cape Verde|||Africa|||country|||country
+Boa Vista|||Cape Verde||||||
+Brava|||Cape Verde||||||
+Concelho da Ribeira Brava|||Cape Verde||||||
+Concelho de Ribeira Grande de Santiago|||Cape Verde||||||
+Concelho de Santa Catarina do Fogo|||Cape Verde||||||
+Concelho de São Lourenço dos Orgãos|||Cape Verde||||||
+Concelho de São Salvador do Mundo|||Cape Verde||||||
+Concelho do Porto Novo|||Cape Verde||||||
+Concelho do Tarrafal de São Nicolau|||Cape Verde||||||
+Maio|||Cape Verde||||||
+Mosteiros|||Cape Verde||||||
+Paul|||Cape Verde||||||
+Praia|||Cape Verde||||||
+Ribeira Grande|||Cape Verde||||||
+Sal|||Cape Verde||||||
+Santa Catarina|||Cape Verde||||||
+Santa Cruz|||Cape Verde||||||
+São Domingos|||Cape Verde||||||
+São Filipe|||Cape Verde||||||
+São Miguel|||Cape Verde||||||
+São Vicente|||Cape Verde||||||
+Tarrafal|||Cape Verde||||||
+Central African Republic|||Africa|||country|||country
+Bamingui-Bangoran|||Central African Republic||||||
+Bangui|||Central African Republic||||||
+Basse-Kotto|||Central African Republic||||||
+Haut-Mbomou|||Central African Republic||||||
+Haute-Kotto|||Central African Republic||||||
+Kémo|||Central African Republic||||||
+Lobaye|||Central African Republic||||||
+Mambéré-Kadéï|||Central African Republic||||||
+Mbomou|||Central African Republic||||||
+Nana-Grébizi|||Central African Republic||||||
+Nana-Mambéré|||Central African Republic||||||
+Ombella-Mpoko|||Central African Republic||||||
+Ouaka|||Central African Republic||||||
+Ouham|||Central African Republic||||||
+Ouham-Pendé|||Central African Republic||||||
+Sangha-Mbaéré|||Central African Republic||||||
+Vakaga|||Central African Republic||||||
+Chad|||Africa|||country|||country
+Batha|||Chad||||||
+Biltine|||Chad||||||
+Chari-Baguirmi|||Chad||||||
+Ennedi|||Chad||||||
+Guéra|||Chad||||||
+Kanem|||Chad||||||
+Lac|||Chad||||||
+Logone Occidental|||Chad||||||
+Logone Oriental|||Chad||||||
+Mayo-Kébbi|||Chad||||||
+Moyen-Chari|||Chad||||||
+Ouaddaï|||Chad||||||
+Région de la Ville de N'Djaména|||Chad||||||
+Région du Barh el Gazel|||Chad||||||
+Région du Borkou|||Chad||||||
+Région du Hadjer-Lamis|||Chad||||||
+Région du Mandoul|||Chad||||||
+Région du Mayo-Kébbi Ouest|||Chad||||||
+Région du Sila|||Chad||||||
+Région du Tibesti|||Chad||||||
+Salamat|||Chad||||||
+Tandjilé|||Chad||||||
+Chile|||Americas|||country|||country
+Aisén del General Carlos Ibáñez del Campo|||Chile||||||
+Antofagasta|||Chile||||||
+Araucanía|||Chile||||||
+Atacama|||Chile||||||
+Bío-Bío|||Chile||||||
+Coquimbo|||Chile||||||
+Libertador General Bernardo OʼHiggins|||Chile||||||
+Los Lagos|||Chile||||||
+Magallanes y Antártica Chilena|||Chile||||||
+Maule|||Chile||||||
+Región de Arica y Parinacota|||Chile||||||
+Región de Los Ríos|||Chile||||||
+Región Metropolitana|||Chile||||||
+Tarapacá|||Chile||||||
+Valparaíso|||Chile||||||
+China|||Asia|||country|||country
+Anhui Sheng|||China||||||
+Beijing|||China||||||
+Chongqing Shi|||China||||||
+Fujian|||China||||||
+Gansu Sheng|||China||||||
+Guangdong Sheng|||China||||||
+Guangxi Zhuangzu Zizhiqu|||China||||||
+Guizhou Sheng|||China||||||
+Hainan|||China||||||
+Hebei|||China||||||
+Heilongjiang Sheng|||China||||||
+Henan Sheng|||China||||||
+Hubei|||China||||||
+Hunan|||China||||||
+Inner Mongolia|||China||||||
+Jiangsu Sheng|||China||||||
+Jiangxi|||China||||||
+Jilin Sheng|||China||||||
+Liaoning|||China||||||
+Ningxia Huizu Zizhiqu|||China||||||
+Qinghai Sheng|||China||||||
+Shaanxi Sheng|||China||||||
+Shandong Sheng|||China||||||
+Shanghai Shi|||China||||||
+Shanxi Sheng|||China||||||
+Sichuan|||China||||||
+Tianjin Shi|||China||||||
+Tibet Autonomous Region|||China||||||
+Xinjiang Uygur Zizhiqu|||China||||||
+Yunnan|||China||||||
+Zhejiang Sheng|||China||||||
+Colombia|||Americas|||country|||country
+Amazonas|||Colombia||||||
+Antioquia|||Colombia||||||
+Arauca|||Colombia||||||
+Archipiélago de San Andrés, Providencia y Santa Catalina|||Colombia||||||
+Atlántico|||Colombia||||||
+Bogota D.C.|||Colombia||||||
+Bolívar|||Colombia||||||
+Boyacá|||Colombia||||||
+Caldas|||Colombia||||||
+Caquetá|||Colombia||||||
+Casanare|||Colombia||||||
+Cauca|||Colombia||||||
+Cesar|||Colombia||||||
+Chocó|||Colombia||||||
+Córdoba|||Colombia||||||
+Cundinamarca|||Colombia||||||
+Guainía|||Colombia||||||
+Guaviare|||Colombia||||||
+Huila|||Colombia||||||
+La Guajira|||Colombia||||||
+Magdalena|||Colombia||||||
+Meta|||Colombia||||||
+Nariño|||Colombia||||||
+Norte de Santander|||Colombia||||||
+Putumayo|||Colombia||||||
+Quindío|||Colombia||||||
+Risaralda|||Colombia||||||
+Santander|||Colombia||||||
+Sucre|||Colombia||||||
+Tolima|||Colombia||||||
+Valle del Cauca|||Colombia||||||
+Vaupés|||Colombia||||||
+Vichada|||Colombia||||||
+Comoros|||Africa|||country|||country
+Anjouan|||Comoros||||||
+Grande Comore|||Comoros||||||
+Mohéli|||Comoros||||||
+Congo|||Africa|||country|||country
+Bouenza|||Congo||||||
+Brazzaville|||Congo||||||
+Cuvette|||Congo||||||
+Cuvette-Ouest|||Congo||||||
+Kouilou|||Congo||||||
+Lékoumou|||Congo||||||
+Likouala|||Congo||||||
+Niari|||Congo||||||
+Plateaux|||Congo||||||
+Pointe-Noire|||Congo||||||
+Pool|||Congo||||||
+Sangha|||Congo||||||
+Congo, the Democratic Republic of the|||Africa|||country|||country
+Bandundu|||Congo, the Democratic Republic of the||||||
+Bas-Congo|||Congo, the Democratic Republic of the||||||
+Équateur|||Congo, the Democratic Republic of the||||||
+Kasaï-Occidental|||Congo, the Democratic Republic of the||||||
+Kasaï-Oriental|||Congo, the Democratic Republic of the||||||
+Katanga|||Congo, the Democratic Republic of the||||||
+Kinshasa|||Congo, the Democratic Republic of the||||||
+Maniema|||Congo, the Democratic Republic of the||||||
+Nord-Kivu|||Congo, the Democratic Republic of the||||||
+Orientale|||Congo, the Democratic Republic of the||||||
+Sud-Kivu|||Congo, the Democratic Republic of the||||||
+Costa Rica|||Americas|||country|||country
+Alajuela|||Costa Rica||||||
+Cartago|||Costa Rica||||||
+Guanacaste|||Costa Rica||||||
+Heredia|||Costa Rica||||||
+Limón|||Costa Rica||||||
+Puntarenas|||Costa Rica||||||
+San José|||Costa Rica||||||
+Côte d'Ivoire|||Africa|||country|||country
+Croatia|||Europe|||country|||country
+Bjelovarsko-Bilogorska|||Croatia||||||
+Brodsko-Posavska|||Croatia||||||
+Dubrovačko-Neretvanska|||Croatia||||||
+Grad Zagreb|||Croatia||||||
+Istarska|||Croatia||||||
+Karlovačka|||Croatia||||||
+Koprivničko-Križevačka|||Croatia||||||
+Krapinsko-Zagorska|||Croatia||||||
+Ličko-Senjska|||Croatia||||||
+Međimurska|||Croatia||||||
+Osječko-Baranjska|||Croatia||||||
+Požeško-Slavonska|||Croatia||||||
+Primorsko-Goranska|||Croatia||||||
+Šibensko-Kniniska|||Croatia||||||
+Sisačko-Moslavačka|||Croatia||||||
+Splitsko-Dalmatinska|||Croatia||||||
+Varaždinska|||Croatia||||||
+Virovitičk-Podravska|||Croatia||||||
+Vukovarsko-Srijemska|||Croatia||||||
+Zadarska|||Croatia||||||
+Zagrebačka|||Croatia||||||
+Cuba|||Americas|||country|||country
+Artemisa|||Cuba||||||
+Camagüey|||Cuba||||||
+Ciego de Ávila|||Cuba||||||
+Cienfuegos|||Cuba||||||
+Ciudad de La Habana|||Cuba||||||
+Granma|||Cuba||||||
+Guantánamo|||Cuba||||||
+Holguín|||Cuba||||||
+Isla de la Juventud|||Cuba||||||
+Las Tunas|||Cuba||||||
+Matanzas|||Cuba||||||
+Mayabeque|||Cuba||||||
+Pinar del Río|||Cuba||||||
+Sancti Spíritus|||Cuba||||||
+Santiago de Cuba|||Cuba||||||
+Villa Clara|||Cuba||||||
+Cyprus|||Asia|||country|||country
+Famagusta|||Cyprus||||||
+Kyrenia|||Cyprus||||||
+Larnaca|||Cyprus||||||
+Limassol|||Cyprus||||||
+Nicosia|||Cyprus||||||
+Paphos|||Cyprus||||||
+Czech Republic|||Europe|||country|||country
+Hlavní Mesto Praha|||Czech Republic||||||
+Jihočeský Kraj|||Czech Republic||||||
+Karlovarský Kraj|||Czech Republic||||||
+Královéhradecký Kraj|||Czech Republic||||||
+Liberecký Kraj|||Czech Republic||||||
+Moravskoslezský Kraj|||Czech Republic||||||
+Olomoucký Kraj|||Czech Republic||||||
+Pardubický Kraj|||Czech Republic||||||
+Plzeňský Kraj|||Czech Republic||||||
+South Moravian Region|||Czech Republic||||||
+Středočeský Kraj|||Czech Republic||||||
+Ústecký Kraj|||Czech Republic||||||
+Vysočina|||Czech Republic||||||
+Zlínský Kraj|||Czech Republic||||||
+Denmark|||Europe|||country|||country
+Capital Region|||Denmark||||||
+Central Jutland|||Denmark||||||
+North Jutland|||Denmark||||||
+South Denmark|||Denmark||||||
+Zealand|||Denmark||||||
+Djibouti|||Africa|||country|||country
+Ali Sabieh|||Djibouti||||||
+Arta|||Djibouti||||||
+Dikhil|||Djibouti||||||
+Djibouti|||Djibouti||||||
+Obock|||Djibouti||||||
+Tadjourah|||Djibouti||||||
+Dominica|||Americas|||country|||country
+Saint Andrew|||Dominica||||||
+Saint David|||Dominica||||||
+Saint George|||Dominica||||||
+Saint John|||Dominica||||||
+Saint Joseph|||Dominica||||||
+Saint Luke|||Dominica||||||
+Saint Mark|||Dominica||||||
+Saint Patrick|||Dominica||||||
+Saint Paul|||Dominica||||||
+Saint Peter|||Dominica||||||
+Dominican Republic|||Americas|||country|||country
+Azua|||Dominican Republic||||||
+Baoruco|||Dominican Republic||||||
+Barahona|||Dominican Republic||||||
+Dajabón|||Dominican Republic||||||
+Distrito Nacional|||Dominican Republic||||||
+Duarte|||Dominican Republic||||||
+El Seíbo|||Dominican Republic||||||
+Elías Piña|||Dominican Republic||||||
+Espaillat|||Dominican Republic||||||
+Hato Mayor|||Dominican Republic||||||
+Hermanas Mirabal|||Dominican Republic||||||
+Independencia|||Dominican Republic||||||
+La Altagracia|||Dominican Republic||||||
+La Romana|||Dominican Republic||||||
+La Vega|||Dominican Republic||||||
+María Trinidad Sánchez|||Dominican Republic||||||
+Monseñor Nouel|||Dominican Republic||||||
+Monte Cristi|||Dominican Republic||||||
+Monte Plata|||Dominican Republic||||||
+Pedernales|||Dominican Republic||||||
+Peravia|||Dominican Republic||||||
+Puerto Plata|||Dominican Republic||||||
+Samaná|||Dominican Republic||||||
+San Cristóbal|||Dominican Republic||||||
+San José de Ocoa|||Dominican Republic||||||
+San Juan|||Dominican Republic||||||
+San Pedro de Macorís|||Dominican Republic||||||
+Sánchez Ramírez|||Dominican Republic||||||
+Santiago|||Dominican Republic||||||
+Santiago Rodríguez|||Dominican Republic||||||
+Santo Domingo|||Dominican Republic||||||
+Valverde|||Dominican Republic||||||
+Ecuador|||Americas|||country|||country
+Azuay|||Ecuador||||||
+Bolívar|||Ecuador||||||
+Cañar|||Ecuador||||||
+Carchi|||Ecuador||||||
+Chimborazo|||Ecuador||||||
+Cotopaxi|||Ecuador||||||
+El Oro|||Ecuador||||||
+Esmeraldas|||Ecuador||||||
+Galápagos|||Ecuador||||||
+Guayas|||Ecuador||||||
+Imbabura|||Ecuador||||||
+Loja|||Ecuador||||||
+Los Ríos|||Ecuador||||||
+Manabí|||Ecuador||||||
+Morona-Santiago|||Ecuador||||||
+Napo|||Ecuador||||||
+Orellana|||Ecuador||||||
+Pastaza|||Ecuador||||||
+Pichincha|||Ecuador||||||
+Santa Elena|||Ecuador||||||
+Sucumbios|||Ecuador||||||
+Tungurahua|||Ecuador||||||
+Zamora-Chinchipe|||Ecuador||||||
+Egypt|||Africa|||country|||country
+Ad Daqahlīyah|||Egypt||||||
+Al Baḩr al Aḩmar|||Egypt||||||
+Al Buḩayrah|||Egypt||||||
+Al Fayyūm|||Egypt||||||
+Al Gharbīyah|||Egypt||||||
+Al Ismā‘īlīyah|||Egypt||||||
+Al Jīzah|||Egypt||||||
+Al Minūfīyah|||Egypt||||||
+Al Minyā|||Egypt||||||
+Al Qāhirah|||Egypt||||||
+Al Qalyūbīyah|||Egypt||||||
+Al Wādī al Jadīd|||Egypt||||||
+Alexandria|||Egypt||||||
+As Suways|||Egypt||||||
+Aswān|||Egypt||||||
+Asyūţ|||Egypt||||||
+Banī Suwayf|||Egypt||||||
+Būr Sa‘īd|||Egypt||||||
+Dumyāţ|||Egypt||||||
+Eastern Province|||Egypt||||||
+Janūb Sīnāʼ|||Egypt||||||
+Kafr ash Shaykh|||Egypt||||||
+Maţrūḩ|||Egypt||||||
+Muḩāfaz̧at al Uqşur|||Egypt||||||
+Qinā|||Egypt||||||
+Shamāl Sīnāʼ|||Egypt||||||
+Sūhāj|||Egypt||||||
+El Salvador|||Americas|||country|||country
+Ahuachapán|||El Salvador||||||
+Cabañas|||El Salvador||||||
+Chalatenango|||El Salvador||||||
+Cuscatlán|||El Salvador||||||
+La Libertad|||El Salvador||||||
+La Paz|||El Salvador||||||
+La Unión|||El Salvador||||||
+Morazán|||El Salvador||||||
+San Miguel|||El Salvador||||||
+San Salvador|||El Salvador||||||
+San Vicente|||El Salvador||||||
+Santa Ana|||El Salvador||||||
+Sonsonate|||El Salvador||||||
+Usulután|||El Salvador||||||
+Equatorial Guinea|||Africa|||country|||country
+Annobón|||Equatorial Guinea||||||
+Bioko Norte|||Equatorial Guinea||||||
+Bioko Sur|||Equatorial Guinea||||||
+Centro Sur|||Equatorial Guinea||||||
+Kié-Ntem|||Equatorial Guinea||||||
+Litoral|||Equatorial Guinea||||||
+Wele-Nzas|||Equatorial Guinea||||||
+Eritrea|||Africa|||country|||country
+Ānseba|||Eritrea||||||
+Debub|||Eritrea||||||
+Debubawī Kʼeyih Bahrī|||Eritrea||||||
+Gash Barka|||Eritrea||||||
+Maʼākel|||Eritrea||||||
+Semēnawī Kʼeyih Bahrī|||Eritrea||||||
+Estonia|||Europe|||country|||country
+Harjumaa|||Estonia||||||
+Hiiumaa|||Estonia||||||
+Ida-Virumaa|||Estonia||||||
+Järvamaa|||Estonia||||||
+Jõgevamaa|||Estonia||||||
+Lääne-Virumaa|||Estonia||||||
+Läänemaa|||Estonia||||||
+Pärnumaa|||Estonia||||||
+Põlvamaa|||Estonia||||||
+Raplamaa|||Estonia||||||
+Saaremaa|||Estonia||||||
+Tartumaa|||Estonia||||||
+Valgamaa|||Estonia||||||
+Viljandimaa|||Estonia||||||
+Võrumaa|||Estonia||||||
+Ethiopia|||Africa|||country|||country
+Ādīs Ābeba|||Ethiopia||||||
+Afar Regional State|||Ethiopia||||||
+Dire Dawa Region|||Ethiopia||||||
+Gambela|||Ethiopia||||||
+Somalia Regional State|||Ethiopia||||||
+SSNPR|||Ethiopia||||||
+The State of Amhara|||Ethiopia||||||
+The State of Benshangul/Gumuz|||Ethiopia||||||
+The State of Harari People|||Ethiopia||||||
+The State of Oromia|||Ethiopia||||||
+Tigray Regional State|||Ethiopia||||||
+Faroe Islands|||Europe|||country|||country
+Eysturoy|||Faroe Islands||||||
+Norðoyar|||Faroe Islands||||||
+Sandoy|||Faroe Islands||||||
+Streymoy|||Faroe Islands||||||
+Suðuroy|||Faroe Islands||||||
+Vágar|||Faroe Islands||||||
+Fiji|||Oceania|||country|||country
+Central|||Fiji||||||
+Eastern|||Fiji||||||
+Northern|||Fiji||||||
+Rotuma|||Fiji||||||
+Western|||Fiji||||||
+Finland|||Europe|||country|||country
+Lapland|||Finland||||||
+Oulu|||Finland||||||
+Province of Eastern Finland|||Finland||||||
+Province of Southern Finland|||Finland||||||
+Western Finland|||Finland||||||
+France|||Europe|||country|||country
+Alsace|||France||||||
+Aquitaine|||France||||||
+Auvergne|||France||||||
+Basse-Normandie|||France||||||
+Bourgogne|||France||||||
+Brittany|||France||||||
+Centre|||France||||||
+Champagne-Ardenne|||France||||||
+Corsica|||France||||||
+Franche-Comté|||France||||||
+Haute-Normandie|||France||||||
+Île-de-France|||France||||||
+Languedoc-Roussillon|||France||||||
+Limousin|||France||||||
+Lorraine|||France||||||
+Midi-Pyrénées|||France||||||
+Nord-Pas-de-Calais|||France||||||
+Pays de la Loire|||France||||||
+Picardie|||France||||||
+Poitou-Charentes|||France||||||
+Provence-Alpes-Côte d'Azur|||France||||||
+Rhône-Alpes|||France||||||
+French Guiana|||Americas|||country|||country
+Guyane|||French Guiana||||||
+French Polynesia|||Oceania|||country|||country
+Îles du Vent|||French Polynesia||||||
+French Southern Territories|||Africa|||country|||country
+Kerguelen|||French Southern Territories||||||
+Gabon|||Africa|||country|||country
+Estuaire|||Gabon||||||
+Haut-Ogooué|||Gabon||||||
+Moyen-Ogooué|||Gabon||||||
+Ngounié|||Gabon||||||
+Nyanga|||Gabon||||||
+Ogooué-Ivindo|||Gabon||||||
+Ogooué-Lolo|||Gabon||||||
+Ogooué-Maritime|||Gabon||||||
+Woleu-Ntem|||Gabon||||||
+Gambia|||Africa|||country|||country
+Banjul|||Gambia||||||
+Central River|||Gambia||||||
+Lower River|||Gambia||||||
+North Bank|||Gambia||||||
+Upper River|||Gambia||||||
+Western|||Gambia||||||
+Georgia|||Asia|||country|||country
+Germany|||Europe|||country|||country
+Baden-Württemberg|||Germany||||||
+Bayern|||Germany||||||
+Berlin|||Germany||||||
+Brandenburg|||Germany||||||
+Bremen|||Germany||||||
+Hamburg|||Germany||||||
+Hessen|||Germany||||||
+Mecklenburg-Vorpommern|||Germany||||||
+Niedersachsen|||Germany||||||
+Nordrhein-Westfalen|||Germany||||||
+Rheinland-Pfalz|||Germany||||||
+Saarland|||Germany||||||
+Sachsen|||Germany||||||
+Sachsen-Anhalt|||Germany||||||
+Schleswig-Holstein|||Germany||||||
+Thüringen|||Germany||||||
+Ghana|||Africa|||country|||country
+Ashanti|||Ghana||||||
+Brong-Ahafo|||Ghana||||||
+Central|||Ghana||||||
+Eastern|||Ghana||||||
+Greater Accra|||Ghana||||||
+Northern|||Ghana||||||
+Upper East|||Ghana||||||
+Upper West|||Ghana||||||
+Volta|||Ghana||||||
+Western|||Ghana||||||
+Greece|||Europe|||country|||country
+Greenland|||Americas|||country|||country
+Kujalleq|||Greenland||||||
+Qaasuitsup|||Greenland||||||
+Qeqqata|||Greenland||||||
+Sermersooq|||Greenland||||||
+Grenada|||Americas|||country|||country
+Saint Andrew|||Grenada||||||
+Saint David|||Grenada||||||
+Saint George|||Grenada||||||
+Saint John|||Grenada||||||
+Saint Mark|||Grenada||||||
+Saint Patrick|||Grenada||||||
+Guadeloupe|||Americas|||country|||country
+Guadeloupe|||Guadeloupe||||||
+Guam|||Oceania|||country|||country
+Agana Heights Municipality|||Guam||||||
+Agat Municipality|||Guam||||||
+Asan-Maina Municipality|||Guam||||||
+Barrigada Municipality|||Guam||||||
+Chalan Pago-Ordot Municipality|||Guam||||||
+Dededo Municipality|||Guam||||||
+Hagåtña Municipality|||Guam||||||
+Inarajan Municipality|||Guam||||||
+Mangilao Municipality|||Guam||||||
+Merizo Municipality|||Guam||||||
+Mongmong-Toto-Maite Municipality|||Guam||||||
+Piti Municipality|||Guam||||||
+Santa Rita Municipality|||Guam||||||
+Sinajana Municipality|||Guam||||||
+Talofofo Municipality|||Guam||||||
+Tamuning-Tumon-Harmon Municipality|||Guam||||||
+Umatac Municipality|||Guam||||||
+Yigo Municipality|||Guam||||||
+Yona Municipality|||Guam||||||
+Guatemala|||Americas|||country|||country
+Alta Verapaz|||Guatemala||||||
+Baja Verapaz|||Guatemala||||||
+Chimaltenango|||Guatemala||||||
+Chiquimula|||Guatemala||||||
+El Progreso|||Guatemala||||||
+Escuintla|||Guatemala||||||
+Guatemala|||Guatemala||||||
+Huehuetenango|||Guatemala||||||
+Izabal|||Guatemala||||||
+Jalapa|||Guatemala||||||
+Jutiapa|||Guatemala||||||
+Petén|||Guatemala||||||
+Quetzaltenango|||Guatemala||||||
+Quiché|||Guatemala||||||
+Retalhuleu|||Guatemala||||||
+Sacatepéquez|||Guatemala||||||
+San Marcos|||Guatemala||||||
+Santa Rosa|||Guatemala||||||
+Sololá|||Guatemala||||||
+Suchitepéquez|||Guatemala||||||
+Totonicapán|||Guatemala||||||
+Zacapa|||Guatemala||||||
+Guinea|||Africa|||country|||country
+Conakry|||Guinea||||||
+Guinea-Bissau|||Africa|||country|||country
+Bafatá|||Guinea-Bissau||||||
+Biombo|||Guinea-Bissau||||||
+Bissau Autonomous Region|||Guinea-Bissau||||||
+Bolama and Bijagos|||Guinea-Bissau||||||
+Cacheu|||Guinea-Bissau||||||
+Gabú|||Guinea-Bissau||||||
+Oio|||Guinea-Bissau||||||
+Quinara|||Guinea-Bissau||||||
+Tombali|||Guinea-Bissau||||||
+Guyana|||Americas|||country|||country
+Barima-Waini|||Guyana||||||
+Cuyuni-Mazaruni|||Guyana||||||
+Demerara-Mahaica|||Guyana||||||
+East Berbice-Corentyne|||Guyana||||||
+Essequibo Islands-West Demerara|||Guyana||||||
+Mahaica-Berbice|||Guyana||||||
+Pomeroon-Supenaam|||Guyana||||||
+Potaro-Siparuni|||Guyana||||||
+Upper Demerara-Berbice|||Guyana||||||
+Upper Takutu-Upper Essequibo|||Guyana||||||
+Haiti|||Americas|||country|||country
+Artibonite|||Haiti||||||
+Centre|||Haiti||||||
+GrandʼAnse|||Haiti||||||
+Nippes|||Haiti||||||
+Nord|||Haiti||||||
+Nord-Est|||Haiti||||||
+Nord-Ouest|||Haiti||||||
+Ouest|||Haiti||||||
+Sud|||Haiti||||||
+Sud-Est|||Haiti||||||
+Honduras|||Americas|||country|||country
+Atlántida|||Honduras||||||
+Bay Islands|||Honduras||||||
+Choluteca|||Honduras||||||
+Colón|||Honduras||||||
+Comayagua|||Honduras||||||
+Copán|||Honduras||||||
+Cortés|||Honduras||||||
+El Paraíso|||Honduras||||||
+Francisco Morazán|||Honduras||||||
+Gracias a Dios|||Honduras||||||
+Intibucá|||Honduras||||||
+La Paz|||Honduras||||||
+Lempira|||Honduras||||||
+Ocotepeque|||Honduras||||||
+Olancho|||Honduras||||||
+Santa Bárbara|||Honduras||||||
+Valle|||Honduras||||||
+Yoro|||Honduras||||||
+Hong Kong|||Asia|||country|||country
+Kowloon City|||Hong Kong||||||
+Hungary|||Europe|||country|||country
+Bács-Kiskun|||Hungary||||||
+Baranya|||Hungary||||||
+Békés|||Hungary||||||
+Borsod-Abaúj-Zemplén|||Hungary||||||
+Budapest|||Hungary||||||
+Csongrád|||Hungary||||||
+Fejér|||Hungary||||||
+Győr-Moson-Sopron|||Hungary||||||
+Hajdú-Bihar|||Hungary||||||
+Heves|||Hungary||||||
+Jász-Nagykun-Szolnok|||Hungary||||||
+Komárom-Esztergom|||Hungary||||||
+Nógrád|||Hungary||||||
+Pest|||Hungary||||||
+Somogy|||Hungary||||||
+Szabolcs-Szatmár-Bereg|||Hungary||||||
+Tolna|||Hungary||||||
+Vas|||Hungary||||||
+Veszprém|||Hungary||||||
+Zala|||Hungary||||||
+Iceland|||Europe|||country|||country
+Capital Region|||Iceland||||||
+East|||Iceland||||||
+Northeast|||Iceland||||||
+Northwest|||Iceland||||||
+South|||Iceland||||||
+Southern Peninsula|||Iceland||||||
+West|||Iceland||||||
+Westfjords|||Iceland||||||
+India|||Asia|||country|||country
+Andaman and Nicobar Islands|||India||||||
+Andhra Pradesh|||India||||||
+Arunāchal Pradesh|||India||||||
+Assam|||India||||||
+Bengal|||India||||||
+Bihār|||India||||||
+Chandīgarh|||India||||||
+Chhattisgarh|||India||||||
+Dādra and Nagar Haveli|||India||||||
+Daman and Diu|||India||||||
+Goa|||India||||||
+Gujarāt|||India||||||
+Haryana|||India||||||
+Himachal Pradesh|||India||||||
+Jharkhand|||India||||||
+Karnātaka|||India||||||
+Kashmir|||India||||||
+Kerala|||India||||||
+Laccadives|||India||||||
+Madhya Pradesh|||India||||||
+Mahārāshtra|||India||||||
+Manipur|||India||||||
+Meghālaya|||India||||||
+Mizoram|||India||||||
+Nāgāland|||India||||||
+NCT|||India||||||
+Orissa|||India||||||
+Pondicherry|||India||||||
+Punjab|||India||||||
+Rajasthan|||India||||||
+Sikkim|||India||||||
+Tamil Nādu|||India||||||
+Tripura|||India||||||
+Uttar Pradesh|||India||||||
+Uttarakhand|||India||||||
+Indonesia|||Asia|||country|||country
+Aceh|||Indonesia||||||
+Bali|||Indonesia||||||
+Bangka-Belitung|||Indonesia||||||
+Banten|||Indonesia||||||
+Bengkulu|||Indonesia||||||
+Central Java|||Indonesia||||||
+Central Sulawesi|||Indonesia||||||
+Daerah Istimewa Yogyakarta|||Indonesia||||||
+East Java|||Indonesia||||||
+East Kalimantan|||Indonesia||||||
+East Nusa Tenggara|||Indonesia||||||
+Gorontalo|||Indonesia||||||
+Irian Jaya Barat|||Indonesia||||||
+Jakarta Raya|||Indonesia||||||
+Jambi|||Indonesia||||||
+Kalimantan Tengah|||Indonesia||||||
+Lampung|||Indonesia||||||
+Maluku|||Indonesia||||||
+Maluku Utara|||Indonesia||||||
+North Sulawesi|||Indonesia||||||
+North Sumatra|||Indonesia||||||
+Nusa Tenggara Barat|||Indonesia||||||
+Papua|||Indonesia||||||
+Riau|||Indonesia||||||
+Riau Islands|||Indonesia||||||
+South Kalimantan|||Indonesia||||||
+South Sulawesi|||Indonesia||||||
+South Sumatra|||Indonesia||||||
+Sulawesi Barat|||Indonesia||||||
+Sulawesi Tenggara|||Indonesia||||||
+West Java|||Indonesia||||||
+West Kalimantan|||Indonesia||||||
+West Sumatra|||Indonesia||||||
+Iran, Islamic Republic of|||Asia|||country|||country
+Ardabīl|||Iran, Islamic Republic of||||||
+Āz̄ārbāyjān-e Gharbī|||Iran, Islamic Republic of||||||
+Bushehr|||Iran, Islamic Republic of||||||
+Chahār Maḩāll va Bakhtīārī|||Iran, Islamic Republic of||||||
+East Azarbaijan|||Iran, Islamic Republic of||||||
+Eşfahān|||Iran, Islamic Republic of||||||
+Fārs|||Iran, Islamic Republic of||||||
+Gīlān|||Iran, Islamic Republic of||||||
+Golestān|||Iran, Islamic Republic of||||||
+Hamadān|||Iran, Islamic Republic of||||||
+Hormozgān|||Iran, Islamic Republic of||||||
+Īlām|||Iran, Islamic Republic of||||||
+Kermān|||Iran, Islamic Republic of||||||
+Kermānshāh|||Iran, Islamic Republic of||||||
+Khorāsān-e Jonūbī|||Iran, Islamic Republic of||||||
+Khorāsān-e Shomālī|||Iran, Islamic Republic of||||||
+Khūzestān|||Iran, Islamic Republic of||||||
+Kohgīlūyeh va Būyer Aḩmad|||Iran, Islamic Republic of||||||
+Kordestān|||Iran, Islamic Republic of||||||
+Lorestān|||Iran, Islamic Republic of||||||
+Markazi|||Iran, Islamic Republic of||||||
+Māzandarān|||Iran, Islamic Republic of||||||
+Ostān-e Alborz|||Iran, Islamic Republic of||||||
+Qazvīn|||Iran, Islamic Republic of||||||
+Qom|||Iran, Islamic Republic of||||||
+Razavi Khorasan|||Iran, Islamic Republic of||||||
+Semnān|||Iran, Islamic Republic of||||||
+Sīstān va Balūchestān|||Iran, Islamic Republic of||||||
+Tehrān|||Iran, Islamic Republic of||||||
+Yazd|||Iran, Islamic Republic of||||||
+Zanjan|||Iran, Islamic Republic of||||||
+Iraq|||Asia|||country|||country
+Al Başrah|||Iraq||||||
+Al Muthanná|||Iraq||||||
+Al Qādisīyah|||Iraq||||||
+An Najaf|||Iraq||||||
+Anbar|||Iraq||||||
+Arbīl|||Iraq||||||
+As Sulaymānīyah|||Iraq||||||
+At Taʼmīm|||Iraq||||||
+Bābil|||Iraq||||||
+Baghdād|||Iraq||||||
+Dahūk|||Iraq||||||
+Dhi Qar|||Iraq||||||
+Diyala|||Iraq||||||
+Karbalāʼ|||Iraq||||||
+Maysan|||Iraq||||||
+Nīnawá|||Iraq||||||
+Şalāḩ ad Dīn|||Iraq||||||
+Wāsiţ|||Iraq||||||
+Ireland|||Europe|||country|||country
+Connaught|||Ireland||||||
+Leinster|||Ireland||||||
+Munster|||Ireland||||||
+Ulster|||Ireland||||||
+Israel|||Asia|||country|||country
+Central District|||Israel||||||
+Haifa|||Israel||||||
+Jerusalem District|||Israel||||||
+Northern District|||Israel||||||
+Southern District|||Israel||||||
+Tel Aviv|||Israel||||||
+Italy|||Europe|||country|||country
+Abruzzo|||Italy||||||
+Aosta Valley|||Italy||||||
+Apulia|||Italy||||||
+Basilicate|||Italy||||||
+Calabria|||Italy||||||
+Campania|||Italy||||||
+Emilia-Romagna|||Italy||||||
+Friuli Venezia Giulia|||Italy||||||
+Latium|||Italy||||||
+Liguria|||Italy||||||
+Lombardy|||Italy||||||
+Molise|||Italy||||||
+Piedmont|||Italy||||||
+Sardinia|||Italy||||||
+Sicily|||Italy||||||
+The Marches|||Italy||||||
+Trentino-Alto Adige|||Italy||||||
+Tuscany|||Italy||||||
+Umbria|||Italy||||||
+Veneto|||Italy||||||
+Jamaica|||Americas|||country|||country
+Clarendon|||Jamaica||||||
+Hanover Parish|||Jamaica||||||
+Kingston|||Jamaica||||||
+Manchester|||Jamaica||||||
+Portland|||Jamaica||||||
+Saint Andrew|||Jamaica||||||
+Saint Ann|||Jamaica||||||
+Saint Catherine|||Jamaica||||||
+Saint James|||Jamaica||||||
+Saint Mary|||Jamaica||||||
+Saint Thomas|||Jamaica||||||
+St. Elizabeth|||Jamaica||||||
+Trelawny|||Jamaica||||||
+Westmoreland|||Jamaica||||||
+Japan|||Asia|||country|||country
+Aichi|||Japan||||||
+Akita|||Japan||||||
+Aomori|||Japan||||||
+Chiba|||Japan||||||
+Ehime|||Japan||||||
+Fukui|||Japan||||||
+Fukuoka|||Japan||||||
+Fukushima|||Japan||||||
+Gifu|||Japan||||||
+Gunma|||Japan||||||
+Hiroshima|||Japan||||||
+Hokkaidō|||Japan||||||
+Hyōgo|||Japan||||||
+Ibaraki|||Japan||||||
+Ishikawa|||Japan||||||
+Iwate|||Japan||||||
+Kagawa|||Japan||||||
+Kagoshima|||Japan||||||
+Kanagawa|||Japan||||||
+Kōchi|||Japan||||||
+Kumamoto Prefecture|||Japan||||||
+Kyōto|||Japan||||||
+Mie|||Japan||||||
+Miyagi|||Japan||||||
+Miyazaki|||Japan||||||
+Nagano|||Japan||||||
+Nagasaki|||Japan||||||
+Nara|||Japan||||||
+Niigata|||Japan||||||
+Ōita|||Japan||||||
+Okayama|||Japan||||||
+Okinawa|||Japan||||||
+Ōsaka|||Japan||||||
+Saga|||Japan||||||
+Saitama|||Japan||||||
+Shiga|||Japan||||||
+Shimane|||Japan||||||
+Shizuoka|||Japan||||||
+Tochigi|||Japan||||||
+Tokushima|||Japan||||||
+Tōkyō|||Japan||||||
+Tottori|||Japan||||||
+Toyama|||Japan||||||
+Wakayama|||Japan||||||
+Yamagata|||Japan||||||
+Yamaguchi|||Japan||||||
+Yamanashi|||Japan||||||
+Jordan|||Asia|||country|||country
+Amman|||Jordan||||||
+Aqaba|||Jordan||||||
+Balqa|||Jordan||||||
+Irbid|||Jordan||||||
+Karak|||Jordan||||||
+Madaba|||Jordan||||||
+Mafraq|||Jordan||||||
+Ma’an|||Jordan||||||
+Tafielah|||Jordan||||||
+Zarqa|||Jordan||||||
+Kazakhstan|||Asia|||country|||country
+Almaty|||Kazakhstan||||||
+Almaty Qalasy|||Kazakhstan||||||
+Aqmola|||Kazakhstan||||||
+Aqtöbe|||Kazakhstan||||||
+Astana Qalasy|||Kazakhstan||||||
+Atyraū|||Kazakhstan||||||
+Batys Qazaqstan|||Kazakhstan||||||
+Bayqongyr Qalasy|||Kazakhstan||||||
+East Kazakhstan|||Kazakhstan||||||
+Mangghystaū|||Kazakhstan||||||
+Ongtüstik Qazaqstan|||Kazakhstan||||||
+Pavlodar|||Kazakhstan||||||
+Qaraghandy|||Kazakhstan||||||
+Qostanay|||Kazakhstan||||||
+Qyzylorda|||Kazakhstan||||||
+Soltüstik Qazaqstan|||Kazakhstan||||||
+Zhambyl|||Kazakhstan||||||
+Kenya|||Africa|||country|||country
+Central|||Kenya||||||
+Coast|||Kenya||||||
+Eastern|||Kenya||||||
+Nairobi Area|||Kenya||||||
+North-Eastern|||Kenya||||||
+Nyanza|||Kenya||||||
+Rift Valley|||Kenya||||||
+Western|||Kenya||||||
+Kiribati|||Oceania|||country|||country
+Gilbert Islands|||Kiribati||||||
+Line Islands|||Kiribati||||||
+Phoenix Islands|||Kiribati||||||
+Korea, Democratic People's Republic of|||Asia|||country|||country
+Chagang-do|||Korea, Democratic People's Republic of||||||
+Gangwon|||Korea, Democratic People's Republic of||||||
+Hamgyŏng-bukto|||Korea, Democratic People's Republic of||||||
+Hamgyŏng-namdo|||Korea, Democratic People's Republic of||||||
+Hwanghae-bukto|||Korea, Democratic People's Republic of||||||
+Hwanghae-namdo|||Korea, Democratic People's Republic of||||||
+Najin Sŏnbong-si|||Korea, Democratic People's Republic of||||||
+P'yŏngan-bukto|||Korea, Democratic People's Republic of||||||
+P'yŏngan-namdo|||Korea, Democratic People's Republic of||||||
+P'yŏngyang-si|||Korea, Democratic People's Republic of||||||
+Yanggang-do|||Korea, Democratic People's Republic of||||||
+Korea, Republic of|||Asia|||country|||country
+Busan|||Korea, Republic of||||||
+Daegu|||Korea, Republic of||||||
+Daejeon|||Korea, Republic of||||||
+Gangwon|||Korea, Republic of||||||
+Gwangju|||Korea, Republic of||||||
+Gyeonggi|||Korea, Republic of||||||
+Incheon|||Korea, Republic of||||||
+Jeju|||Korea, Republic of||||||
+North Chungcheong|||Korea, Republic of||||||
+North Gyeongsang|||Korea, Republic of||||||
+North Jeolla|||Korea, Republic of||||||
+Seoul|||Korea, Republic of||||||
+South Chungcheong|||Korea, Republic of||||||
+South Gyeongsang|||Korea, Republic of||||||
+South Jeolla|||Korea, Republic of||||||
+Ulsan|||Korea, Republic of||||||
+Kuwait|||Asia|||country|||country
+Al Aḩmadī|||Kuwait||||||
+Al Jahrāʼ|||Kuwait||||||
+Al ‘Āşimah|||Kuwait||||||
+Ḩawallī|||Kuwait||||||
+Kyrgyzstan|||Asia|||country|||country
+Batken|||Kyrgyzstan||||||
+Bishkek|||Kyrgyzstan||||||
+Chüy|||Kyrgyzstan||||||
+Jalal-Abad|||Kyrgyzstan||||||
+Naryn|||Kyrgyzstan||||||
+Osh|||Kyrgyzstan||||||
+Talas|||Kyrgyzstan||||||
+Ysyk-Köl|||Kyrgyzstan||||||
+Lao People's Democratic Republic|||Asia|||country|||country
+Attapu|||Lao People's Democratic Republic||||||
+Bokèo|||Lao People's Democratic Republic||||||
+Bolikhamxai|||Lao People's Democratic Republic||||||
+Champasak|||Lao People's Democratic Republic||||||
+Houaphan|||Lao People's Democratic Republic||||||
+Khammouan|||Lao People's Democratic Republic||||||
+Khouèng Viangchan|||Lao People's Democratic Republic||||||
+Louangphabang|||Lao People's Democratic Republic||||||
+Loungnamtha|||Lao People's Democratic Republic||||||
+Oudômxai|||Lao People's Democratic Republic||||||
+Phôngsali|||Lao People's Democratic Republic||||||
+Salavan|||Lao People's Democratic Republic||||||
+Savannahkhét|||Lao People's Democratic Republic||||||
+Viangchan|||Lao People's Democratic Republic||||||
+Xékong|||Lao People's Democratic Republic||||||
+Xiagnabouli|||Lao People's Democratic Republic||||||
+Xiangkhoang|||Lao People's Democratic Republic||||||
+Latvia|||Europe|||country|||country
+Ādažu Novads|||Latvia||||||
+Aglonas Novads|||Latvia||||||
+Aizkraukles Rajons|||Latvia||||||
+Aizputes Novads|||Latvia||||||
+Aknīstes Novads|||Latvia||||||
+Alojas Novads|||Latvia||||||
+Alsungas Novads|||Latvia||||||
+Alūksnes Rajons|||Latvia||||||
+Amatas Novads|||Latvia||||||
+Apes Novads|||Latvia||||||
+Auces Novads|||Latvia||||||
+Babītes Novads|||Latvia||||||
+Baldones Novads|||Latvia||||||
+Baltinavas Novads|||Latvia||||||
+Balvu Rajons|||Latvia||||||
+Bauskas Rajons|||Latvia||||||
+Beverīnas Novads|||Latvia||||||
+Brocēnu Novads|||Latvia||||||
+Burtnieku Novads|||Latvia||||||
+Carnikavas Novads|||Latvia||||||
+Cēsu Rajons|||Latvia||||||
+Cesvaines Novads|||Latvia||||||
+Ciblas Novads|||Latvia||||||
+Dagdas Novads|||Latvia||||||
+Daugavpils|||Latvia||||||
+Daugavpils Rajons|||Latvia||||||
+Dobeles Rajons|||Latvia||||||
+Dundagas Novads|||Latvia||||||
+Durbes Novads|||Latvia||||||
+Engures Novads|||Latvia||||||
+Ērgļu Novads|||Latvia||||||
+Garkalnes Novads|||Latvia||||||
+Grobiņas Novads|||Latvia||||||
+Gulbenes Rajons|||Latvia||||||
+Iecavas Novads|||Latvia||||||
+Ikšķiles Novads|||Latvia||||||
+Ilūkstes Novads|||Latvia||||||
+Inčukalna Novads|||Latvia||||||
+Jaunjelgavas Novads|||Latvia||||||
+Jaunpiebalgas Novads|||Latvia||||||
+Jaunpils Novads|||Latvia||||||
+Jēkabpils Rajons|||Latvia||||||
+Jelgava|||Latvia||||||
+Jelgavas Rajons|||Latvia||||||
+Jūrmala|||Latvia||||||
+Kandavas Novads|||Latvia||||||
+Kārsavas Novads|||Latvia||||||
+Ķeguma Novads|||Latvia||||||
+Ķekavas Novads|||Latvia||||||
+Kocēnu Novads|||Latvia||||||
+Kokneses Novads|||Latvia||||||
+Krāslavas Rajons|||Latvia||||||
+Krimuldas Novads|||Latvia||||||
+Krustpils Novads|||Latvia||||||
+Kuldīgas Rajons|||Latvia||||||
+Lielvārdes Novads|||Latvia||||||
+Liepāja|||Latvia||||||
+Liepājas Rajons|||Latvia||||||
+Līgatnes Novads|||Latvia||||||
+Limbažu Rajons|||Latvia||||||
+Līvānu Novads|||Latvia||||||
+Lubānas Novads|||Latvia||||||
+Ludzas Rajons|||Latvia||||||
+Madonas Rajons|||Latvia||||||
+Mālpils Novads|||Latvia||||||
+Mārupes Novads|||Latvia||||||
+Mazsalacas Novads|||Latvia||||||
+Naukšēnu Novads|||Latvia||||||
+Neretas Novads|||Latvia||||||
+Nīcas Novads|||Latvia||||||
+Ogres Rajons|||Latvia||||||
+Olaines Novads|||Latvia||||||
+Ozolnieku Novads|||Latvia||||||
+Pārgaujas Novads|||Latvia||||||
+Pāvilostas Novads|||Latvia||||||
+Pļaviņu Novads|||Latvia||||||
+Preiļu Rajons|||Latvia||||||
+Priekules Novads|||Latvia||||||
+Priekuļu Novads|||Latvia||||||
+Raunas Novads|||Latvia||||||
+Rēzeknes Rajons|||Latvia||||||
+Riebiņu Novads|||Latvia||||||
+Rīga|||Latvia||||||
+Rīgas Rajons|||Latvia||||||
+Rojas Novads|||Latvia||||||
+Ropažu Novads|||Latvia||||||
+Rucavas Novads|||Latvia||||||
+Rugāju Novads|||Latvia||||||
+Rūjienas Novads|||Latvia||||||
+Rundāles Novads|||Latvia||||||
+Salacgrīvas Novads|||Latvia||||||
+Salas Novads|||Latvia||||||
+Salaspils Novads|||Latvia||||||
+Saldus Rajons|||Latvia||||||
+Saulkrastu Novads|||Latvia||||||
+Sējas Novads|||Latvia||||||
+Siguldas Novads|||Latvia||||||
+Skrīveru Novads|||Latvia||||||
+Skrundas Novads|||Latvia||||||
+Smiltenes Novads|||Latvia||||||
+Stopiņu Novads|||Latvia||||||
+Strenču Novads|||Latvia||||||
+Talsu Rajons|||Latvia||||||
+Tērvetes Novads|||Latvia||||||
+Tukuma Rajons|||Latvia||||||
+Vaiņodes Novads|||Latvia||||||
+Valkas Rajons|||Latvia||||||
+Valmieras Rajons|||Latvia||||||
+Varakļānu Novads|||Latvia||||||
+Vārkavas Novads|||Latvia||||||
+Vecpiebalgas Novads|||Latvia||||||
+Vecumnieku Novads|||Latvia||||||
+Ventspils|||Latvia||||||
+Ventspils Rajons|||Latvia||||||
+Viesītes Novads|||Latvia||||||
+Viļakas Novads|||Latvia||||||
+Viļānu Novads|||Latvia||||||
+Zilupes Novads|||Latvia||||||
+Lebanon|||Asia|||country|||country
+Aakkâr|||Lebanon||||||
+Baalbek-Hermel|||Lebanon||||||
+Béqaa|||Lebanon||||||
+Beyrouth|||Lebanon||||||
+Liban-Nord|||Lebanon||||||
+Liban-Sud|||Lebanon||||||
+Mont-Liban|||Lebanon||||||
+Nabatîyé|||Lebanon||||||
+Lesotho|||Africa|||country|||country
+Berea|||Lesotho||||||
+Butha-Buthe|||Lesotho||||||
+Leribe|||Lesotho||||||
+Mafeteng|||Lesotho||||||
+Maseru|||Lesotho||||||
+Mohaleʼs Hoek|||Lesotho||||||
+Mokhotlong|||Lesotho||||||
+Qachaʼs Nek|||Lesotho||||||
+Quthing|||Lesotho||||||
+Thaba-Tseka|||Lesotho||||||
+Liberia|||Africa|||country|||country
+Bomi|||Liberia||||||
+Bong|||Liberia||||||
+Gbarpolu|||Liberia||||||
+Grand Bassa|||Liberia||||||
+Grand Cape Mount|||Liberia||||||
+Grand Gedeh|||Liberia||||||
+Grand Kru|||Liberia||||||
+Lofa|||Liberia||||||
+Margibi|||Liberia||||||
+Maryland|||Liberia||||||
+Montserrado|||Liberia||||||
+Nimba|||Liberia||||||
+River Cess|||Liberia||||||
+River Gee|||Liberia||||||
+Sinoe|||Liberia||||||
+Libyan Arab Jamahiriya|||Africa|||country|||country
+Al Jabal al Akhḑar|||Libyan Arab Jamahiriya||||||
+Al Jufrah|||Libyan Arab Jamahiriya||||||
+Al Kufrah|||Libyan Arab Jamahiriya||||||
+Al Marj|||Libyan Arab Jamahiriya||||||
+An Nuqāţ al Khams|||Libyan Arab Jamahiriya||||||
+Ash Shāţiʼ|||Libyan Arab Jamahiriya||||||
+Az Zāwiyah|||Libyan Arab Jamahiriya||||||
+Banghāzī|||Libyan Arab Jamahiriya||||||
+Darnah|||Libyan Arab Jamahiriya||||||
+Ghāt|||Libyan Arab Jamahiriya||||||
+Mişrātah|||Libyan Arab Jamahiriya||||||
+Murzuq|||Libyan Arab Jamahiriya||||||
+Nālūt|||Libyan Arab Jamahiriya||||||
+Sabhā|||Libyan Arab Jamahiriya||||||
+Sha‘bīyat al Buţnān|||Libyan Arab Jamahiriya||||||
+Sha‘bīyat al Jabal al Gharbī|||Libyan Arab Jamahiriya||||||
+Sha‘bīyat al Jafārah|||Libyan Arab Jamahiriya||||||
+Sha‘bīyat al Marqab|||Libyan Arab Jamahiriya||||||
+Sha‘bīyat al Wāḩāt|||Libyan Arab Jamahiriya||||||
+Sha‘bīyat Wādī al Ḩayāt|||Libyan Arab Jamahiriya||||||
+Surt|||Libyan Arab Jamahiriya||||||
+Ţarābulus|||Libyan Arab Jamahiriya||||||
+Liechtenstein|||Europe|||country|||country
+Balzers|||Liechtenstein||||||
+Eschen|||Liechtenstein||||||
+Gamprin|||Liechtenstein||||||
+Mauren|||Liechtenstein||||||
+Planken|||Liechtenstein||||||
+Ruggell|||Liechtenstein||||||
+Schaan|||Liechtenstein||||||
+Schellenberg|||Liechtenstein||||||
+Triesen|||Liechtenstein||||||
+Triesenberg|||Liechtenstein||||||
+Vaduz|||Liechtenstein||||||
+Lithuania|||Europe|||country|||country
+Alytaus Apskritis|||Lithuania||||||
+Kauno Apskritis|||Lithuania||||||
+Klaipėdos Apskritis|||Lithuania||||||
+Marijampolės Apskritis|||Lithuania||||||
+Panevėžio Apskritis|||Lithuania||||||
+Šiaulių Apskritis|||Lithuania||||||
+Tauragės Apskritis|||Lithuania||||||
+Telšių Apskritis|||Lithuania||||||
+Utenos Apskritis|||Lithuania||||||
+Vilniaus Apskritis|||Lithuania||||||
+Luxembourg|||Europe|||country|||country
+Macao|||Asia|||country|||country
+Macau|||Macao||||||
+Macedonia, the former Yugoslav Republic of|||Europe|||country|||country
+Aračinovo|||Macedonia, the former Yugoslav Republic of||||||
+Berovo|||Macedonia, the former Yugoslav Republic of||||||
+Bitola|||Macedonia, the former Yugoslav Republic of||||||
+Bogdanci|||Macedonia, the former Yugoslav Republic of||||||
+Bogovinje|||Macedonia, the former Yugoslav Republic of||||||
+Bosilovo|||Macedonia, the former Yugoslav Republic of||||||
+Brvenica|||Macedonia, the former Yugoslav Republic of||||||
+Centar Župa|||Macedonia, the former Yugoslav Republic of||||||
+Češinovo|||Macedonia, the former Yugoslav Republic of||||||
+Čučer-Sandevo|||Macedonia, the former Yugoslav Republic of||||||
+Debar|||Macedonia, the former Yugoslav Republic of||||||
+Delčevo|||Macedonia, the former Yugoslav Republic of||||||
+Demir Hisar|||Macedonia, the former Yugoslav Republic of||||||
+Demir Kapija|||Macedonia, the former Yugoslav Republic of||||||
+Dojran|||Macedonia, the former Yugoslav Republic of||||||
+Dolneni|||Macedonia, the former Yugoslav Republic of||||||
+Drugovo|||Macedonia, the former Yugoslav Republic of||||||
+Gevgelija|||Macedonia, the former Yugoslav Republic of||||||
+Gostivar|||Macedonia, the former Yugoslav Republic of||||||
+Gradsko|||Macedonia, the former Yugoslav Republic of||||||
+Ilinden|||Macedonia, the former Yugoslav Republic of||||||
+Jegunovce|||Macedonia, the former Yugoslav Republic of||||||
+Karbinci|||Macedonia, the former Yugoslav Republic of||||||
+Karpoš|||Macedonia, the former Yugoslav Republic of||||||
+Kavadarci|||Macedonia, the former Yugoslav Republic of||||||
+Kičevo|||Macedonia, the former Yugoslav Republic of||||||
+Kisela Voda|||Macedonia, the former Yugoslav Republic of||||||
+Kočani|||Macedonia, the former Yugoslav Republic of||||||
+Konče|||Macedonia, the former Yugoslav Republic of||||||
+Kratovo|||Macedonia, the former Yugoslav Republic of||||||
+Kriva Palanka|||Macedonia, the former Yugoslav Republic of||||||
+Krivogaštani|||Macedonia, the former Yugoslav Republic of||||||
+Kruševo|||Macedonia, the former Yugoslav Republic of||||||
+Kumanovo|||Macedonia, the former Yugoslav Republic of||||||
+Lozovo|||Macedonia, the former Yugoslav Republic of||||||
+Makedonska Kamenica|||Macedonia, the former Yugoslav Republic of||||||
+Makedonski Brod|||Macedonia, the former Yugoslav Republic of||||||
+Mogila|||Macedonia, the former Yugoslav Republic of||||||
+Negotino|||Macedonia, the former Yugoslav Republic of||||||
+Novaci|||Macedonia, the former Yugoslav Republic of||||||
+Novo Selo|||Macedonia, the former Yugoslav Republic of||||||
+Ohrid|||Macedonia, the former Yugoslav Republic of||||||
+Opština Debarca|||Macedonia, the former Yugoslav Republic of||||||
+Opstina Lipkovo|||Macedonia, the former Yugoslav Republic of||||||
+Opstina Rankovce|||Macedonia, the former Yugoslav Republic of||||||
+Opština Rostuša|||Macedonia, the former Yugoslav Republic of||||||
+Oslomej|||Macedonia, the former Yugoslav Republic of||||||
+Pehčevo|||Macedonia, the former Yugoslav Republic of||||||
+Petrovec|||Macedonia, the former Yugoslav Republic of||||||
+Plasnica|||Macedonia, the former Yugoslav Republic of||||||
+Prilep|||Macedonia, the former Yugoslav Republic of||||||
+Probištip|||Macedonia, the former Yugoslav Republic of||||||
+Radoviš|||Macedonia, the former Yugoslav Republic of||||||
+Resen|||Macedonia, the former Yugoslav Republic of||||||
+Rosoman|||Macedonia, the former Yugoslav Republic of||||||
+Saraj|||Macedonia, the former Yugoslav Republic of||||||
+Sopište|||Macedonia, the former Yugoslav Republic of||||||
+Staro Nagoričane|||Macedonia, the former Yugoslav Republic of||||||
+Štip|||Macedonia, the former Yugoslav Republic of||||||
+Struga|||Macedonia, the former Yugoslav Republic of||||||
+Strumica|||Macedonia, the former Yugoslav Republic of||||||
+Studeničani|||Macedonia, the former Yugoslav Republic of||||||
+Šuto Orizari|||Macedonia, the former Yugoslav Republic of||||||
+Sveti Nikole|||Macedonia, the former Yugoslav Republic of||||||
+Tearce|||Macedonia, the former Yugoslav Republic of||||||
+Tetovo|||Macedonia, the former Yugoslav Republic of||||||
+Valandovo|||Macedonia, the former Yugoslav Republic of||||||
+Vasilevo|||Macedonia, the former Yugoslav Republic of||||||
+Vevčani|||Macedonia, the former Yugoslav Republic of||||||
+Vinica|||Macedonia, the former Yugoslav Republic of||||||
+Vraneštica|||Macedonia, the former Yugoslav Republic of||||||
+Vrapčište|||Macedonia, the former Yugoslav Republic of||||||
+Zajas|||Macedonia, the former Yugoslav Republic of||||||
+Zelenikovo|||Macedonia, the former Yugoslav Republic of||||||
+Želino|||Macedonia, the former Yugoslav Republic of||||||
+Zrnovci|||Macedonia, the former Yugoslav Republic of||||||
+Madagascar|||Africa|||country|||country
+Alaotra-Mangoro|||Madagascar||||||
+Amoron'i Mania|||Madagascar||||||
+Analamanga|||Madagascar||||||
+Analanjirofo|||Madagascar||||||
+Androy|||Madagascar||||||
+Anosy|||Madagascar||||||
+Betsiboka|||Madagascar||||||
+Boeny|||Madagascar||||||
+Bongolava|||Madagascar||||||
+Diana|||Madagascar||||||
+East|||Madagascar||||||
+Ihorombe|||Madagascar||||||
+Melaky|||Madagascar||||||
+Menabe|||Madagascar||||||
+South-East|||Madagascar||||||
+South-West|||Madagascar||||||
+Upper Matsiatra|||Madagascar||||||
+Vakinankaratra|||Madagascar||||||
+Vatovavy-Fitovinany|||Madagascar||||||
+Malawi|||Africa|||country|||country
+Central Region|||Malawi||||||
+Northern Region|||Malawi||||||
+Southern Region|||Malawi||||||
+Malaysia|||Asia|||country|||country
+Johor|||Malaysia||||||
+Kedah|||Malaysia||||||
+Kelantan|||Malaysia||||||
+Kuala Lumpur|||Malaysia||||||
+Labuan|||Malaysia||||||
+Melaka|||Malaysia||||||
+Negeri Sembilan|||Malaysia||||||
+Pahang|||Malaysia||||||
+Perak|||Malaysia||||||
+Perlis|||Malaysia||||||
+Pulau Pinang|||Malaysia||||||
+Putrajaya|||Malaysia||||||
+Sabah|||Malaysia||||||
+Sarawak|||Malaysia||||||
+Selangor|||Malaysia||||||
+Terengganu|||Malaysia||||||
+Maldives|||Asia|||country|||country
+Central Province|||Maldives||||||
+Dhaalu Atholhu|||Maldives||||||
+Kaafu Atholhu|||Maldives||||||
+Laamu|||Maldives||||||
+Maale|||Maldives||||||
+North Central Province|||Maldives||||||
+North Province|||Maldives||||||
+Seenu|||Maldives||||||
+South Central Province|||Maldives||||||
+South Province|||Maldives||||||
+Upper North Province|||Maldives||||||
+Upper South Province|||Maldives||||||
+Mali|||Africa|||country|||country
+Bamako|||Mali||||||
+Gao|||Mali||||||
+Kayes|||Mali||||||
+Kidal|||Mali||||||
+Koulikoro|||Mali||||||
+Mopti|||Mali||||||
+Ségou|||Mali||||||
+Sikasso|||Mali||||||
+Tombouctou|||Mali||||||
+Marshall Islands|||Oceania|||country|||country
+Ailinglaplap Atoll|||Marshall Islands||||||
+Ailuk Atoll|||Marshall Islands||||||
+Arno Atoll|||Marshall Islands||||||
+Aur Atoll|||Marshall Islands||||||
+Ebon Atoll|||Marshall Islands||||||
+Enewetak Atoll|||Marshall Islands||||||
+Jabat Island|||Marshall Islands||||||
+Jaluit Atoll|||Marshall Islands||||||
+Kili Island|||Marshall Islands||||||
+Kwajalein Atoll|||Marshall Islands||||||
+Lae Atoll|||Marshall Islands||||||
+Lib Island|||Marshall Islands||||||
+Likiep Atoll|||Marshall Islands||||||
+Majuro Atoll|||Marshall Islands||||||
+Maloelap Atoll|||Marshall Islands||||||
+Mejit Island|||Marshall Islands||||||
+Mili Atoll|||Marshall Islands||||||
+Namdrik Atoll|||Marshall Islands||||||
+Namu Atoll|||Marshall Islands||||||
+Rongelap Atoll|||Marshall Islands||||||
+Ujae Atoll|||Marshall Islands||||||
+Ujelang|||Marshall Islands||||||
+Utrik Atoll|||Marshall Islands||||||
+Wotho Atoll|||Marshall Islands||||||
+Wotje Atoll|||Marshall Islands||||||
+Martinique|||Americas|||country|||country
+Martinique|||Martinique||||||
+Mauritania|||Africa|||country|||country
+Adrar|||Mauritania||||||
+Assaba|||Mauritania||||||
+Brakna|||Mauritania||||||
+Dakhlet Nouadhibou|||Mauritania||||||
+Gorgol|||Mauritania||||||
+Guidimaka|||Mauritania||||||
+Hodh ech Chargui|||Mauritania||||||
+Inchiri|||Mauritania||||||
+Nouakchott|||Mauritania||||||
+Tagant|||Mauritania||||||
+Tiris Zemmour|||Mauritania||||||
+Trarza|||Mauritania||||||
+Wilaya du Hodh el Gharbi|||Mauritania||||||
+Mauritius|||Africa|||country|||country
+Agalega Islands|||Mauritius||||||
+Black River|||Mauritius||||||
+Flacq|||Mauritius||||||
+Grand Port|||Mauritius||||||
+Moka|||Mauritius||||||
+Pamplemousses|||Mauritius||||||
+Plaines Wilhems|||Mauritius||||||
+Port Louis|||Mauritius||||||
+Rivière du Rempart|||Mauritius||||||
+Rodrigues|||Mauritius||||||
+Savanne|||Mauritius||||||
+Mayotte|||Africa|||country|||country
+Acoua|||Mayotte||||||
+Bandraboua|||Mayotte||||||
+Bandrele|||Mayotte||||||
+Bouéni|||Mayotte||||||
+Chiconi|||Mayotte||||||
+Chirongui|||Mayotte||||||
+Dembeni|||Mayotte||||||
+Dzaoudzi|||Mayotte||||||
+Kani-Kéli|||Mayotte||||||
+Koungou|||Mayotte||||||
+M'Tsangamouji|||Mayotte||||||
+Mamoudzou|||Mayotte||||||
+Mtsamboro|||Mayotte||||||
+Ouangani|||Mayotte||||||
+Pamandzi|||Mayotte||||||
+Sada|||Mayotte||||||
+Tsingoni|||Mayotte||||||
+Mexico|||Americas|||country|||country
+Aguascalientes|||Mexico||||||
+Baja California|||Mexico||||||
+Baja California Sur|||Mexico||||||
+Campeche|||Mexico||||||
+Chiapas|||Mexico||||||
+Chihuahua|||Mexico||||||
+Coahuila|||Mexico||||||
+Colima|||Mexico||||||
+Durango|||Mexico||||||
+Guanajuato|||Mexico||||||
+Guerrero|||Mexico||||||
+Hidalgo|||Mexico||||||
+Jalisco|||Mexico||||||
+México|||Mexico||||||
+Michoacán|||Mexico||||||
+Morelos|||Mexico||||||
+Nayarit|||Mexico||||||
+Nuevo León|||Mexico||||||
+Oaxaca|||Mexico||||||
+Puebla|||Mexico||||||
+Querétaro|||Mexico||||||
+Quintana Roo|||Mexico||||||
+San Luis Potosí|||Mexico||||||
+Sinaloa|||Mexico||||||
+Sonora|||Mexico||||||
+Tabasco|||Mexico||||||
+Tamaulipas|||Mexico||||||
+The Federal District|||Mexico||||||
+Tlaxcala|||Mexico||||||
+Veracruz-Llave|||Mexico||||||
+Yucatán|||Mexico||||||
+Zacatecas|||Mexico||||||
+Micronesia, Federated States of|||Oceania|||country|||country
+Chuuk|||Micronesia, Federated States of||||||
+Kosrae|||Micronesia, Federated States of||||||
+Pohnpei|||Micronesia, Federated States of||||||
+Yap|||Micronesia, Federated States of||||||
+Moldova, Republic of|||Europe|||country|||country
+Mongolia|||Asia|||country|||country
+Arhangay|||Mongolia||||||
+Bayan-Ölgiy|||Mongolia||||||
+Bayanhongor|||Mongolia||||||
+Bulgan|||Mongolia||||||
+Central Aymag|||Mongolia||||||
+Darhan Uul|||Mongolia||||||
+Dzavhan|||Mongolia||||||
+East Aimak|||Mongolia||||||
+East Gobi Aymag|||Mongolia||||||
+Govĭ-Altay|||Mongolia||||||
+Govĭ-Sumber|||Mongolia||||||
+Hentiy|||Mongolia||||||
+Hovd|||Mongolia||||||
+Hövsgöl|||Mongolia||||||
+Middle Govĭ|||Mongolia||||||
+Orhon|||Mongolia||||||
+Övörhangay|||Mongolia||||||
+Selenge|||Mongolia||||||
+South Gobi Aymag|||Mongolia||||||
+Sühbaatar|||Mongolia||||||
+Ulaanbaatar|||Mongolia||||||
+Uvs|||Mongolia||||||
+Montserrat|||Americas|||country|||country
+Saint Anthony|||Montserrat||||||
+Saint Georges|||Montserrat||||||
+Saint Peter|||Montserrat||||||
+Morocco|||Africa|||country|||country
+Chaouia-Ouardigha|||Morocco||||||
+Doukkala-Abda|||Morocco||||||
+Fès-Boulemane|||Morocco||||||
+Gharb-Chrarda-Beni Hssen|||Morocco||||||
+Grand Casablanca|||Morocco||||||
+Guelmim-Es Smara|||Morocco||||||
+Marrakech-Tensift-Al Haouz|||Morocco||||||
+Meknès-Tafilalet|||Morocco||||||
+Oriental|||Morocco||||||
+Rabat-Salé-Zemmour-Zaër|||Morocco||||||
+Souss-Massa-Drâa|||Morocco||||||
+Tadla-Azilal|||Morocco||||||
+Tanger-Tétouan|||Morocco||||||
+Taza-Al Hoceima-Taounate|||Morocco||||||
+Mozambique|||Africa|||country|||country
+Cabo Delgado|||Mozambique||||||
+Gaza|||Mozambique||||||
+Inhambane|||Mozambique||||||
+Manica|||Mozambique||||||
+Maputo|||Mozambique||||||
+Maputo City|||Mozambique||||||
+Nampula|||Mozambique||||||
+Niassa|||Mozambique||||||
+Province of Tete|||Mozambique||||||
+Sofala|||Mozambique||||||
+Zambézia|||Mozambique||||||
+Myanmar|||Asia|||country|||country
+Ayeyarwady|||Myanmar||||||
+Bago|||Myanmar||||||
+Chin|||Myanmar||||||
+Kachin|||Myanmar||||||
+Kayah|||Myanmar||||||
+Kayin|||Myanmar||||||
+Magway|||Myanmar||||||
+Mandalay|||Myanmar||||||
+Mon|||Myanmar||||||
+Rakhine|||Myanmar||||||
+Sagain|||Myanmar||||||
+Shan|||Myanmar||||||
+Tanintharyi|||Myanmar||||||
+Yangon|||Myanmar||||||
+Namibia|||Africa|||country|||country
+Caprivi|||Namibia||||||
+Erongo|||Namibia||||||
+Hardap|||Namibia||||||
+Karas|||Namibia||||||
+Khomas|||Namibia||||||
+Kunene|||Namibia||||||
+Ohangwena|||Namibia||||||
+Okavango|||Namibia||||||
+Omaheke|||Namibia||||||
+Omusati|||Namibia||||||
+Oshana|||Namibia||||||
+Oshikoto|||Namibia||||||
+Otjozondjupa|||Namibia||||||
+Nauru|||Oceania|||country|||country
+Aiwo|||Nauru||||||
+Anabar|||Nauru||||||
+Anetan|||Nauru||||||
+Anibare|||Nauru||||||
+Baiti|||Nauru||||||
+Buada|||Nauru||||||
+Ewa|||Nauru||||||
+Ijuw|||Nauru||||||
+Uaboe|||Nauru||||||
+Yaren|||Nauru||||||
+Nepal|||Asia|||country|||country
+Central Region|||Nepal||||||
+Eastern Region|||Nepal||||||
+Far Western Region|||Nepal||||||
+Mid Western Region|||Nepal||||||
+Western Region|||Nepal||||||
+Netherlands|||Europe|||country|||country
+Drenthe|||Netherlands||||||
+Flevoland|||Netherlands||||||
+Gelderland|||Netherlands||||||
+Limburg|||Netherlands||||||
+North Brabant|||Netherlands||||||
+North Holland|||Netherlands||||||
+Overijssel|||Netherlands||||||
+Province of Groningen|||Netherlands||||||
+Provincie Friesland|||Netherlands||||||
+South Holland|||Netherlands||||||
+Utrecht|||Netherlands||||||
+Zeeland|||Netherlands||||||
+New Caledonia|||Oceania|||country|||country
+Province des îles Loyauté|||New Caledonia||||||
+Province Nord|||New Caledonia||||||
+Province Sud|||New Caledonia||||||
+New Zealand|||Oceania|||country|||country
+Auckland|||New Zealand||||||
+Bay of Plenty|||New Zealand||||||
+Canterbury|||New Zealand||||||
+Chatham Islands|||New Zealand||||||
+Gisborne|||New Zealand||||||
+Hawke's Bay|||New Zealand||||||
+Manawatu-Wanganui|||New Zealand||||||
+Marlborough|||New Zealand||||||
+Nelson|||New Zealand||||||
+Northland|||New Zealand||||||
+Otago|||New Zealand||||||
+Southland|||New Zealand||||||
+Taranaki|||New Zealand||||||
+Tasman|||New Zealand||||||
+Waikato|||New Zealand||||||
+Wellington|||New Zealand||||||
+West Coast|||New Zealand||||||
+Nicaragua|||Americas|||country|||country
+Atlántico Norte|||Nicaragua||||||
+Atlántico Sur|||Nicaragua||||||
+Boaco|||Nicaragua||||||
+Carazo|||Nicaragua||||||
+Chinandega|||Nicaragua||||||
+Chontales|||Nicaragua||||||
+Estelí|||Nicaragua||||||
+Granada|||Nicaragua||||||
+Jinotega|||Nicaragua||||||
+León|||Nicaragua||||||
+Madriz|||Nicaragua||||||
+Managua|||Nicaragua||||||
+Masaya|||Nicaragua||||||
+Matagalpa|||Nicaragua||||||
+Nueva Segovia|||Nicaragua||||||
+Río San Juan|||Nicaragua||||||
+Rivas|||Nicaragua||||||
+Niger|||Africa|||country|||country
+Agadez|||Niger||||||
+Diffa|||Niger||||||
+Dosso|||Niger||||||
+Maradi|||Niger||||||
+Niamey|||Niger||||||
+Tahoua|||Niger||||||
+Tillabéri|||Niger||||||
+Zinder|||Niger||||||
+Nigeria|||Africa|||country|||country
+Abia|||Nigeria||||||
+Abuja Federal Capital Territory|||Nigeria||||||
+Adamawa State|||Nigeria||||||
+Akwa Ibom|||Nigeria||||||
+Anambra|||Nigeria||||||
+Bauchi State|||Nigeria||||||
+Bayelsa|||Nigeria||||||
+Benue State|||Nigeria||||||
+Borno|||Nigeria||||||
+Cross River|||Nigeria||||||
+Delta State|||Nigeria||||||
+Ebonyi|||Nigeria||||||
+Edo|||Nigeria||||||
+Ekiti|||Nigeria||||||
+Enugu State|||Nigeria||||||
+Gombe|||Nigeria||||||
+Imo State|||Nigeria||||||
+Jigawa State|||Nigeria||||||
+Kaduna|||Nigeria||||||
+Kano|||Nigeria||||||
+Katsina|||Nigeria||||||
+Kebbi|||Nigeria||||||
+Kogi|||Nigeria||||||
+Kwara|||Nigeria||||||
+Lagos|||Nigeria||||||
+Nassarawa|||Nigeria||||||
+Niger|||Nigeria||||||
+Ogun|||Nigeria||||||
+Ondo|||Nigeria||||||
+Osun|||Nigeria||||||
+Oyo|||Nigeria||||||
+Plateau|||Nigeria||||||
+Rivers|||Nigeria||||||
+Sokoto|||Nigeria||||||
+Taraba State|||Nigeria||||||
+Yobe|||Nigeria||||||
+Zamfara|||Nigeria||||||
+Northern Mariana Islands|||Oceania|||country|||country
+Northern Islands Municipality|||Northern Mariana Islands||||||
+Rota Municipality|||Northern Mariana Islands||||||
+Saipan Municipality|||Northern Mariana Islands||||||
+Tinian Municipality|||Northern Mariana Islands||||||
+Norway|||Europe|||country|||country
+Akershus county|||Norway||||||
+Aust-Agder county|||Norway||||||
+Buskerud county|||Norway||||||
+Finnmark|||Norway||||||
+Hedmark county|||Norway||||||
+Hordaland|||Norway||||||
+Møre og Romsdal|||Norway||||||
+Nord-Trøndelag|||Norway||||||
+Nordland|||Norway||||||
+Oppland county|||Norway||||||
+Oslo|||Norway||||||
+Rogaland|||Norway||||||
+Sogn og Fjordane|||Norway||||||
+Sør-Trøndelag|||Norway||||||
+Telemark county|||Norway||||||
+Troms|||Norway||||||
+Vest-Agder|||Norway||||||
+Vestfold county|||Norway||||||
+Østfold|||Norway||||||
+Oman|||Asia|||country|||country
+Ad Dākhilīyah|||Oman||||||
+Al Bāţinah|||Oman||||||
+Al Wusţá|||Oman||||||
+Ash Sharqīyah|||Oman||||||
+Az̧ Z̧āhirah|||Oman||||||
+Masqaţ|||Oman||||||
+Muḩāfaz̧at al Buraymī|||Oman||||||
+Muḩāfaz̧at Musandam|||Oman||||||
+Z̧ufār|||Oman||||||
+Pakistan|||Asia|||country|||country
+Azad Kashmir|||Pakistan||||||
+Balochistān|||Pakistan||||||
+Federally Administered Tribal Areas|||Pakistan||||||
+Gilgit-Baltistan|||Pakistan||||||
+Islāmābād|||Pakistan||||||
+North West Frontier Province|||Pakistan||||||
+Punjab|||Pakistan||||||
+Sindh|||Pakistan||||||
+Palau|||Oceania|||country|||country
+Aimeliik|||Palau||||||
+Airai|||Palau||||||
+Angaur|||Palau||||||
+Kayangel|||Palau||||||
+Koror|||Palau||||||
+Melekeok|||Palau||||||
+Ngaraard|||Palau||||||
+Ngarchelong|||Palau||||||
+Ngardmau|||Palau||||||
+Ngatpang|||Palau||||||
+Ngchesar|||Palau||||||
+Ngiwal|||Palau||||||
+Peleliu|||Palau||||||
+Sonsorol|||Palau||||||
+State of Hatohobei|||Palau||||||
+State of Ngeremlengui|||Palau||||||
+Palestinian Territory, Occupied|||Asia|||country|||country
+Gaza Strip|||Palestinian Territory, Occupied||||||
+West Bank|||Palestinian Territory, Occupied||||||
+Panama|||Americas|||country|||country
+Bocas del Toro|||Panama||||||
+Chiriquí|||Panama||||||
+Coclé|||Panama||||||
+Colón|||Panama||||||
+Darién|||Panama||||||
+Emberá|||Panama||||||
+Herrera|||Panama||||||
+Kuna Yala|||Panama||||||
+Los Santos|||Panama||||||
+Ngöbe-Buglé|||Panama||||||
+Panamá|||Panama||||||
+Veraguas|||Panama||||||
+Papua New Guinea|||Oceania|||country|||country
+Bougainville|||Papua New Guinea||||||
+Central Province|||Papua New Guinea||||||
+Chimbu|||Papua New Guinea||||||
+East New Britain|||Papua New Guinea||||||
+East Sepik|||Papua New Guinea||||||
+Eastern Highlands|||Papua New Guinea||||||
+Enga|||Papua New Guinea||||||
+Gulf|||Papua New Guinea||||||
+Madang|||Papua New Guinea||||||
+Manus|||Papua New Guinea||||||
+Milne Bay|||Papua New Guinea||||||
+Morobe|||Papua New Guinea||||||
+National Capital District|||Papua New Guinea||||||
+New Ireland|||Papua New Guinea||||||
+Northern Province|||Papua New Guinea||||||
+Sandaun|||Papua New Guinea||||||
+Southern Highlands|||Papua New Guinea||||||
+West New Britain|||Papua New Guinea||||||
+Western Highlands|||Papua New Guinea||||||
+Western Province|||Papua New Guinea||||||
+Paraguay|||Americas|||country|||country
+Peru|||Americas|||country|||country
+Amazonas|||Peru||||||
+Ancash|||Peru||||||
+Apurímac|||Peru||||||
+Arequipa|||Peru||||||
+Ayacucho|||Peru||||||
+Cajamarca|||Peru||||||
+Callao|||Peru||||||
+Cusco|||Peru||||||
+Huancavelica|||Peru||||||
+Huanuco|||Peru||||||
+Ica|||Peru||||||
+Junín|||Peru||||||
+La Libertad|||Peru||||||
+Lambayeque|||Peru||||||
+Lima|||Peru||||||
+Loreto|||Peru||||||
+Madre de Dios|||Peru||||||
+Moquegua|||Peru||||||
+Pasco|||Peru||||||
+Piura|||Peru||||||
+Puno|||Peru||||||
+San Martín|||Peru||||||
+Tacna|||Peru||||||
+Tumbes|||Peru||||||
+Ucayali|||Peru||||||
+Philippines|||Asia|||country|||country
+Autonomous Region in Muslim Mindanao|||Philippines||||||
+Bicol|||Philippines||||||
+Cagayan Valley|||Philippines||||||
+Calabarzon|||Philippines||||||
+Caraga|||Philippines||||||
+Central Luzon|||Philippines||||||
+Central Visayas|||Philippines||||||
+Cordillera Administrative Region|||Philippines||||||
+Davao|||Philippines||||||
+Eastern Visayas|||Philippines||||||
+Ilocos|||Philippines||||||
+Mimaropa|||Philippines||||||
+National Capital Region|||Philippines||||||
+Northern Mindanao|||Philippines||||||
+Soccsksargen|||Philippines||||||
+Western Visayas|||Philippines||||||
+Zamboanga Peninsula|||Philippines||||||
+Poland|||Europe|||country|||country
+Greater Poland Voivodeship|||Poland||||||
+Kujawsko-Pomorskie|||Poland||||||
+Lesser Poland Voivodeship|||Poland||||||
+Lower Silesian Voivodeship|||Poland||||||
+Lublin Voivodeship|||Poland||||||
+Lubusz|||Poland||||||
+Masovian Voivodeship|||Poland||||||
+Opole Voivodeship|||Poland||||||
+Podlasie|||Poland||||||
+Pomeranian Voivodeship|||Poland||||||
+Silesian Voivodeship|||Poland||||||
+Subcarpathian Voivodeship|||Poland||||||
+Świętokrzyskie|||Poland||||||
+Warmian-Masurian Voivodeship|||Poland||||||
+West Pomeranian Voivodeship|||Poland||||||
+Łódź Voivodeship|||Poland||||||
+Portugal|||Europe|||country|||country
+Aveiro|||Portugal||||||
+Azores|||Portugal||||||
+Beja|||Portugal||||||
+Braga|||Portugal||||||
+Bragança|||Portugal||||||
+Castelo Branco|||Portugal||||||
+Coimbra|||Portugal||||||
+Évora|||Portugal||||||
+Faro|||Portugal||||||
+Guarda|||Portugal||||||
+Leiria|||Portugal||||||
+Lisbon|||Portugal||||||
+Madeira|||Portugal||||||
+Portalegre|||Portugal||||||
+Porto|||Portugal||||||
+Santarém|||Portugal||||||
+Setúbal|||Portugal||||||
+Viana do Castelo|||Portugal||||||
+Vila Real|||Portugal||||||
+Viseu|||Portugal||||||
+Puerto Rico|||Americas|||country|||country
+Adjuntas|||Puerto Rico||||||
+Aguada|||Puerto Rico||||||
+Aguadilla|||Puerto Rico||||||
+Aguas Buenas|||Puerto Rico||||||
+Aibonito|||Puerto Rico||||||
+Añasco|||Puerto Rico||||||
+Arecibo|||Puerto Rico||||||
+Arroyo|||Puerto Rico||||||
+Barceloneta|||Puerto Rico||||||
+Barranquitas|||Puerto Rico||||||
+Bayamón|||Puerto Rico||||||
+Cabo Rojo|||Puerto Rico||||||
+Caguas|||Puerto Rico||||||
+Camuy|||Puerto Rico||||||
+Canovanas|||Puerto Rico||||||
+Carolina|||Puerto Rico||||||
+Catano|||Puerto Rico||||||
+Cayey|||Puerto Rico||||||
+Ceiba|||Puerto Rico||||||
+Ciales|||Puerto Rico||||||
+Cidra|||Puerto Rico||||||
+Coamo|||Puerto Rico||||||
+Comerio|||Puerto Rico||||||
+Corozal|||Puerto Rico||||||
+Culebra|||Puerto Rico||||||
+Dorado|||Puerto Rico||||||
+Fajardo|||Puerto Rico||||||
+Florida|||Puerto Rico||||||
+Guanica|||Puerto Rico||||||
+Guayama|||Puerto Rico||||||
+Guayanilla|||Puerto Rico||||||
+Guaynabo|||Puerto Rico||||||
+Gurabo|||Puerto Rico||||||
+Hatillo|||Puerto Rico||||||
+Hormigueros|||Puerto Rico||||||
+Humacao|||Puerto Rico||||||
+Isabela|||Puerto Rico||||||
+Juana Diaz|||Puerto Rico||||||
+Lajas|||Puerto Rico||||||
+Lares|||Puerto Rico||||||
+Las Marias|||Puerto Rico||||||
+Las Piedras|||Puerto Rico||||||
+Loiza|||Puerto Rico||||||
+Luquillo|||Puerto Rico||||||
+Manati|||Puerto Rico||||||
+Maricao|||Puerto Rico||||||
+Maunabo|||Puerto Rico||||||
+Mayaguez|||Puerto Rico||||||
+Moca|||Puerto Rico||||||
+Morovis|||Puerto Rico||||||
+Municipio de Jayuya|||Puerto Rico||||||
+Municipio de Juncos|||Puerto Rico||||||
+Naguabo|||Puerto Rico||||||
+Naranjito|||Puerto Rico||||||
+Orocovis|||Puerto Rico||||||
+Patillas|||Puerto Rico||||||
+Penuelas|||Puerto Rico||||||
+Ponce|||Puerto Rico||||||
+Quebradillas|||Puerto Rico||||||
+Rincon|||Puerto Rico||||||
+Rio Grande|||Puerto Rico||||||
+Sabana Grande|||Puerto Rico||||||
+Salinas|||Puerto Rico||||||
+San German|||Puerto Rico||||||
+San Juan|||Puerto Rico||||||
+San Lorenzo|||Puerto Rico||||||
+San Sebastian|||Puerto Rico||||||
+Santa Isabel Municipio|||Puerto Rico||||||
+Toa Alta|||Puerto Rico||||||
+Toa Baja|||Puerto Rico||||||
+Trujillo Alto|||Puerto Rico||||||
+Utuado|||Puerto Rico||||||
+Vega Alta|||Puerto Rico||||||
+Vega Baja|||Puerto Rico||||||
+Vieques|||Puerto Rico||||||
+Villalba|||Puerto Rico||||||
+Yabucoa|||Puerto Rico||||||
+Yauco|||Puerto Rico||||||
+Qatar|||Asia|||country|||country
+Ad Dawḩah|||Qatar||||||
+Al Khawr|||Qatar||||||
+Al Wakrah|||Qatar||||||
+Ar Rayyān|||Qatar||||||
+Baladīyat az̧ Z̧a‘āyin|||Qatar||||||
+Madīnat ash Shamāl|||Qatar||||||
+Umm Şalāl|||Qatar||||||
+Réunion|||Africa|||country|||country
+Romania|||Europe|||country|||country
+Alba|||Romania||||||
+Arad|||Romania||||||
+Argeş|||Romania||||||
+Bacău|||Romania||||||
+Bihor|||Romania||||||
+Bistriţa-Năsăud|||Romania||||||
+Botoşani|||Romania||||||
+Brăila|||Romania||||||
+Braşov|||Romania||||||
+Bucureşti|||Romania||||||
+Buzău|||Romania||||||
+Călăraşi|||Romania||||||
+Caraş-Severin|||Romania||||||
+Cluj|||Romania||||||
+Constanţa|||Romania||||||
+Covasna|||Romania||||||
+Dâmboviţa|||Romania||||||
+Dolj|||Romania||||||
+Galaţi|||Romania||||||
+Giurgiu|||Romania||||||
+Gorj|||Romania||||||
+Harghita|||Romania||||||
+Hunedoara|||Romania||||||
+Ialomiţa|||Romania||||||
+Iaşi|||Romania||||||
+Ilfov|||Romania||||||
+Judeţul Vrancea|||Romania||||||
+Maramureş|||Romania||||||
+Mehedinţi|||Romania||||||
+Mureş|||Romania||||||
+Neamţ|||Romania||||||
+Olt|||Romania||||||
+Prahova|||Romania||||||
+Sălaj|||Romania||||||
+Satu Mare|||Romania||||||
+Sibiu|||Romania||||||
+Suceava|||Romania||||||
+Teleorman|||Romania||||||
+Timiş|||Romania||||||
+Tulcea|||Romania||||||
+Vâlcea|||Romania||||||
+Vaslui|||Romania||||||
+Russian Federation|||Asia|||country|||country
+Adygeya|||Russian Federation||||||
+Altay|||Russian Federation||||||
+Altayskiy|||Russian Federation||||||
+Amur|||Russian Federation||||||
+Arkhangelskaya|||Russian Federation||||||
+Astrakhan|||Russian Federation||||||
+Bashkortostan|||Russian Federation||||||
+Belgorod|||Russian Federation||||||
+Brjansk|||Russian Federation||||||
+Buryatiya|||Russian Federation||||||
+Chechnya|||Russian Federation||||||
+Chelyabinsk Oblast|||Russian Federation||||||
+Chukotskiy Avtonomnyy Okrug|||Russian Federation||||||
+Chuvashia|||Russian Federation||||||
+Dagestan|||Russian Federation||||||
+Ingushetiya|||Russian Federation||||||
+Irkutsk|||Russian Federation||||||
+Ivanovo|||Russian Federation||||||
+Jaroslavl|||Russian Federation||||||
+Jewish Autonomous Oblast|||Russian Federation||||||
+Kabardino-Balkariya|||Russian Federation||||||
+Kaliningrad|||Russian Federation||||||
+Kalmykiya|||Russian Federation||||||
+Kaluga|||Russian Federation||||||
+Kamtsjatka|||Russian Federation||||||
+Karachayevo-Cherkesiya|||Russian Federation||||||
+Kareliya|||Russian Federation||||||
+Kemerovo|||Russian Federation||||||
+Khabarovsk Krai|||Russian Federation||||||
+Khakasiya|||Russian Federation||||||
+Khanty-Mansiyskiy Avtonomnyy Okrug|||Russian Federation||||||
+Kirov|||Russian Federation||||||
+Komi|||Russian Federation||||||
+Kostroma|||Russian Federation||||||
+Krasnodarskiy|||Russian Federation||||||
+Krasnoyarskiy|||Russian Federation||||||
+Kurgan|||Russian Federation||||||
+Kursk|||Russian Federation||||||
+Leningrad|||Russian Federation||||||
+Lipetsk|||Russian Federation||||||
+Magadan|||Russian Federation||||||
+Mariy-El|||Russian Federation||||||
+Mordoviya|||Russian Federation||||||
+Moscow|||Russian Federation||||||
+Moskovskaya|||Russian Federation||||||
+Murmansk|||Russian Federation||||||
+Nenetskiy Avtonomnyy Okrug|||Russian Federation||||||
+Nizjnij Novgorod|||Russian Federation||||||
+North Ossetia|||Russian Federation||||||
+Novgorod|||Russian Federation||||||
+Novosibirsk|||Russian Federation||||||
+Omsk|||Russian Federation||||||
+Orenburg|||Russian Federation||||||
+Orjol|||Russian Federation||||||
+Penza|||Russian Federation||||||
+Perm|||Russian Federation||||||
+Primorskiy|||Russian Federation||||||
+Pskov|||Russian Federation||||||
+Rjazan|||Russian Federation||||||
+Rostov|||Russian Federation||||||
+Sakha|||Russian Federation||||||
+Sakhalin|||Russian Federation||||||
+Samara|||Russian Federation||||||
+Sankt-Peterburg|||Russian Federation||||||
+Saratov|||Russian Federation||||||
+Smolensk|||Russian Federation||||||
+Stavropol'skiy|||Russian Federation||||||
+Sverdlovsk|||Russian Federation||||||
+Tambov|||Russian Federation||||||
+Tatarstan|||Russian Federation||||||
+Tjumen|||Russian Federation||||||
+Tomsk|||Russian Federation||||||
+Tula|||Russian Federation||||||
+Tverskaya|||Russian Federation||||||
+Tyva|||Russian Federation||||||
+Udmurtiya|||Russian Federation||||||
+Uljanovsk|||Russian Federation||||||
+Vladimir|||Russian Federation||||||
+Volgograd|||Russian Federation||||||
+Vologda|||Russian Federation||||||
+Voronezj|||Russian Federation||||||
+Yamalo-Nenetskiy Avtonomnyy Okrug|||Russian Federation||||||
+Zabaykal’skiy Kray|||Russian Federation||||||
+Rwanda|||Africa|||country|||country
+Eastern Province|||Rwanda||||||
+Kigali City|||Rwanda||||||
+Northern Province|||Rwanda||||||
+Southern Province|||Rwanda||||||
+Western Province|||Rwanda||||||
+Saint Helena|||Antarctica|||country|||country
+Ascension|||Saint Helena||||||
+Saint Helena|||Saint Helena||||||
+Tristan da Cunha|||Saint Helena||||||
+Saint Kitts and Nevis|||Americas|||country|||country
+Christ Church Nichola Town|||Saint Kitts and Nevis||||||
+Saint Anne Sandy Point|||Saint Kitts and Nevis||||||
+Saint George Basseterre|||Saint Kitts and Nevis||||||
+Saint George Gingerland|||Saint Kitts and Nevis||||||
+Saint James Windwa|||Saint Kitts and Nevis||||||
+Saint John Capesterre|||Saint Kitts and Nevis||||||
+Saint John Figtree|||Saint Kitts and Nevis||||||
+Saint Mary Cayon|||Saint Kitts and Nevis||||||
+Saint Paul Capesterre|||Saint Kitts and Nevis||||||
+Saint Paul Charlestown|||Saint Kitts and Nevis||||||
+Saint Peter Basseterre|||Saint Kitts and Nevis||||||
+Saint Thomas Lowland|||Saint Kitts and Nevis||||||
+Saint Thomas Middle Island|||Saint Kitts and Nevis||||||
+Trinity Palmetto Point|||Saint Kitts and Nevis||||||
+Saint Lucia|||Americas|||country|||country
+Anse-la-Raye|||Saint Lucia||||||
+Castries|||Saint Lucia||||||
+Choiseul|||Saint Lucia||||||
+Dauphin|||Saint Lucia||||||
+Dennery|||Saint Lucia||||||
+Gros-Islet|||Saint Lucia||||||
+Laborie|||Saint Lucia||||||
+Micoud|||Saint Lucia||||||
+Praslin|||Saint Lucia||||||
+Soufrière|||Saint Lucia||||||
+Vieux-Fort|||Saint Lucia||||||
+Saint Pierre and Miquelon|||Americas|||country|||country
+Miquelon-Langlade|||Saint Pierre and Miquelon||||||
+Saint-Pierre|||Saint Pierre and Miquelon||||||
+Saint Vincent and the Grenadines|||Americas|||country|||country
+Charlotte|||Saint Vincent and the Grenadines||||||
+Grenadines|||Saint Vincent and the Grenadines||||||
+Saint Andrew|||Saint Vincent and the Grenadines||||||
+Saint David|||Saint Vincent and the Grenadines||||||
+Saint George|||Saint Vincent and the Grenadines||||||
+Saint Patrick|||Saint Vincent and the Grenadines||||||
+Samoa|||Oceania|||country|||country
+Tuamasaga|||Samoa||||||
+San Marino|||Europe|||country|||country
+Acquaviva|||San Marino||||||
+Borgo Maggiore|||San Marino||||||
+Chiesanuova|||San Marino||||||
+Domagnano|||San Marino||||||
+Faetano|||San Marino||||||
+Fiorentino|||San Marino||||||
+Montegiardino|||San Marino||||||
+San Marino|||San Marino||||||
+Serravalle|||San Marino||||||
+Sao Tome and Principe|||Africa|||country|||country
+Príncipe|||Sao Tome and Principe||||||
+São Tomé|||Sao Tome and Principe||||||
+Saudi Arabia|||Asia|||country|||country
+Al Bāḩah|||Saudi Arabia||||||
+Al Jawf|||Saudi Arabia||||||
+Al Madīnah|||Saudi Arabia||||||
+Al Qaşīm|||Saudi Arabia||||||
+Ar Riyāḑ|||Saudi Arabia||||||
+Ash Sharqīyah|||Saudi Arabia||||||
+Ḩāʼil|||Saudi Arabia||||||
+Jīzān|||Saudi Arabia||||||
+Makkah|||Saudi Arabia||||||
+Minţaqat ‘Asīr|||Saudi Arabia||||||
+Northern Borders Region|||Saudi Arabia||||||
+Tabūk|||Saudi Arabia||||||
+Senegal|||Africa|||country|||country
+Dakar|||Senegal||||||
+Diourbel|||Senegal||||||
+Fatick|||Senegal||||||
+Kaffrine|||Senegal||||||
+Kaolack|||Senegal||||||
+Kédougou|||Senegal||||||
+Kolda|||Senegal||||||
+Louga|||Senegal||||||
+Matam|||Senegal||||||
+Saint-Louis|||Senegal||||||
+Sédhiou|||Senegal||||||
+Tambacounda|||Senegal||||||
+Thiès|||Senegal||||||
+Ziguinchor|||Senegal||||||
+Seychelles|||Africa|||country|||country
+Beau Vallon|||Seychelles||||||
+Bel Ombre|||Seychelles||||||
+English River|||Seychelles||||||
+Inner Islands|||Seychelles||||||
+Sierra Leone|||Africa|||country|||country
+Eastern Province|||Sierra Leone||||||
+Northern Province|||Sierra Leone||||||
+Southern Province|||Sierra Leone||||||
+Western Area|||Sierra Leone||||||
+Slovakia|||Europe|||country|||country
+Banskobystrický|||Slovakia||||||
+Bratislavský|||Slovakia||||||
+Košický|||Slovakia||||||
+Nitriansky|||Slovakia||||||
+Prešovský|||Slovakia||||||
+Trenčiansky|||Slovakia||||||
+Trnavský|||Slovakia||||||
+Žilinský|||Slovakia||||||
+Slovenia|||Europe|||country|||country
+Ajdovščina|||Slovenia||||||
+Beltinci|||Slovenia||||||
+Benedikt|||Slovenia||||||
+Bistrica ob Sotli|||Slovenia||||||
+Bled|||Slovenia||||||
+Bloke|||Slovenia||||||
+Bohinj|||Slovenia||||||
+Borovnica|||Slovenia||||||
+Bovec|||Slovenia||||||
+Braslovče|||Slovenia||||||
+Brda|||Slovenia||||||
+Brežice|||Slovenia||||||
+Brezovica|||Slovenia||||||
+Cankova|||Slovenia||||||
+Celje|||Slovenia||||||
+Cerklje Na Gorenjskem|||Slovenia||||||
+Cerknica|||Slovenia||||||
+Cerkno|||Slovenia||||||
+Cerkvenjak|||Slovenia||||||
+Črenšovci|||Slovenia||||||
+Črna na Koroškem|||Slovenia||||||
+Črnomelj|||Slovenia||||||
+Destrnik|||Slovenia||||||
+Divača|||Slovenia||||||
+Dobje|||Slovenia||||||
+Dobrepolje|||Slovenia||||||
+Dobrna|||Slovenia||||||
+Dobrova-Horjul-Polhov Gradec|||Slovenia||||||
+Dobrovnik-Dobronak|||Slovenia||||||
+Dol Pri Ljubljani|||Slovenia||||||
+Dolenjske Toplice|||Slovenia||||||
+Domžale|||Slovenia||||||
+Dornava|||Slovenia||||||
+Dravograd|||Slovenia||||||
+Duplek|||Slovenia||||||
+Gorenja Vas-Poljane|||Slovenia||||||
+Gorišnica|||Slovenia||||||
+Gornja Radgona|||Slovenia||||||
+Gornji Grad|||Slovenia||||||
+Gornji Petrovci|||Slovenia||||||
+Grad|||Slovenia||||||
+Grosuplje|||Slovenia||||||
+Hajdina|||Slovenia||||||
+Hoče-Slivnica|||Slovenia||||||
+Hodoš-Hodos|||Slovenia||||||
+Horjul|||Slovenia||||||
+Hrastnik|||Slovenia||||||
+Hrpelje-Kozina|||Slovenia||||||
+Idrija|||Slovenia||||||
+Ig|||Slovenia||||||
+Ilirska Bistrica|||Slovenia||||||
+Ivančna Gorica|||Slovenia||||||
+Izola-Isola|||Slovenia||||||
+Jesenice|||Slovenia||||||
+Jezersko|||Slovenia||||||
+Juršinci|||Slovenia||||||
+Kamnik|||Slovenia||||||
+Kanal|||Slovenia||||||
+Kidričevo|||Slovenia||||||
+Kobarid|||Slovenia||||||
+Kobilje|||Slovenia||||||
+Kočevje|||Slovenia||||||
+Komen|||Slovenia||||||
+Komenda|||Slovenia||||||
+Koper-Capodistria|||Slovenia||||||
+Kostel|||Slovenia||||||
+Kozje|||Slovenia||||||
+Kranj|||Slovenia||||||
+Kranjska Gora|||Slovenia||||||
+Križevci|||Slovenia||||||
+Krško|||Slovenia||||||
+Kungota|||Slovenia||||||
+Kuzma|||Slovenia||||||
+Laško|||Slovenia||||||
+Lenart|||Slovenia||||||
+Lendava-Lendva|||Slovenia||||||
+Litija|||Slovenia||||||
+Ljubljana|||Slovenia||||||
+Ljubno|||Slovenia||||||
+Ljutomer|||Slovenia||||||
+Logatec|||Slovenia||||||
+Loška Dolina|||Slovenia||||||
+Loški Potok|||Slovenia||||||
+Lovrenc na Pohorju|||Slovenia||||||
+Luče|||Slovenia||||||
+Lukovica|||Slovenia||||||
+Majšperk|||Slovenia||||||
+Maribor|||Slovenia||||||
+Markovci|||Slovenia||||||
+Medvode|||Slovenia||||||
+Mengeš|||Slovenia||||||
+Metlika|||Slovenia||||||
+Mežica|||Slovenia||||||
+Miklavž na Dravskem Polju|||Slovenia||||||
+Miren-Kostanjevica|||Slovenia||||||
+Mirna Peč|||Slovenia||||||
+Mislinja|||Slovenia||||||
+Moravče|||Slovenia||||||
+Moravske Toplice|||Slovenia||||||
+Mozirje|||Slovenia||||||
+Murska Sobota|||Slovenia||||||
+Muta|||Slovenia||||||
+Naklo|||Slovenia||||||
+Nazarje|||Slovenia||||||
+Nova Gorica|||Slovenia||||||
+Novo Mesto|||Slovenia||||||
+Odranci|||Slovenia||||||
+Oplotnica|||Slovenia||||||
+Ormož|||Slovenia||||||
+Osilnica|||Slovenia||||||
+Pesnica|||Slovenia||||||
+Piran-Pirano|||Slovenia||||||
+Pivka|||Slovenia||||||
+Podčetrtek|||Slovenia||||||
+Podlehnik|||Slovenia||||||
+Podvelka|||Slovenia||||||
+Polzela|||Slovenia||||||
+Postojna|||Slovenia||||||
+Prebold|||Slovenia||||||
+Preddvor|||Slovenia||||||
+Prevalje|||Slovenia||||||
+Ptuj|||Slovenia||||||
+Puconci|||Slovenia||||||
+Rače-Fram|||Slovenia||||||
+Radeče|||Slovenia||||||
+Radenci|||Slovenia||||||
+Radlje ob Dravi|||Slovenia||||||
+Radovljica|||Slovenia||||||
+Ravne na Koroškem|||Slovenia||||||
+Razkrižje|||Slovenia||||||
+Ribnica|||Slovenia||||||
+Ribnica na Pohorju|||Slovenia||||||
+Rogaška Slatina|||Slovenia||||||
+Rogašovci|||Slovenia||||||
+Rogatec|||Slovenia||||||
+Ruše|||Slovenia||||||
+Šalovci|||Slovenia||||||
+Selnica ob Dravi|||Slovenia||||||
+Semič|||Slovenia||||||
+Šempeter-Vrtojba|||Slovenia||||||
+Šenčur|||Slovenia||||||
+Šentilj|||Slovenia||||||
+Šentjernej|||Slovenia||||||
+Šentjur pri Celju|||Slovenia||||||
+Sevnica|||Slovenia||||||
+Sežana|||Slovenia||||||
+Škocjan|||Slovenia||||||
+Škofja Loka|||Slovenia||||||
+Škofljica|||Slovenia||||||
+Slovenj Gradec|||Slovenia||||||
+Slovenska Bistrica|||Slovenia||||||
+Slovenska Konjice|||Slovenia||||||
+Šmarje pri Jelšah|||Slovenia||||||
+Šmartno ob Paki|||Slovenia||||||
+Šmartno pri Litiji|||Slovenia||||||
+Sodražica|||Slovenia||||||
+Solčava|||Slovenia||||||
+Šoštanj|||Slovenia||||||
+Starše|||Slovenia||||||
+Štore|||Slovenia||||||
+Sveta Ana|||Slovenia||||||
+Sveti Andraž v Slovenskih Goricah|||Slovenia||||||
+Sveti Jurij|||Slovenia||||||
+Tabor|||Slovenia||||||
+Tišina|||Slovenia||||||
+Tolmin|||Slovenia||||||
+Trbovlje|||Slovenia||||||
+Trebnje|||Slovenia||||||
+Trnovska Vas|||Slovenia||||||
+Tržič|||Slovenia||||||
+Trzin|||Slovenia||||||
+Turnišče|||Slovenia||||||
+Velenje|||Slovenia||||||
+Velika Polana|||Slovenia||||||
+Velike Lašče|||Slovenia||||||
+Veržej|||Slovenia||||||
+Videm|||Slovenia||||||
+Vipava|||Slovenia||||||
+Vitanje|||Slovenia||||||
+Vodice|||Slovenia||||||
+Vojnik|||Slovenia||||||
+Vransko|||Slovenia||||||
+Vrhnika|||Slovenia||||||
+Vuzenica|||Slovenia||||||
+Zagorje ob Savi|||Slovenia||||||
+Žalec|||Slovenia||||||
+Zavrč|||Slovenia||||||
+Železniki|||Slovenia||||||
+Žetale|||Slovenia||||||
+Žiri|||Slovenia||||||
+Žirovnica|||Slovenia||||||
+Zreče|||Slovenia||||||
+Žužemberk|||Slovenia||||||
+Solomon Islands|||Oceania|||country|||country
+Guadalcanal|||Solomon Islands||||||
+Isabel|||Solomon Islands||||||
+Makira|||Solomon Islands||||||
+Somalia|||Africa|||country|||country
+Awdal|||Somalia||||||
+Bakool|||Somalia||||||
+Banaadir|||Somalia||||||
+Bari|||Somalia||||||
+Bay|||Somalia||||||
+Galguduud|||Somalia||||||
+Gedo|||Somalia||||||
+Hiiraan|||Somalia||||||
+Lower Juba|||Somalia||||||
+Middle Juba|||Somalia||||||
+Middle Shabele|||Somalia||||||
+Mudug|||Somalia||||||
+Nugaal|||Somalia||||||
+Sanaag|||Somalia||||||
+Shabeellaha Hoose|||Somalia||||||
+Sool|||Somalia||||||
+Togdheer|||Somalia||||||
+Woqooyi Galbeed|||Somalia||||||
+South Africa|||Africa|||country|||country
+Eastern Cape|||South Africa||||||
+Free State|||South Africa||||||
+Gauteng|||South Africa||||||
+KwaZulu-Natal|||South Africa||||||
+Limpopo|||South Africa||||||
+Mpumalanga|||South Africa||||||
+North-West|||South Africa||||||
+Northern Cape|||South Africa||||||
+Western Cape|||South Africa||||||
+Spain|||Europe|||country|||country
+Andalusia|||Spain||||||
+Aragon|||Spain||||||
+Asturias|||Spain||||||
+Autonomous Region of Navarre|||Spain||||||
+Balearic Islands|||Spain||||||
+Basque Country|||Spain||||||
+Canary Islands|||Spain||||||
+Cantabria|||Spain||||||
+Castille and León|||Spain||||||
+Castille-La Mancha|||Spain||||||
+Catalonia|||Spain||||||
+Ceuta|||Spain||||||
+Extremadura|||Spain||||||
+Galicia|||Spain||||||
+La Rioja|||Spain||||||
+Madrid|||Spain||||||
+Melilla|||Spain||||||
+Murcia|||Spain||||||
+Valencia|||Spain||||||
+Sri Lanka|||Asia|||country|||country
+Central|||Sri Lanka||||||
+North Central|||Sri Lanka||||||
+North Eastern|||Sri Lanka||||||
+North Western|||Sri Lanka||||||
+Northern Province|||Sri Lanka||||||
+Sabaragamuwa|||Sri Lanka||||||
+Southern|||Sri Lanka||||||
+Uva|||Sri Lanka||||||
+Western|||Sri Lanka||||||
+Sudan|||Africa|||country|||country
+Al Qadarif|||Sudan||||||
+Blue Nile|||Sudan||||||
+Gezira|||Sudan||||||
+Kassala State|||Sudan||||||
+Khartoum|||Sudan||||||
+Nile|||Sudan||||||
+Northern Darfur State|||Sudan||||||
+Northern Kordofan State|||Sudan||||||
+Northern State|||Sudan||||||
+Red Sea|||Sudan||||||
+Sinnar State|||Sudan||||||
+Southern Darfur State|||Sudan||||||
+Southern Kordofan|||Sudan||||||
+Western Darfur|||Sudan||||||
+White Nile|||Sudan||||||
+Suriname|||Americas|||country|||country
+Brokopondo|||Suriname||||||
+Commewijne|||Suriname||||||
+Coronie|||Suriname||||||
+Marowijne|||Suriname||||||
+Nickerie|||Suriname||||||
+Para|||Suriname||||||
+Paramaribo|||Suriname||||||
+Saramacca|||Suriname||||||
+Sipaliwini|||Suriname||||||
+Wanica|||Suriname||||||
+Svalbard and Jan Mayen|||Europe|||country|||country
+Jan Mayen|||Svalbard and Jan Mayen||||||
+Svalbard|||Svalbard and Jan Mayen||||||
+Swaziland|||Africa|||country|||country
+Hhohho|||Swaziland||||||
+Lubombo|||Swaziland||||||
+Manzini|||Swaziland||||||
+Shiselweni|||Swaziland||||||
+Sweden|||Europe|||country|||country
+Switzerland|||Europe|||country|||country
+Aargau|||Switzerland||||||
+Appenzell Ausserrhoden|||Switzerland||||||
+Basel-Country|||Switzerland||||||
+Basle-Ville|||Switzerland||||||
+Bern|||Switzerland||||||
+Fribourg|||Switzerland||||||
+Geneva|||Switzerland||||||
+Glarus|||Switzerland||||||
+Graubünden|||Switzerland||||||
+Jura|||Switzerland||||||
+Kanton Appenzell Innerrhoden|||Switzerland||||||
+Lucerne|||Switzerland||||||
+Neuchâtel|||Switzerland||||||
+Nidwalden|||Switzerland||||||
+Obwalden|||Switzerland||||||
+Saint Gallen|||Switzerland||||||
+Schaffhausen|||Switzerland||||||
+Schwyz|||Switzerland||||||
+Solothurn|||Switzerland||||||
+Thurgau|||Switzerland||||||
+Ticino|||Switzerland||||||
+Uri|||Switzerland||||||
+Valais|||Switzerland||||||
+Vaud|||Switzerland||||||
+Zug|||Switzerland||||||
+Zurich|||Switzerland||||||
+Syrian Arab Republic|||Asia|||country|||country
+Al-Hasakah|||Syrian Arab Republic||||||
+Aleppo|||Syrian Arab Republic||||||
+Ar-Raqqah|||Syrian Arab Republic||||||
+As-Suwayda|||Syrian Arab Republic||||||
+Damascus City|||Syrian Arab Republic||||||
+Daraa|||Syrian Arab Republic||||||
+Deir ez-Zor|||Syrian Arab Republic||||||
+Hama|||Syrian Arab Republic||||||
+Homs|||Syrian Arab Republic||||||
+Idlib|||Syrian Arab Republic||||||
+Latakia|||Syrian Arab Republic||||||
+Quneitra|||Syrian Arab Republic||||||
+Rif-dimashq|||Syrian Arab Republic||||||
+Tartus|||Syrian Arab Republic||||||
+Taiwan, Province of China|||Asia|||country|||country
+Fukien|||Taiwan, Province of China||||||
+Kaohsiung|||Taiwan, Province of China||||||
+Taipei|||Taiwan, Province of China||||||
+Taiwan|||Taiwan, Province of China||||||
+Tajikistan|||Asia|||country|||country
+Dushanbe|||Tajikistan||||||
+Gorno-Badakhshan|||Tajikistan||||||
+Khatlon|||Tajikistan||||||
+Region of Republican Subordination|||Tajikistan||||||
+Sughd|||Tajikistan||||||
+Tanzania, United Republic of|||Africa|||country|||country
+Arusha|||Tanzania, United Republic of||||||
+Dar es Salaam|||Tanzania, United Republic of||||||
+Dodoma|||Tanzania, United Republic of||||||
+Iringa|||Tanzania, United Republic of||||||
+Kagera|||Tanzania, United Republic of||||||
+Kigoma|||Tanzania, United Republic of||||||
+Kilimanjaro|||Tanzania, United Republic of||||||
+Lindi|||Tanzania, United Republic of||||||
+Manyara|||Tanzania, United Republic of||||||
+Mara|||Tanzania, United Republic of||||||
+Mbeya|||Tanzania, United Republic of||||||
+Morogoro Region|||Tanzania, United Republic of||||||
+Mtwara|||Tanzania, United Republic of||||||
+Mwanza|||Tanzania, United Republic of||||||
+Pemba North|||Tanzania, United Republic of||||||
+Pemba South|||Tanzania, United Republic of||||||
+Pwani|||Tanzania, United Republic of||||||
+Rukwa Region|||Tanzania, United Republic of||||||
+Ruvuma|||Tanzania, United Republic of||||||
+Shinyanga|||Tanzania, United Republic of||||||
+Singida|||Tanzania, United Republic of||||||
+Tabora|||Tanzania, United Republic of||||||
+Tanga|||Tanzania, United Republic of||||||
+Zanzibar Central/South|||Tanzania, United Republic of||||||
+Zanzibar North|||Tanzania, United Republic of||||||
+Zanzibar Urban/West|||Tanzania, United Republic of||||||
+Thailand|||Asia|||country|||country
+Amnat Charoen|||Thailand||||||
+Ang Thong|||Thailand||||||
+Bangkok|||Thailand||||||
+Buriram|||Thailand||||||
+Chachoengsao|||Thailand||||||
+Chai Nat|||Thailand||||||
+Chaiyaphum|||Thailand||||||
+Chanthaburi|||Thailand||||||
+Chiang Mai|||Thailand||||||
+Chiang Rai|||Thailand||||||
+Chon Buri|||Thailand||||||
+Chumphon|||Thailand||||||
+Kalasin|||Thailand||||||
+Kamphaeng Phet|||Thailand||||||
+Kanchanaburi|||Thailand||||||
+Khon Kaen|||Thailand||||||
+Krabi|||Thailand||||||
+Lampang|||Thailand||||||
+Lamphun|||Thailand||||||
+Loei|||Thailand||||||
+Lop Buri|||Thailand||||||
+Mae Hong Son|||Thailand||||||
+Maha Sarakham|||Thailand||||||
+Mukdahan|||Thailand||||||
+Nakhon Nayok|||Thailand||||||
+Nakhon Pathom|||Thailand||||||
+Nakhon Phanom|||Thailand||||||
+Nakhon Ratchasima|||Thailand||||||
+Nakhon Sawan|||Thailand||||||
+Nakhon Si Thammarat|||Thailand||||||
+Nan|||Thailand||||||
+Narathiwat|||Thailand||||||
+Nong Bua Lamphu|||Thailand||||||
+Nong Khai|||Thailand||||||
+Nonthaburi|||Thailand||||||
+Pathum Thani|||Thailand||||||
+Pattani|||Thailand||||||
+Phangnga|||Thailand||||||
+Phatthalung|||Thailand||||||
+Phayao|||Thailand||||||
+Phetchabun|||Thailand||||||
+Phetchaburi|||Thailand||||||
+Phichit|||Thailand||||||
+Phitsanulok|||Thailand||||||
+Phra Nakhon Si Ayutthaya|||Thailand||||||
+Phrae|||Thailand||||||
+Phuket Province|||Thailand||||||
+Prachin Buri|||Thailand||||||
+Prachuap Khiri Khan|||Thailand||||||
+Ranong|||Thailand||||||
+Ratchaburi|||Thailand||||||
+Rayong|||Thailand||||||
+Roi Et|||Thailand||||||
+Sa Kaeo|||Thailand||||||
+Sakon Nakhon|||Thailand||||||
+Samut Prakan|||Thailand||||||
+Samut Sakhon|||Thailand||||||
+Samut Songkhram|||Thailand||||||
+Sara Buri|||Thailand||||||
+Satun|||Thailand||||||
+Sing Buri|||Thailand||||||
+Sisaket|||Thailand||||||
+Songkhla|||Thailand||||||
+Sukhothai|||Thailand||||||
+Suphan Buri|||Thailand||||||
+Surat Thani|||Thailand||||||
+Surin|||Thailand||||||
+Tak|||Thailand||||||
+Trang|||Thailand||||||
+Trat|||Thailand||||||
+Ubon Ratchathani|||Thailand||||||
+Udon Thani|||Thailand||||||
+Uthai Thani|||Thailand||||||
+Uttaradit|||Thailand||||||
+Yala|||Thailand||||||
+Yasothon|||Thailand||||||
+Timor-Leste|||Asia|||country|||country
+Bobonaro|||Timor-Leste||||||
+Distrito Aileu|||Timor-Leste||||||
+Distrito Ainaro|||Timor-Leste||||||
+Distrito Díli|||Timor-Leste||||||
+Distrito Lautém|||Timor-Leste||||||
+Distrito Oecussi-Ambeno|||Timor-Leste||||||
+Togo|||Africa|||country|||country
+Centrale|||Togo||||||
+Kara|||Togo||||||
+Maritime|||Togo||||||
+Plateaux|||Togo||||||
+Savanes|||Togo||||||
+Tokelau|||Oceania|||country|||country
+Atafu|||Tokelau||||||
+Fakaofo|||Tokelau||||||
+Nukunonu|||Tokelau||||||
+Tonga|||Oceania|||country|||country
+Trinidad and Tobago|||Americas|||country|||country
+Arima|||Trinidad and Tobago||||||
+Chaguanas|||Trinidad and Tobago||||||
+Couva-Tabaquite-Talparo|||Trinidad and Tobago||||||
+Diego Martin|||Trinidad and Tobago||||||
+Eastern Tobago|||Trinidad and Tobago||||||
+Mayaro|||Trinidad and Tobago||||||
+Penal/Debe|||Trinidad and Tobago||||||
+Point Fortin|||Trinidad and Tobago||||||
+Port-of-Spain|||Trinidad and Tobago||||||
+Princes Town|||Trinidad and Tobago||||||
+San Fernando|||Trinidad and Tobago||||||
+San Juan/Laventille|||Trinidad and Tobago||||||
+Sangre Grande|||Trinidad and Tobago||||||
+Siparia|||Trinidad and Tobago||||||
+Tobago|||Trinidad and Tobago||||||
+Tunapuna/Piarco|||Trinidad and Tobago||||||
+Tunisia|||Africa|||country|||country
+Al Mahdīyah|||Tunisia||||||
+Al Munastīr|||Tunisia||||||
+Al Qaşrayn|||Tunisia||||||
+Al Qayrawān|||Tunisia||||||
+Ariana|||Tunisia||||||
+Bājah|||Tunisia||||||
+Banzart|||Tunisia||||||
+Bin ‘Arūs|||Tunisia||||||
+Gouvernorat de la Manouba|||Tunisia||||||
+Jundūbah|||Tunisia||||||
+Kef|||Tunisia||||||
+Madanīn|||Tunisia||||||
+Nābul|||Tunisia||||||
+Qābis|||Tunisia||||||
+Qafşah|||Tunisia||||||
+Qibilī|||Tunisia||||||
+Şafāqis|||Tunisia||||||
+Sīdī Bū Zayd|||Tunisia||||||
+Silyānah|||Tunisia||||||
+Sūsah|||Tunisia||||||
+Taţāwīn|||Tunisia||||||
+Tawzar|||Tunisia||||||
+Tūnis|||Tunisia||||||
+Zaghwān|||Tunisia||||||
+Turkey|||Asia|||country|||country
+Adana|||Turkey||||||
+Adıyaman|||Turkey||||||
+Afyonkarahisar|||Turkey||||||
+Ağrı|||Turkey||||||
+Aksaray|||Turkey||||||
+Amasya|||Turkey||||||
+Ankara|||Turkey||||||
+Antalya|||Turkey||||||
+Ardahan|||Turkey||||||
+Artvin|||Turkey||||||
+Aydın|||Turkey||||||
+Balıkesir|||Turkey||||||
+Bartın|||Turkey||||||
+Batman|||Turkey||||||
+Bayburt|||Turkey||||||
+Bilecik|||Turkey||||||
+Bingöl|||Turkey||||||
+Bitlis|||Turkey||||||
+Bolu|||Turkey||||||
+Burdur|||Turkey||||||
+Bursa|||Turkey||||||
+Çanakkale|||Turkey||||||
+Çankırı|||Turkey||||||
+Çorum|||Turkey||||||
+Denizli|||Turkey||||||
+Diyarbakır|||Turkey||||||
+Düzce|||Turkey||||||
+Edirne|||Turkey||||||
+Elazığ|||Turkey||||||
+Erzincan|||Turkey||||||
+Erzurum|||Turkey||||||
+Eskişehir|||Turkey||||||
+Gaziantep|||Turkey||||||
+Giresun|||Turkey||||||
+Gümüşhane|||Turkey||||||
+Hakkâri|||Turkey||||||
+Hatay|||Turkey||||||
+Iğdır|||Turkey||||||
+Isparta|||Turkey||||||
+Istanbul|||Turkey||||||
+İzmir|||Turkey||||||
+Kahramanmaraş|||Turkey||||||
+Karabük|||Turkey||||||
+Karaman|||Turkey||||||
+Kars|||Turkey||||||
+Kastamonu|||Turkey||||||
+Kayseri|||Turkey||||||
+Kilis|||Turkey||||||
+Kırıkkale|||Turkey||||||
+Kırklareli|||Turkey||||||
+Kırşehir|||Turkey||||||
+Kocaeli|||Turkey||||||
+Konya|||Turkey||||||
+Kütahya|||Turkey||||||
+Malatya|||Turkey||||||
+Manisa|||Turkey||||||
+Mardin|||Turkey||||||
+Mersin|||Turkey||||||
+Muğla|||Turkey||||||
+Muş|||Turkey||||||
+Nevşehir|||Turkey||||||
+Niğde|||Turkey||||||
+Ordu|||Turkey||||||
+Osmaniye|||Turkey||||||
+Rize|||Turkey||||||
+Sakarya|||Turkey||||||
+Samsun|||Turkey||||||
+Şanlıurfa|||Turkey||||||
+Siirt|||Turkey||||||
+Sinop|||Turkey||||||
+Şırnak|||Turkey||||||
+Sivas|||Turkey||||||
+Tekirdağ|||Turkey||||||
+Tokat|||Turkey||||||
+Trabzon|||Turkey||||||
+Tunceli|||Turkey||||||
+Uşak|||Turkey||||||
+Van|||Turkey||||||
+Yalova|||Turkey||||||
+Yozgat|||Turkey||||||
+Zonguldak|||Turkey||||||
+Turkmenistan|||Asia|||country|||country
+Ahal|||Turkmenistan||||||
+Balkan|||Turkmenistan||||||
+Daşoguz|||Turkmenistan||||||
+Lebap|||Turkmenistan||||||
+Mary|||Turkmenistan||||||
+Tuvalu|||Oceania|||country|||country
+Funafuti|||Tuvalu||||||
+Nanumanga|||Tuvalu||||||
+Nanumea|||Tuvalu||||||
+Niutao|||Tuvalu||||||
+Nui|||Tuvalu||||||
+Nukufetau|||Tuvalu||||||
+Nukulaelae|||Tuvalu||||||
+Vaitupu|||Tuvalu||||||
+Ukraine|||Europe|||country|||country
+Avtonomna Respublika Krym|||Ukraine||||||
+Cherkas'ka|||Ukraine||||||
+Chernihivs'ka|||Ukraine||||||
+Chernivets'ka|||Ukraine||||||
+Dnipropetrovska|||Ukraine||||||
+Donets'ka|||Ukraine||||||
+Ivano-Frankivs'ka|||Ukraine||||||
+Kharkivs'ka|||Ukraine||||||
+Kherson|||Ukraine||||||
+Khmel'nyts'ka|||Ukraine||||||
+Kiev|||Ukraine||||||
+Kirovohrads'ka|||Ukraine||||||
+L'vivs'ka|||Ukraine||||||
+Luhans'ka|||Ukraine||||||
+Misto Kyyiv|||Ukraine||||||
+Misto Sevastopol|||Ukraine||||||
+Mykolayivs'ka|||Ukraine||||||
+Odessa|||Ukraine||||||
+Poltava|||Ukraine||||||
+Rivnens'ka|||Ukraine||||||
+Sumy|||Ukraine||||||
+Ternopil's'ka|||Ukraine||||||
+Vinnyts'ka|||Ukraine||||||
+Volyns'ka|||Ukraine||||||
+Zakarpats'ka|||Ukraine||||||
+Zaporiz'ka|||Ukraine||||||
+Zhytomyrs'ka|||Ukraine||||||
+United Arab Emirates|||Asia|||country|||country
+Abū Z̧aby|||United Arab Emirates||||||
+Ajman|||United Arab Emirates||||||
+Al Fujayrah|||United Arab Emirates||||||
+Ash Shāriqah|||United Arab Emirates||||||
+Dubayy|||United Arab Emirates||||||
+Raʼs al Khaymah|||United Arab Emirates||||||
+Umm al Qaywayn|||United Arab Emirates||||||
+United Kingdom|||Europe|||country|||country
+United States|||Americas|||country|||country
+Alabama|||United States||||||
+Alaska|||United States||||||
+Arizona|||United States||||||
+Arkansas|||United States||||||
+California|||United States||||||
+Colorado|||United States||||||
+Connecticut|||United States||||||
+Delaware|||United States||||||
+Florida|||United States||||||
+Georgia|||United States||||||
+Hawaii|||United States||||||
+Idaho|||United States||||||
+Illinois|||United States||||||
+Indiana|||United States||||||
+Iowa|||United States||||||
+Kansas|||United States||||||
+Kentucky|||United States||||||
+Louisiana|||United States||||||
+Maine|||United States||||||
+Maryland|||United States||||||
+Massachusetts|||United States||||||
+Michigan|||United States||||||
+Minnesota|||United States||||||
+Mississippi|||United States||||||
+Missouri|||United States||||||
+Montana|||United States||||||
+Nebraska|||United States||||||
+Nevada|||United States||||||
+New Hampshire|||United States||||||
+New Jersey|||United States||||||
+New Mexico|||United States||||||
+New York|||United States||||||
+North Carolina|||United States||||||
+North Dakota|||United States||||||
+Ohio|||United States||||||
+Oklahoma|||United States||||||
+Oregon|||United States||||||
+Pennsylvania|||United States||||||
+Rhode Island|||United States||||||
+South Carolina|||United States||||||
+South Dakota|||United States||||||
+Tennessee|||United States||||||
+Texas|||United States||||||
+Utah|||United States||||||
+Vermont|||United States||||||
+Virginia|||United States||||||
+Washington|||United States||||||
+Washington, D.C.|||United States||||||
+West Virginia|||United States||||||
+Wisconsin|||United States||||||
+Wyoming|||United States||||||
+United States Minor Outlying Islands|||Oceania|||country|||country
+Baker Island|||United States Minor Outlying Islands||||||
+Howland Island|||United States Minor Outlying Islands||||||
+Jarvis Island|||United States Minor Outlying Islands||||||
+Uruguay|||Americas|||country|||country
+Artigas|||Uruguay||||||
+Canelones|||Uruguay||||||
+Cerro Largo|||Uruguay||||||
+Colonia|||Uruguay||||||
+Durazno|||Uruguay||||||
+Flores|||Uruguay||||||
+Florida|||Uruguay||||||
+Lavalleja|||Uruguay||||||
+Maldonado|||Uruguay||||||
+Montevideo|||Uruguay||||||
+Paysandú|||Uruguay||||||
+Río Negro|||Uruguay||||||
+Rivera|||Uruguay||||||
+Rocha|||Uruguay||||||
+Salto|||Uruguay||||||
+San José|||Uruguay||||||
+Soriano|||Uruguay||||||
+Tacuarembó|||Uruguay||||||
+Treinta y Tres|||Uruguay||||||
+Uzbekistan|||Asia|||country|||country
+Andijon|||Uzbekistan||||||
+Buxoro|||Uzbekistan||||||
+Fergana|||Uzbekistan||||||
+Jizzax|||Uzbekistan||||||
+Karakalpakstan|||Uzbekistan||||||
+Namangan|||Uzbekistan||||||
+Navoiy|||Uzbekistan||||||
+Qashqadaryo|||Uzbekistan||||||
+Samarqand|||Uzbekistan||||||
+Sirdaryo|||Uzbekistan||||||
+Surxondaryo|||Uzbekistan||||||
+Toshkent|||Uzbekistan||||||
+Toshkent Shahri|||Uzbekistan||||||
+Xorazm|||Uzbekistan||||||
+Vanuatu|||Oceania|||country|||country
+Malampa|||Vanuatu||||||
+Penama|||Vanuatu||||||
+Sanma|||Vanuatu||||||
+Shefa|||Vanuatu||||||
+Tafea|||Vanuatu||||||
+Torba|||Vanuatu||||||
+Venezuela|||Americas|||country|||country
+Amazonas|||Venezuela||||||
+Anzoátegui|||Venezuela||||||
+Apure|||Venezuela||||||
+Aragua|||Venezuela||||||
+Barinas|||Venezuela||||||
+Bolívar|||Venezuela||||||
+Carabobo|||Venezuela||||||
+Cojedes|||Venezuela||||||
+Delta Amacuro|||Venezuela||||||
+Dependencias Federales|||Venezuela||||||
+Distrito Capital|||Venezuela||||||
+Falcón|||Venezuela||||||
+Guárico|||Venezuela||||||
+Isla Margarita|||Venezuela||||||
+Lara|||Venezuela||||||
+Mérida|||Venezuela||||||
+Miranda|||Venezuela||||||
+Monagas|||Venezuela||||||
+Portuguesa|||Venezuela||||||
+Sucre|||Venezuela||||||
+Táchira|||Venezuela||||||
+Trujillo|||Venezuela||||||
+Vargas|||Venezuela||||||
+Yaracuy|||Venezuela||||||
+Zulia|||Venezuela||||||
+Viet Nam|||Asia|||country|||country
+An Giang|||Viet Nam||||||
+Bà Rịa-Vũng Tàu|||Viet Nam||||||
+Bắc Giang|||Viet Nam||||||
+Bắc Kạn|||Viet Nam||||||
+Bạc Liêu|||Viet Nam||||||
+Bắc Ninh|||Viet Nam||||||
+Bến Tre|||Viet Nam||||||
+Bình Dương|||Viet Nam||||||
+Bình Phước|||Viet Nam||||||
+Bình Thuận|||Viet Nam||||||
+Bình Ðịnh|||Viet Nam||||||
+Cà Mau|||Viet Nam||||||
+Cần Thơ|||Viet Nam||||||
+Cao Bằng|||Viet Nam||||||
+Gia Lai|||Viet Nam||||||
+Hà Giang|||Viet Nam||||||
+Hà Nam|||Viet Nam||||||
+Ha Nội|||Viet Nam||||||
+Hà Tây|||Viet Nam||||||
+Hà Tĩnh|||Viet Nam||||||
+Hải Dương|||Viet Nam||||||
+Hải Phòng|||Viet Nam||||||
+Hau Giang|||Viet Nam||||||
+Hồ Chí Minh|||Viet Nam||||||
+Hòa Bình|||Viet Nam||||||
+Hưng Yên|||Viet Nam||||||
+Huyện Ðiện Biên|||Viet Nam||||||
+Khánh Hòa|||Viet Nam||||||
+Kiến Giang|||Viet Nam||||||
+Kon Tum|||Viet Nam||||||
+Lai Châu|||Viet Nam||||||
+Lâm Ðồng|||Viet Nam||||||
+Lạng Sơn|||Viet Nam||||||
+Lào Cai|||Viet Nam||||||
+Long An|||Viet Nam||||||
+Nam Ðịnh|||Viet Nam||||||
+Nghệ An|||Viet Nam||||||
+Ninh Bình|||Viet Nam||||||
+Ninh Thuận|||Viet Nam||||||
+Phú Thọ|||Viet Nam||||||
+Phú Yên|||Viet Nam||||||
+Quảng Bình|||Viet Nam||||||
+Quảng Nam|||Viet Nam||||||
+Quảng Ngãi|||Viet Nam||||||
+Quảng Ninh|||Viet Nam||||||
+Quảng Trị|||Viet Nam||||||
+Sóc Trăng|||Viet Nam||||||
+Sơn La|||Viet Nam||||||
+Tây Ninh|||Viet Nam||||||
+Thái Bình|||Viet Nam||||||
+Thái Nguyên|||Viet Nam||||||
+Thanh Hóa|||Viet Nam||||||
+Thừa Thiên-Huế|||Viet Nam||||||
+Tiền Giang|||Viet Nam||||||
+Trà Vinh|||Viet Nam||||||
+Tuyên Quang|||Viet Nam||||||
+Vĩnh Long|||Viet Nam||||||
+Vĩnh Phúc|||Viet Nam||||||
+Yên Bái|||Viet Nam||||||
+Ðà Nẵng|||Viet Nam||||||
+Ðắc Lắk|||Viet Nam||||||
+Ðắk Nông|||Viet Nam||||||
+Ðồng Nai|||Viet Nam||||||
+Ðồng Tháp|||Viet Nam||||||
+Virgin Islands, U.S.|||Americas|||country|||country
+Saint Croix Island|||Virgin Islands, U.S.||||||
+Saint John Island|||Virgin Islands, U.S.||||||
+Saint Thomas Island|||Virgin Islands, U.S.||||||
+Wallis and Futuna|||Oceania|||country|||country
+Circonscription d'Uvéa|||Wallis and Futuna||||||
+Western Sahara|||Africa|||country|||country
+Oued Ed-Dahab-Lagouira|||Western Sahara||||||
+Yemen|||Asia|||country|||country
+Abyan|||Yemen||||||
+Aden|||Yemen||||||
+Al Bayḑāʼ|||Yemen||||||
+Al Ḩudaydah|||Yemen||||||
+Al Mahrah|||Yemen||||||
+Al Maḩwīt|||Yemen||||||
+Amanat Al Asimah|||Yemen||||||
+Ḩaḑramawt|||Yemen||||||
+Muḩāfaz̧at aḑ Ḑāli‘|||Yemen||||||
+Muḩāfaz̧at al Jawf|||Yemen||||||
+Muḩāfaz̧at Dhamār|||Yemen||||||
+Muḩāfaz̧at Ḩajjah|||Yemen||||||
+Muḩāfaz̧at Ibb|||Yemen||||||
+Muḩāfaz̧at Laḩij|||Yemen||||||
+Muḩāfaz̧at Ma’rib|||Yemen||||||
+Muḩāfaz̧at Raymah|||Yemen||||||
+Muḩāfaz̧at Şa‘dah|||Yemen||||||
+Muḩāfaz̧at Shabwah|||Yemen||||||
+Muḩāfaz̧at Ta‘izz|||Yemen||||||
+Omran|||Yemen||||||
+Sanaa|||Yemen||||||
+Zambia|||Africa|||country|||country
+Central|||Zambia||||||
+Copperbelt|||Zambia||||||
+Eastern|||Zambia||||||
+Luapula|||Zambia||||||
+Lusaka|||Zambia||||||
+North-Western|||Zambia||||||
+Northern|||Zambia||||||
+Southern|||Zambia||||||
+Western|||Zambia||||||
+Zimbabwe|||Africa|||country|||country
+Bulawayo|||Zimbabwe||||||
+Harare Province|||Zimbabwe||||||
+Manicaland|||Zimbabwe||||||
+Mashonaland Central|||Zimbabwe||||||
+Mashonaland East|||Zimbabwe||||||
+Mashonaland West|||Zimbabwe||||||
+Masvingo|||Zimbabwe||||||
+Matabeleland North|||Zimbabwe||||||
+Matabeleland South|||Zimbabwe||||||
+Midlands|||Zimbabwe||||||
+Africa|||Global|||continent|||continent
+Americas|||Global|||continent|||continent
+Antarctica|||Global|||continent|||continent
+Asia|||Global|||continent|||continent
+Europe|||Global|||continent|||continent
+Oceania|||Global|||continent|||continent
+Global||||||global|||global

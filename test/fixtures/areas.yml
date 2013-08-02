@@ -1,0 +1,32 @@
+# == Schema Information
+#
+# Table name: areas
+#
+#  id                :integer          not null, primary key
+#  name              :string(255)
+#  parent_id         :integer
+#  sub_area_url      :text
+#  host_url          :text
+#  atype             :string(255)
+#  location_group_id :integer
+#  created_at        :datetime
+#  updated_at        :datetime
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  parent_id: 1
+  sub_area_url: MyText
+  host_url: MyText
+  atype: MyString
+  location_group_id: 1
+
+two:
+  name: MyString
+  parent_id: 1
+  sub_area_url: MyText
+  host_url: MyText
+  atype: MyString
+  location_group_id: 1

@@ -1,0 +1,43 @@
+.edit_profile
+  %h1 Edit Profile
+
+  = render :partial => 'profiles/photo_header', :locals => {:user => current_user, :can_change => true, :show_crop => params[:show_crop] == 'true' ? true : false, :show_avatar_crop => params[:show_avatar_crop] == 'true' ? true : false}
+
+  .tabbable
+    %ul.nav.nav-tabs
+      %li{:class => params[:tab] == 'text' ? 'active' : ''}
+        %a{:href => '#edit_profile_text', :'data-toggle' => 'tab'} Profile text
+      %li{:class => params[:tab] == 'images' ? 'active' : ''}
+        %a{:href => '#edit_profile_images', :'data-toggle' => 'tab'} Images
+      %li{:class => params[:tab] == 'about' ? 'active' : ''}
+        %a{:href => '#edit_profile_about', :'data-toggle' => 'tab'} About
+      %li{:class => params[:tab] == 'social' ? 'active' : ''}
+        %a{:href => '#edit_profile_social', :'data-toggle' => 'tab'} Social
+
+      %li{:class => params[:tab] == 'activities' ? 'active' : ''}
+        %a{:href => '#edit_profile_activities', :'data-toggle' => 'tab'} Activities
+
+      / %li{:class => params[:tab] == 'account' ? 'active' : ''}
+      /   %a{:href => '#edit_profile_account', :'data-toggle' => 'tab'} Account
+
+    .tab-content
+      .tab-pane#edit_profile_text{:class => params[:tab] == 'text' ? 'active' : ''}
+        = render 'form'
+      .tab-pane#edit_profile_images{:class => params[:tab] == 'images' ? 'active' : ''}
+        = render :partial => 'profiles/images/form', :locals => {:profile => current_user.profile}
+      .tab-pane#edit_profile_about{:class => params[:tab] == 'about' ? 'active' : ''}
+        = render :partial => 'mine/profiles/about'
+      .tab-pane#edit_profile_social{:class => params[:tab] == 'social' ? 'active' : ''}
+        = render :partial => 'mine/profiles/social'
+      .tab-pane#edit_profile_activities{:class => params[:tab] == 'activities' ? 'active' : ''}
+        = form_for(@profile, :url => mine_profile_path, :html => {:class => 'form-horizontal'}) do |f|
+          %legend Activities
+          = render :partial => 'mine/profiles/activities', :locals => {:f => f}
+          .form-actions
+            = hidden_field_tag :tab, 'activities'
+            = f.submit 'Save', :class => 'btn btn-primary', :'data-disable-with' => 'Saving...'
+
+
+      / .tab-pane#edit_profile_account{:class => params[:tab] == 'account' ? 'active' : ''}
+      /   = render :partial => 'mine/accounts/form', :locals => {:account => current_user}
+

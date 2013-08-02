@@ -1,0 +1,4 @@
+<% publish_to "/algo/new" do %>
+  application.addMessage(new Message(JSON.parse('<%= j @message.to_json(:include => :user).html_safe %>')), <%= @message.message_thread_id %>);
+<% end %>
+$("#new_message")[0].reset();

@@ -1,0 +1,105 @@
+.home_page
+  .with{:'data-bind' => 'with: view_model_home'}
+    .content_wrapper
+      .content_title
+        %span
+          News Feed
+        %div
+          %form
+            %input{ :type => "text" }
+      .chat_block_Wrapper
+        = render :partial => 'posts/list'
+      .localtask
+        .localtask-box
+          %h4 Local Tourism Tasks
+          - @localtask.each do |localtask|
+            .task-item
+              - if @user_completed_badge_ids.include? localtask.id
+                %input{:'data-point' => "#{localtask.point}", :type => "checkbox", :checked => true,
+                :value => "#{localtask.name}", :id => "#{localtask.id}", :class => "task-checkbox"}
+              - else
+                %input{:'data-point' => "#{localtask.point}", :type => "checkbox", :value => "#{localtask.name}", :id => "#{localtask.id}" }
+              = link_to (image_tag "note.png"), "#", :id => "enote-#{localtask.id}", :class => "edit-task-note"
+              %span
+                = localtask.name
+
+              = hidden_field_tag "task_note-#{localtask.id}", "",
+                :id => "task-note-#{localtask.id}", :value => localtask.completed_note(current_user),
+                :class => localtask.name
+
+        %br
+        %a.menu-item.home-item{ :href=> '#' }
+          = image_tag "back.jpg"
+
+        %div.succeed-notice{:'style' => "display:none;" }
+          Congratulations you have completed
+          %span
+      .ecotask
+        %h4 Ecotourism Tasks
+        - @ecotask.each do |localtask|
+          .task-item
+            - if @user_completed_badge_ids.include? localtask.id
+              %input{:'data-point' => "#{localtask.point}", :type => "checkbox", :checked => true,
+              :value => "#{localtask.name}", :id => "#{localtask.id}" }
+            - else
+              %input{:'data-point' => "#{localtask.point}", :type => "checkbox", :value => "#{localtask.name}", :id => "#{localtask.id}"}
+            = link_to (image_tag "note.png"), "#", :id => "enote-#{localtask.id}", :class => "edit-task-note"
+
+            = localtask.name
+
+            = hidden_field_tag "task_note-#{localtask.id}", "",
+              :id => "task-note-#{localtask.id}", :value => localtask.completed_note(current_user),
+              :class => localtask.name
+
+        %div.succeed-notice{:'style' => "display:none;" }
+          Congratulations you have completed
+          %span
+      .right_block
+        .rating.Rating_w
+          %p
+            Rating
+          .localtourism.Rating_Block.color1
+            %p
+              %a{:href => '#', :onclick => "javascript: $('.chat_block_Wrapper, .content_title, .TegO').hide(); $('.ecotask').show(); $('.succeed-notice').hide(); $('.localtask').show(); return false;"} Local tourism
+            %input{:'data-width' => "75", :'data-cursor' => 'false', :'data-fgColor' => "#ff9322", :'data-localscore' => "#{@localpoint}", :'data-thickness' => ".2",:'data-readOnly' => 'true', :value => "#{@user_localtourism_point}", :class => "knob", :id => "local-score" }
+          .ecotourism.Rating_Block.color2
+            %p
+              %a{:href => '#', :onclick => "javascript: $('.chat_block_Wrapper, .content_title, .TegO').hide(); $('.ecotask').show(); $('.succeed-notice').hide(); $('.localtask').show(); return false;"} Ecotourism
+            %input{:'data-width' => "75", :'data-cursor' => 'false', :'data-fgColor' => "#3bc168", :'data-ecoscore' => "#{@ecopoint}", :'data-thickness' => ".2",:'data-readOnly' => 'true', :value => "#{@user_ecotourism_point}", :class => "knob", :id => "eco-score" }
+        .TegO
+          <a href="#">Profile views 100</a>
+          <a href="#">Responce rating 100</a>
+          <a href="#">Top 5 countries by number of member</a>
+          <a href="#">Top 5 trade member by network</a>
+          <a href="#">Top 5 Ecotourism companies</a>
+          <a><span>Top 5 referral members</span> create a referral action next to memberer in feeds and chats and profile views.
+          </a>
+        .clear
+      .clear
+
+  #note-completing-task
+    %h4
+      Add details why you qualify for
+      %span#task-on-note
+    = text_area_tag :task_notes, "", :rows => 7, :cols => 30, :id => "task-note"
+    %br
+    = hidden_field_tag :task_value, "", :id => "task-value"
+    = hidden_field_tag :task_id, "", :id => "task-id"
+    = hidden_field_tag :is_local, "", :id => "is-local"
+    = hidden_field_tag :new_percentage, "", :id => "new-percentage"
+
+    = submit_tag "Save", :id => "save-note", :class => "btn btn-success"
+    = button_tag "Cancel", :id => "close-note", :class => "btn btn-danger"
+
+  #note-edit-task
+    %h4
+      Edit Note details why you qualify for
+      %span#edit-task-on-note
+    = text_area_tag :edit_task_notes, "", :rows => 7, :cols => 30, :id => "edit-task-note-popup"
+    %br
+    = hidden_field_tag :edit_task_id, "", :id => "edit-task-id"
+
+    = submit_tag "Save", :id => "update-note", :class => "btn btn-success"
+    = button_tag "Cancel", :id => "close-edit-note", :class => "btn btn-danger"
+
+  .clear

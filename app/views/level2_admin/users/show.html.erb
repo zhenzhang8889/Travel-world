@@ -1,0 +1,54 @@
+<div class="sidebar full_screen">
+
+  <div class="sidebar-cont full_screen">
+    <br />
+    <%= link_to 'Back', level2_admin_users_path %>
+    <div>
+      <div class="profile_page">
+        <div class="profile_sect">
+          <div class="header_decoration"></div>
+          <div class="decoration_content">
+            <div class="visible">
+              <%= link_to "Edit", edit_level2_admin_user_path(@level2_admin_user), :class => "btn edit_link" %>
+              <div class="with">
+                <div class="panel">
+                  <%= image_tag profile_pic(@profile) %>
+                  <%= link_to "Change", edit_level2_admin_user_path(@level2_admin_user) %>
+                  <br /><br />
+                  <div class="address"><%= @level2_admin_user.full_address %></div>
+                  <%= link_to "View on map", "#" %>
+                  <div class="phone"> <%= @profile.phone  %> </div>
+                  <div class="website"><%= @profile.website  %></div>
+
+                </div>
+
+                <div class="panel pull-right">
+                  <h3><%= @level2_admin_user.full_name %></h3>
+                  <h4><%= @profile.name %></h4>
+                  <div class="service"><%= @profile.category.name if @level2_admin_user.category %></div>
+                  <div class="desc"><%= @level2_admin_user.description %></div>
+                  <% if @profile.service %>
+                    <div class="left-service-profile">
+                      <h4><%= @profile.service.name %></h4>
+                    </div>
+                  <% end %>
+                  <div class="left-service-profile">
+                    <ul class="activities">
+                      <% @profile.activities.each do |activity| %>
+                        <li><%= activity.name %></li>
+                      <% end %>
+                    </ul>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+

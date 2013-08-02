@@ -1,0 +1,9 @@
+.header
+  .right
+    = link_to "Logout", destroy_user_session_path, :method => :delete, :class => "log-out" if user_signed_in?
+
+  .header-name.right
+    %a.noti{:href => '#', :'data-bind' => 'click: view_notifications'}
+      Notifications
+    %span.badge.badge-warning 4
+    = "Hi #{current_user.firstName} - #{current_user.email}" if user_signed_in?

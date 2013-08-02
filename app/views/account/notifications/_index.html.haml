@@ -1,0 +1,51 @@
+.notification_page{:'data-bind' => 'with: view_model_notification'}
+  .if{:'data-bind' => "if: post_refer_tos().length > 0"}
+    .list_wrap
+      %ul.act_list{:'data-bind' => 'foreach : post_refer_tos()'}
+        %li
+          %p.who{:'data-bind' => 'text: from.name + " refer this post to you."'}
+          .post_wrap{:'data-bind' => 'with: referable'}
+            .poster
+              %img{:'data-bind' => 'attr: {src: user.imageUrlMedium}'}
+            .post
+              = image_tag 'post_arrow.png', :class => 'arrow'
+              .post_header
+                .name{:'data-bind' => "text: user.name"}
+                .h_label Location:
+                .h_value{:'data-bind' => "text: user.country"}
+                .h_label Service Tags:
+                .h_value{:'data-bind' => "text: user.service_tag"}
+                .h_label 
+                  .if{:'data-bind' => 'ifnot: user.added()'}
+                    %a.btn.btn-warning.btn-small{:href => '#', :'data-bind' => "click: add_contact.bind($data) "} Add Contact
+                  .if{:'data-bind' => 'if: user.added()'}
+                    %a.btn.btn-inverse.btn-small{:href => '#', :'data-bind' => "click: del_contact.bind($data)"} Delete
+
+
+              .post_content
+                .desc{:'data-bind' => "text: body"}
+                .photo{:'data-bind' => "if: medium_data_url != null && medium_data_url != ''"}
+                  %img{:'data-bind' => 'attr: {src: medium_data_url}'}
+                .time{:'data-bind' => "text: created_at"}
+
+  .if{:'data-bind' => "if: member_refer_tos().length > 0"}
+    .list_wrap
+      %ul.act_list{:'data-bind' => 'foreach : member_refer_tos()'}
+        %li
+          %p.who{:'data-bind' => 'text: from.name + " refer this member to you."'}
+          .member_wrap.post_wrap{:'data-bind' => 'with: referable'}
+            .poster
+              %img{:'data-bind' => 'attr: {src: imageUrlMedium}'}
+            .post
+              / = image_tag 'post_arrow.png', :class => 'arrow'
+              .post_header
+                .name{:'data-bind' => "text: name"}
+                .h_label Location:
+                .h_value{:'data-bind' => "text: country"}
+                .h_label Service Tags:
+                .h_value{:'data-bind' => "text: service_tag"}
+
+                .if{:'data-bind' => 'ifnot: added()'}
+                  %a.btn.btn-warning.btn-small{:href => '#', :'data-bind' => "click: add_contact.bind($data) "} Add Contact
+                .if{:'data-bind' => 'if: added()'}
+                  %a.btn.btn-inverse.btn-small{:href => '#', :'data-bind' => "click: del_contact.bind($data)"} Delete

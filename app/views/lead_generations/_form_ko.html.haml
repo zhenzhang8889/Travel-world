@@ -1,0 +1,62 @@
+- from_sign_up = false if local_assigns[:from_sign_up].nil?
+- remote = false if local_assigns[:remote].nil?
+
+%h3 Submit a Lead
+
+.input_area
+  %ul.instructions
+    %li.one
+      I want to sell or offer a service or product is for companies  that want to sell or offer hotel rooms, local tours, travel software, etc. to companies that are looking to buy or find these products and vice versa.
+
+    %li.two 
+      Locations need to be matched as well as key words. If you select New Zealand,  the lead will only look for matches in the same country and region if that has been added.
+    %li.three
+      These keywords are critical in the matching process, so take your time to add plenty of tags you think necessary
+    %li.four
+      Any additional details you feel is necessary
+
+  = form_for lead_generation, :url => lead_generation.new_record? ? account_lead_generations_path : account_lead_generation_path(lead_generation), :html => {:'data-bind' => "submit: post_lead", :class => 'form-vertical new_lead_form'} do |f|
+
+    .control-group.check_box_line.lt
+      = f.label :lg_type, 'Are you looking for or offering something?', :class => 'control-label require'
+      .controls.radios.no.need_inline
+        = f.radio_button :lg_type, 'providing', :checked => true
+        = f.label 'I want to sell / offer a service or product', :for => :lead_generation_lg_type_providing
+      .controls.radios.need_inline
+        = f.radio_button :lg_type, 'looking_for'
+        = f.label 'I want to buy / find a service or product', :for => :lead_generation_lg_type_looking_for
+        /= f.select :lg_type, [['I want to sell / offer a service or product', 'providing'], ['I want to buy / find a service or product', 'looking_for']], { :include_blank => false, :prompt => 'Select an option'}, :class => 'reinvent-select input-xlarge', :'data-placeholder' => 'true'
+
+    .control-group
+      = f.label :service_id, 'What service would you like to trade?', :class => 'control-label require'
+      .controls
+        = f.collection_select(:service_id, Service.order("name ASC").all, :id, :name, {}, :class => 'reinvent-select', :'data-need-first' => true)
+
+    .control-group
+      = f.label :area_id, 'Where are you looking to trade?', :class => 'control-label require'
+      .controls.areas
+        = render :partial => 'areas/dropdown_selection', :locals => {:propty => :area_id, :areas => Area.country_scope, :as => :lead_generation, :clazz => 'first',  :need_first => true}
+        = f.text_field :area_desc, :placeholder => 'City / Town', :class => 'input-normal'
+
+    .control-group.keywords
+      = f.label :keyword_list, 'Please type in the key words of the product or service', :class => 'control-label require'
+      .controls
+        = f.text_field :keyword_list, :placeholder => 'Product / Service Names', :class => 'tagable input-xlarge'
+
+
+    .control-group.no_underline.details
+      = f.label :details, 'Lead Detail', :class => 'control-label'
+      / .controls
+      / = f.text_field :subject, :placeholder => 'A concise subject', :class => 'input-xlarge'
+      .controls
+        = f.text_area :details, :placeholder => 'Details'
+
+    - if from_sign_up
+      = hidden_field_tag :from_sign_up, 'true'
+
+    .form-actions
+      = f.submit 'SUBMIT FOR MATCHING', :class => 'btn btn-primary btn-large btn1'
+      - if from_sign_up
+        = link_to 'Skip this step', skip_step_3_account_profile_path, :class => 'btn btn-large', :method => :put, :confirm => 'Are you sure to skip?'
+      - else
+        %a.btn.btn-large.btn1{:'data-bind' => "click: view_leads"} Cancel

@@ -1,0 +1,31 @@
+/*
+ *= require bootstrap_grey
+ *= require pagination
+ *= require_self
+*/
+
+body {
+  padding-top: 71px;
+  .clear{
+    clear: both;
+  }
+
+  .page {
+    padding: 20px 0px;
+
+
+    .user_admin {
+      .user_list {
+        tr.suspended {
+          font-style: italic;
+        }
+      }
+    }
+    .box-float-left{
+      float: left;
+      width: 270px;
+      margin-right: 30px;
+    }
+    
+  }
+}

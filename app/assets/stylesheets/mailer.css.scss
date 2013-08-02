@@ -1,0 +1,319 @@
+// Place all the styles related to the mailer controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.right_block{
+  z-index:-1;
+  padding:10px;
+  padding-bottom:20px;
+  margin-left:20px;
+  background:url("/assets/C_block_bg1.png") repeat scroll 0 0 transparent;
+  border:1px solid #C9C9C7;
+  border-radius:10px;
+  .right_block_user{
+    width:90%;
+    height:auto;
+    margin:20px;
+    .image{
+      width:70px;
+      height:70px;
+      background: #F0FFF0;
+      float:left;
+      margin-right:20px;
+      .currentuserimage{
+        width:120%;
+        height:100%
+      }
+    }
+    .text{
+      margin-left:20px;
+      
+      li{
+        list-style:none;
+      }
+      .locationtext{
+        margin:5px 0;
+      }
+      .title{
+        font-size:30px;
+      }
+      .orange{
+        color:#F2962A;
+        float:left;
+      }
+    }
+  }
+  .right_mail_box{
+    overflow-y:scroll;
+    overflow-x:none;
+    height:400px;
+    margin-bottom:20px;
+    margin-right:-10px;
+    .right_mail_body{
+      margin-bottom:40px;
+      width:97%;
+      height:80px;
+      :hover{
+          background:#EEDFCC;
+        }
+      
+      a{
+        background:none;
+        padding:0;
+        border:0px;
+        border-radius:0px;
+        border-top:2px solid gray;
+        Padding-top:10px;
+        width:100%;
+      }
+      .mail_arrow{
+        width:20px;
+        height:20px;
+        background:url("/assets/photoarrow.png");
+      }
+      .mail_picture{
+        margin:2px;
+        float:left;
+        width:50px;
+        height:50px;
+        border-radius:5px;
+        //background:url("/assets/agustin.jpeg");
+      }
+      .mail_content{
+        
+        padding:5px;
+        margin-left:0px;
+        float:right;
+        width:81%;
+        height:100px;
+        .contentheader{
+          
+          p{float:left;color:gray;font-size:14px;padding:3px;
+          
+          }
+          .snow{margin-left:70px;font-size:16px;}
+          .date{float:right;}
+        }
+        .contenttext{
+          color:#F2962A;
+          margin-left:-30px;
+          text-align:left;
+        }
+      }
+    }
+    
+  }
+  
+   .right_mail_body_notreadat{
+      padding-bottom:40px;
+      width:97%;
+      height:80px;
+      background:white;
+      :hover{
+          background:#EEDFCC;
+        }
+      a{
+        background:none;
+        padding:0;
+        border:0px;
+        border-radius:0px;
+        border-top:2px solid gray;
+        Padding-top:10px;
+        width:100%;
+      }
+      .mail_arrow{
+        width:20px;
+        height:20px;
+        background:url("/assets/photoarrow.png");
+      }
+      .mail_picture{
+        margin:2px;
+        float:left;
+        width:50px;
+        height:50px;
+        border-radius:5px;
+        //background:url("/assets/agustin.jpeg");
+      }
+      .mail_content{
+        
+        padding:5px;
+        margin-left:0px;
+        float:right;
+        width:81%;
+        height:100px;
+        .new{
+          float:right;
+          color:white;
+          border:1px solid red;
+          border-radius:10px;
+          padding:0 5px 0 5px;
+          margin:5px;
+          background:red;
+          
+        }
+        .contentheader{
+          
+          p{float:left;color:gray;font-size:14px;padding:3px;
+          
+          }
+          .snow{margin-left:70px;font-size:16px;}
+          .date{float:right;}
+        }
+        .contenttext{
+          color:#F2962A;
+          margin-left:-30px;
+          text-align:left;
+        }
+      }
+    }
+  
+  .right_reply_box{
+    height:auto;
+    margin-bottom:20px;
+    margin-right:-10px;
+    .right_mail_body{
+      margin-bottom:40px;
+      width:97%;
+      height:auto;
+      a{
+        background:none;
+        padding:0;
+        border:0px;
+        border-radius:0px;
+        width:100%;
+        Padding-top:10px;
+      }
+      .mail_arrow{
+        width:20px;
+        height:20px;
+        background:url("/assets/photoarrow.png");
+      }
+      .mail_picture{
+        margin:2px;
+        float:left;
+        width:50px;
+        height:50px;
+        border-radius:5px;
+        //background:url("/assets/agustin.jpeg");
+      }
+      .mail_content{
+        
+        padding:5px;
+        margin-left:0px;
+        float:right;
+        width:81%;
+        height:100px;
+        .contentheader{
+          
+          p{float:left;color:gray;font-size:14px;padding:3px;
+          
+          }
+          .snow{margin-left:70px;font-size:16px;}
+          .date{float:right;}
+        }
+        .contenttext{
+          color:#F2962A;
+          margin-left:-30px;
+          text-align:left;
+        }
+      }
+    }
+    
+  }
+  .right_bigmail_box{
+    overflow-y:scroll;
+    overflow-x:hidden!important;
+    height:400px;
+    margin-bottom:20px;
+    margin-right:10px;
+    .right_mail_body{
+      margin-bottom:10px;
+      width:97%;
+      height:auto;
+      border-top:2px solid gray;
+      float:left;
+      #reply{
+        float:right;
+        margin-left:20px;
+      }
+      .contenttext{
+          color:#F2962A;
+          margin-left:25px;
+          text-align:left;
+        }
+      .mail_picture{
+        margin:2px;
+        margin-top:10px;
+        float:left;
+        width:50px;
+        height:50px;
+        border-radius:5px;
+        }
+      .mail_content{
+        padding:5px;
+        margin-left:0px;
+        float:right;
+        width:81%;
+        height:auto;
+        .contentheader{
+          p{float:left;color:gray;font-size:14px;padding:3px;
+          }
+          .snow{margin-left:0px;font-size:16px;}
+          .date{float:right;}
+        }
+        
+      }
+    }
+    
+  }
+  .right_mail_relation{
+    margin-bottom:20px;
+    .icon-search{
+      background-image:url("http://localhost:3000/assets/lib/glyphicons-halflings-white.png");  
+    }
+    
+    .mailrequiere{
+      margin-right:10px;
+    }
+    #quick{
+      margin-left:64px;
+    }
+   .send_relation{
+   }
+  }
+  .right_mail_send{
+    
+    .send_mail_content{
+      width:96%
+    }
+    .send_relation{
+      padding-bottom:20px;
+      .icongroup{
+        margin-top:20px;
+        .icon-print{
+          margin-right:20px;
+        }  
+      }
+      #sendbutton{
+        float:right;
+        margin-top:0px;
+      }
+    }
+  }
+}
+
+#navul{
+  margin-left:115px;
+  margin-top:0px;
+  li a{
+    line-height:10px;
+    
+  }
+  a#ulnavLiLast{
+       border: 1px solid #CD8502;
+     }
+  #middle{
+      border-radius:0px;
+    }
+ 
+
+}

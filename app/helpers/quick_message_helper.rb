@@ -1,0 +1,2 @@
+module QuickMessageHelper
+end

@@ -1,0 +1,26 @@
+.network_page{:"data-bind" => 'with: view_model_network'}
+
+  .filters
+    %ul.tags.region_list{:'data-bind' => 'foreach : areas'}
+      %li
+        %input{:type => 'checkbox', :'data-bind' => 'attr : {value: $data, id : "area_" + $index()}, checked: $parent.filter_areas'}
+        %label{:'data-bind' => 'text: $data, attr : {for : "area_" + $index()}'}
+
+    %ul.tags.service_list{:'data-bind' => 'foreach : services'}
+      %li
+        %input{:type => 'checkbox', :'data-bind' => 'attr : {value: $data, id : "service_" + $index()}, checked: $parent.filter_services'}
+        %label{:'data-bind' => 'text: $data, attr : {for : "service_" + $index()}'}
+
+  .contacts
+    %ul.contact_list{:'data-bind' => 'foreach : contacts'}
+      %li{:'data-bind' => 'visible : $parent.show_by_service_name(service_name) && $parent.show_by_area_name(area_name)'}
+        .contact
+          .photo
+            %img{:'data-bind' => 'attr: {src: imageUrlMedium}'}
+          .info
+            .name{:'data-bind' => "text: name"}
+            .h_label Location:
+            .h_value{:'data-bind' => "text: area_name"}
+            .h_label Service:
+            .h_value{:'data-bind' => "text: service_name"}
+            %p{:'data-bind' => 'text: profile.activity_details'}

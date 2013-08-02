@@ -1,0 +1,16 @@
+%ul.sign_up_steps
+  %li{:class => step == 1 ? 'active' : ''}
+    .sub_des Step 1
+    .sub_step Email & Password
+  %li{:class => step == 2 ? 'active' : ''}
+    .sub_des Step 2
+    .sub_step Basic Information
+  %li{:class => step == 3 ? 'active' : ''}
+    .sub_des Step 3
+    .sub_step Activity Details
+  %li{:class => step == 4 ? 'active' : ''}
+    .sub_des Step 4
+    .sub_step Lead Generation
+  / %li{:class => step == 5 ? 'active' : ''}
+  /   .sub_des Step 5
+  /   .sub_step Payment Method

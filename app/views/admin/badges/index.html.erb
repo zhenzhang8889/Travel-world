@@ -1,0 +1,26 @@
+<h1>Listing Badges</h1>
+
+<table class="table table-bordered table-hover user_list">
+  <tr>
+    <th>Name</th>
+    <th>Point</th>
+    <th>Status</th>
+    <th>Category</th>
+    <th></th>
+  </tr>
+
+<% @badges.each do |badge| %>
+  <tr>
+    <td><%= badge.name %></td>
+    <td><%= badge.point %></td>
+    <td><%= badge.is_active ? "Active" : "Not Active" %></td>
+    <td><%= badge.category_badge.name if badge.category_badge %></td>
+    <td><%= link_to 'Edit', edit_admin_badge_path(badge) %>
+        <%= link_to 'Destroy', [:admin, badge], method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Badge', new_admin_badge_path %>

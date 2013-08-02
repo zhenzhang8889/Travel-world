@@ -1,0 +1,28 @@
+.profile_page
+
+  .profile_sect
+    .header_decoration
+    .decoration_content
+      .profile-stats
+        %h4
+          Profile Stats
+        %p
+          Total Visits:
+          = @total_visits
+        .visit_category
+          %span
+            By Services
+          %p
+            - @visits_by_services.each do |key, val|
+              = "#{Service.find(key).code} :"
+              = val
+              %br
+        .visit_category
+          %span
+            By Country
+          %p
+            - @visits_by_country.each do |key, val|
+              = "#{key} :"
+              = val
+              %br
+        .clear

@@ -1,0 +1,31 @@
+!!! 5
+%html
+  %head
+    %meta{'charset' => 'UTF-8'}/
+    %meta{'http-equiv' => 'X-UA-Compatible', :content => 'IE=IE9,chrome=1'}/
+    %title Chatter Admin
+
+    = stylesheet_link_tag "app_admin", "profile"
+    = javascript_include_tag "app_admin"
+
+    = yield(:head)
+    = csrf_meta_tags
+
+%body{ :style => "background-color: #EBF0F2" }
+
+  .navbar.navbar-fixed-top
+    .navbar-inner
+      .container
+        %a.brand{:href => "#"} TT Chat Admin
+
+        %ul.nav
+          %li.active
+            = link_to 'Users', level2_admin_users_path
+
+        %ul.nav.pull-right
+          %li
+            = link_to 'Sign out', "level2_admin/users/logout"
+
+  .container
+    .page
+      = yield

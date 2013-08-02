@@ -1,0 +1,23 @@
+.edit_profile_about
+  = form_for(@profile, :url => account_profile_path, :html => {:class => 'form-horizontal'}) do |f|
+    %fieldset
+      %legend About
+
+      / .control-group
+      /   = f.label :profile_type_id, :class => 'control-label'
+      /   .controls
+      /     = f.collection_select(:profile_type_id, ProfileType.order("name ASC").all, :id, :name, {}, :class => "input-xlarge reinvent-select")
+
+      .control-group
+        = f.label :activity_details, :class => 'control-label'
+        .controls
+          = f.text_area :activity_details, :class => "input-xlarge"
+
+
+      .control-group
+        = f.label :time_zone, :class => 'control-label'
+        .controls
+          = f.time_zone_select :time_zone, ActiveSupport::TimeZone.us_zones, {}, :class => "input-xlarge reinvent-select"
+    .form-actions
+      = hidden_field_tag :tab, 'about'
+      = f.submit 'Save', :disable_with => 'Saving...', :class => 'btn btn-primary'

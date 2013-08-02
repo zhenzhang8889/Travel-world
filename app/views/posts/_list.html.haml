@@ -1,0 +1,67 @@
+.post_list_part
+  .if{:'data-bind' => "if: posts().length > 0"}
+    .list_wrap
+      %ul.act_list{:'data-bind' => 'foreach : posts()'}
+        %li
+          .post_wrap
+            .poster
+              %img{:'data-bind' => 'attr: {src: user.imageUrlMedium}'}
+
+            .post
+              = image_tag 'post_arrow.png', :class => 'arrow'
+              .post_header
+                .name{:'data-bind' => "text: user.name"}
+                .h_label Location:
+                .h_value{:'data-bind' => "text: user.country"}
+                .h_label Service Tags:
+                .h_value{:'data-bind' => "text: user.service_tag"}
+
+                .h_label.refer.btn-group
+                  %a.btn.btn-mini.dropdown-toggle{:'data-toggle' => "dropdown", :href => "#"}
+                    Refer...
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#", :'data-bind' => 'click: function(data, event) { refer_to(0, data, event) }'} This member to...
+                    %li
+                      %a{:href => "#", :'data-bind' => 'click: function(data, event) { refer_to(1, data, event) }'} This post to...
+
+                .h_label.refer.btn-group.contact_list
+                  %a.btn.btn-mini.dropdown-toggle{:'data-toggle' => "dropdown", :href => "#"}
+                    Select...
+                    %span.caret
+                  %ul.dropdown-menu
+                    / ko foreach: contacts()
+                    %li
+                      %a{:href => "#", :'data-bind' => 'text: name, click: refer_to_contact.bind($data, $parent.refer_to_state(), $parent.id)'}
+                    / /ko
+
+              .post_content
+                .desc{:'data-bind' => "text: body"}
+                .photo{:'data-bind' => "if: medium_data_url != null && medium_data_url != ''"}
+                  %img{:'data-bind' => 'attr: {src: medium_data_url}'}
+                .time{:'data-bind' => "text: created_at"}
+
+            .replies_wrap
+              %ul.reply_list{:'data-bind' => 'foreach : replies()'}
+                %li
+                  .reply_wrap
+                    .reply_poster
+                      %img{:'data-bind' => 'attr: {src: user.imageUrlMedium}'}
+                    .post
+                      = image_tag 'post_arrow.png', :class => 'arrow'
+                      .post_header
+                        .name{:'data-bind' => "text: user.name"}
+                        .h_label Location:
+                        .h_value{:'data-bind' => "text: user.country"}
+                        .h_label Service Tags:
+                        .h_value{:'data-bind' => "text: user.service_tag"}
+                        / .h_label.refer Refer to:
+                      .post_content
+                        .desc{:'data-bind' => "text: body"}
+                        .time{:'data-bind' => "text: created_at"}
+
+              .reply_form.chat_reply
+                %form{:method => 'post', :'data-bind' => 'submit: to_reply, attr: {action: "/account/posts/" + id + "/postreplies"}'}
+                  %input{:type => :text, :name => 'postreply[body]', :placeholder => 'Type your reply here'}
+                  %a{:href => '#', :onclick => 'javascript: $(this).parent().submit(); return false;'} Reply

@@ -1,0 +1,159 @@
+.profile_page {
+  .form-horizontal .control-group::before, 
+  .form-horizontal .control-group::after,
+  .form-actions::before, 
+  .form-actions::after {
+    display: inline;
+  }
+
+  .left-service-profile{
+    float: left !important;
+    width: 150px !important;
+  }
+
+  .profile_sect {
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: #fff;
+    width: 50%;
+
+    border-radius: 10px;
+
+    .header_decoration {
+      height: 7px;
+      background-color: #F4982B;
+      border-radius: 10px 10px 0 0;
+    }
+
+    .decoration_content {
+      padding-left: 5px;
+      padding: 20px;
+      padding-bottom: 50px;
+      border: 1px solid #c8c8c8;
+      border-top: 0;
+      overflow: auto;
+      border-radius: 0 0 10px 10px;
+
+      .panel {
+        float: left;
+        width: 210px;
+
+        img.avatar_icon {
+          margin-bottom: 5px;
+          display: block
+        }
+        ul.activities {
+          color: #3c3832;
+          font-size: 18px;
+          font-weight: normal;
+          margin: 0;
+          padding: 0;
+          list-style: none;
+
+          li {
+            margin-bottom: 10px;
+          }
+        }
+
+        &.pull-right {
+          width: 58%;
+          float: none;
+          margin-left: 230px;
+        }
+      }
+
+      h3 {
+        font-size: 30px;
+        font-weight: normal;
+        color: #3c3832;
+        margin-bottom: 40px;
+      }
+
+      h4 {
+        font-weight: normal;
+        font-size: 18px;
+        color: #ff9d2b;
+        margin: 20px 0;
+      }
+
+      .service {
+        color: #ff9c2b;
+        font-size: 24px;
+        font-weight: normal;
+        margin-bottom: 30px;
+      }
+
+      .desc {
+        color: #000000;
+        font-size: 14px;
+        font-weight: normal;
+        margin-bottom: 30px;
+      }
+
+      .address {
+        color: #3c3832;
+        font-size: 14px;
+        font-weight: normal;
+        margin-bottom: 10px;
+      }
+
+      .phone {
+        margin-bottom: 10px;
+      }
+
+      .view_on_map {
+        display: block;
+        margin-bottom: 10px;
+      }
+
+    }
+
+    a {
+      cursor: pointer;
+    }
+
+    a.edit_link {
+      float: right;
+      margin-right: 10px;
+    }
+
+    .avatar_icon {
+      width: 200px;
+      height: 200px;
+
+      border: 1px solid #999;
+    }
+
+    .progress {
+      width: 300px;
+      position: relative;
+
+      .percent {
+        padding: 0 10px;
+        color: #999;
+        position: absolute;
+        top: 0;
+      }
+    }
+  }
+
+  textarea {
+    height: 50px;
+  }
+
+  .post_feed {
+    width: 35%;
+    padding: 10px;
+    float: right;
+    margin-right: 20px;    
+    overflow: auto;
+
+    form {
+      background-color: #fff;
+    }
+
+    form {
+      padding: 10px;
+    }
+  }
+}

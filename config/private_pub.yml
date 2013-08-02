@@ -1,0 +1,16 @@
+development:
+  # server: "http://178.79.179.65:9292/faye"
+  # server: "http://lewisou.com:9292/faye"
+  # server: "http://192.168.0.67:9292/faye"
+  # server: "http://127.0.0.1:9292/faye"
+  server: "http://127.0.0.1:9292/faye"
+  # server: "http://www.traveltagged.com:9292/faye"
+  secret_token: "bae91ff0fcd57b657903d8da7c0bb38ea085a0da597f16091c0c22c83fc13c41"
+test:
+  server: "http://localhost:9292/faye"
+  secret_token: "secret"
+production:
+  server: "http://www.traveltagged.com:9292/faye"
+  secret_token: "bae91ff0fcd57b657903d8da7c0bb38ea085a0da597f16091c0c22c83fc13c41"
+  signature_expiration: 3600 # one hour
+

@@ -1,0 +1,29 @@
+.edit_profile.sign_up_steps
+  .container
+    = render :partial => 'account/sign_up_steps', :locals => {:step => 3}
+
+    = form_for(@profile, :url => account_profile_path, :html => {:class => 'form-horizontal'}) do |f|
+
+      %fieldset.step2_fieldset
+        %legend About your business
+
+        = render :partial => 'account/profiles/activities', :locals => {:f => f}
+        .control-group.security_single_check
+          = f.label ' ', :class => 'control-label'
+          .controls.need_inline
+            = f.check_box :term
+            = f.label :term, "Please accept #{link_to "our Terms and Conditions", '#', :id => 'show_term_service'} to proceed.".html_safe
+            .clear
+
+        .form-actions
+          = f.submit 'Next', :class => 'btn btn-primary', :disable_with => 'Submitting...'
+          =f.hidden_field :step, :value => 2
+
+    .service_terms
+      .close_link.clock_term x
+
+      .term_show
+        =raw RedCloth.new(Term.first.body || '').to_html
+
+      %hr
+      %a.btn{:href => '#', :class=> 'clock_term'} Close

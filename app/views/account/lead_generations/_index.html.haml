@@ -1,0 +1,9 @@
+.lead_generations_index
+  %h1= "#{current_user.try(:name)}'s Leads"
+
+  - if true
+    .lead_box_div.new.new_lead_column
+      %a.btn.new_lead{:'data-bind' => "click: view_new_lead"} create another lead
+      / = link_to 'create another lead', new_account_lead_generation_path, :class => 'btn new_lead ajax_leads_get', :
+
+  = render :partial => 'lead_generations/list', :locals => {:leads => @leads.order('created_at DESC'), :show_reply_count => true, :show_match_count => true}

@@ -1,0 +1,45 @@
+<div class="sidebar full_screen">
+
+  <div class="sidebar-cont full_screen">
+    <br />
+    <%= link_to 'Back', level2_admin_users_path %>
+    <div>
+      <div class="profile_page">
+        <div class="profile_sect">
+          <div class="header_decoration"></div>
+          <div class="decoration_content">
+            <div class="visible">
+              <%= link_to "Edit", "#", :class => "btn edit_link" %>
+              <div class="with">
+                <div class="panel">
+                  <%= image_tag "avatar_medium_missing-200px.png" %>
+                  <%= link_to "Change", "#" %>
+                  <br /><br />
+                  <div class="address"><%= @level2_admin_user.full_address %></div>
+                  <%= link_to "View on map", "#" %>
+                  <% if @level2_admin_user.profile %>
+                    <div class="phone"> <%= @level2_admin_user.profile.phone  %> </div>
+                    <div class="website"><%= @level2_admin_user.profile.website  %></div>
+                  <% end %>
+                </div>
+
+                <div class="panel pull-right">
+                  <h3>Feby Artandi</h3>
+                  <div class="service"><%= @profile.category.name if @level2_admin_user.category %></div>
+                  <div class="desc"><%= @level2_admin_user.description %></div>
+                  <h4>Travel Tagged</h4>
+                  <ul class="activities"></ul>
+                  
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+

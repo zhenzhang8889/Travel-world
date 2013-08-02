@@ -1,0 +1,11 @@
+<h1><%= @thread.subject %></h1>
+<% @thread.messages.each do |m| %>
+  <div class="message-pdf">
+    <div style="float:left;"><b><%= m.user.firstName + " " + m.user.lastName + ": "%></b></div>
+    <div><%= " " + m.content %></div>
+    <small>
+      <div><%= m.updated_at.strftime("%b %d - %H:%M") %>&nbsp-&nbsp<%= m.getStatus(current_user) %></div>
+    </small>
+    </br>
+  </div>
+<% end %>

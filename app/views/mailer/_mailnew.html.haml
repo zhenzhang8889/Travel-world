@@ -1,0 +1,42 @@
+.right_reply_box
+  - @mailreply.each do |message|
+    .right_mail_body
+      = link_to mailer_leadmessage_path(mailbody: "11"), class:"btn", remote: true do
+        .mail_picture
+          %img(src="/assets/users/#{current_user.avatar_file_name}")
+        .mail_content
+          .contentheader
+            %div
+              %p
+                %b Subject: #{message.subject}
+              .date
+                - if message.sender_id == current_user.id
+                  %p Sent
+                - else
+                  %p Received
+                %p               
+                  = message.created_at.strftime("%d/%m/%y %H:%M")
+            .clear
+            %div
+              %p
+                %b #{message.sender.name}
+              %p.snow 
+                %b Snow Boarding
+                
+          .clear  
+          .contenttext
+            = message.body 
+     
+.right_mail_send
+  = form_tag mailer_sendmail_path, :remote => true, :method => 'get', :id => "sending_frm" do
+    %p Subject:
+    %input{:type => 'text', :name => 'subject', :placeholder => 'Name'}
+    %textarea.send_mail_content{ :name => 'body', :placeholder => 'Send any mail!', :id => 'mailtext'}
+    %input{:type => 'hidden', :id => "recipient", :name => 'recipients', :value => "#{current_user.id}", :class => 'recipient'}      
+    %input{:type => 'hidden', :id => "recipient", :name => 'recipients', :value => "#{current_user.id}", :class => 'recipient'}      
+    %input{:type => 'hidden', :id => "recipient", :name => 'senderid', :value => "#{@replyid}", :class => 'recipient'}
+    .send_relation
+      =submit_tag "Send Mail", class: "btn btn-warning btn-large", id: "sendbutton"
+    
+.clear
+

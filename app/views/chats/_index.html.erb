@@ -1,0 +1,76 @@
+<div data-bind="visible: sideBarType() == 'chat'" class='sidebar-cont full_screen account_leads'>
+  <a href="#" data-bind="click: viewContacts, attr: { 'class': sideBarType() == 'contacts' && !fullSearching() ? 'contact-link-selected' : 'contact-link'}">
+    <div class="clear"></div>Contacts
+  </a>
+  <a href="#" data-bind="click: viewGroups, attr: { 'class': sideBarType() == 'groups'  && !fullSearching() ? 'group-link-selected' : 'group-link'}">
+    <div class="clear clear-viewgroups"></div>Groups
+  </a>
+  <a href="#"data-bind="click: viewRecents, attr: { 'class': sideBarType() == 'recents' && !fullSearching() ? 'recents-link-selected' : 'recents-link'}">
+    <div class="clear"></div>Recents
+  </a>
+  <a href="#" data-bind="click: viewSearch, attr: { 'class': fullSearching() ? 'search-link-selected' : 'search-link'}">
+    <div class="clear"></div>Search
+  </a>
+
+</div>
+
+<div data-bind="visible: sideBarType() == 'contacts'" class='sidebar-cont'>
+  <input name="" type="text" class="search" placeholder="Type to start searching" data-bind="value: searchName, valueUpdate: ['afterkeydown', 'input']"/>
+  <div class="lat-all">
+    <div class="lat-tabs">
+      <a href="#" data-bind="click: $root.setTravelTrade, attr: { 'class': $root.traveler() ? 'link-tabs' : 'link-tabs-selected'}">Travel Trade</a>
+      <a href="#" data-bind="click: $root.setTraveler, attr: { 'class': $root.traveler() ? 'link-tabs-selected' : 'link-tabs'}">Travelers</a>
+    </div>
+    <div class="lat-rows" data-bind="foreach: filteredGroups">
+      <div class="link-row" data-bind="text: name, click: setSelected, attr: { 'class': visibleGroup() ? 'link-row-selected' : 'link-row'}"></div>
+      <div class="deployed-rows" data-bind="foreach: personsFilter, visible: visibleGroup">
+        <div class="deployed-rows-links" data-bind="click:$root.getThread">
+          <img data-bind="attr: {src: image}"></img>
+          <b data-bind="text: name"></b>
+          <div class="deployed-rows-subName" data-bind="text: location"></div>
+          <div class="deployed-rows-subName" data-bind="text: category"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div data-bind="visible: sideBarType() == 'groups'" class='sidebar-cont'>
+  <a href="#" class="group-new-link" data-bind="click: createGroup">Create Group</a>
+  <div class="lat-all">
+    <div class="lat-tabs">
+      <a href="#" data-bind="click: $root.setTravelTrade, attr: { 'class': $root.traveler() ? 'link-tabs' : 'link-tabs-selected'}">Travel Trade</a>
+      <a href="#" data-bind="click: $root.setTraveler, attr: { 'class': $root.traveler() ? 'link-tabs-selected' : 'link-tabs'}">Travelers</a>
+    </div>
+    <div class="lat-rows" title="Edit this Group" data-bind="foreach: filteredGroups">
+      <div class="link-row" data-bind="text: name, click: function() { setSelected(); setGroup() } , attr: { 'class': visibleGroup() ? 'link-row-selected' : 'link-row'}"></div>
+    </div>
+  </div>
+</div>
+<div data-bind="visible: sideBarType() == 'recents'" class='sidebar-cont'>
+  <div class="lat-rows">
+    <div class="link-row" data-bind="text: 'Today', visible: $root.todayThreads().length > 0, click: setSelectedRecent.bind($data,'today'), attr: { 'class': selectedRecent() == 'today' ? 'link-row-selected' : 'link-row'}"></div>
+    <div class="deployed-rows" data-bind="foreach: $root.todayThreads().sort(function(left,right){ d1 = new Date(left.messages()[left.messages().length -1].updated_at()); d2 = new Date(right.messages()[right.messages().length -1].updated_at()); return d1 == d2 ? 0 : (d1 < d2 ? 1 : -1) }), visible: $root.todayThreads().length > 0 && $root.selectedRecent() == 'today'">
+      <div class="deployed-rows-links" title="See this thread" data-bind="click: $parent.getSearchedThread">
+        <b data-bind="text: $data.getUser().name"></b>
+        <div class="deployed-rows-subName" data-bind="text: $data.subject"></div>
+        <div class="deployed-rows-subName" data-bind="text: $data.messages()[$data.messages().length -1].getDateTimeRecent"></div>
+      </div>
+    </div>
+    <div class="link-row" data-bind="text: 'Yesterday', visible: $root.yesterdayThreads().length > 0, click: setSelectedRecent.bind($data,'yesterday'), attr: { 'class': selectedRecent() == 'yesterday' ? 'link-row-selected' : 'link-row'}"></div>
+    <div class="deployed-rows" data-bind="foreach: $root.yesterdayThreads, visible: $root.yesterdayThreads().length > 0 && $root.selectedRecent() == 'yesterday'">
+      <div class="deployed-rows-links" title="See this thread" data-bind="click: $parent.getSearchedThread">
+        <b data-bind="text: $data.getUser().name"></b>
+        <div class="deployed-rows-subName" data-bind="text: $data.subject"></div>
+        <div class="deployed-rows-subName" data-bind="text: $data.messages()[$data.messages().length -1].getDateTimeRecent"></div>
+      </div>
+    </div>
+    <div class="link-row" data-bind="text: 'Last Week', visible: $root.lastWeekThreads().length > 0, click: setSelectedRecent.bind($data,'last'), attr: { 'class': selectedRecent() == 'last' ? 'link-row-selected' : 'link-row'}"></div>
+    <div class="deployed-rows" data-bind="foreach: $root.lastWeekThreads, visible: $root.lastWeekThreads().length > 0 && $root.selectedRecent() == 'last'">
+      <div class="deployed-rows-links" title="See this thread" data-bind="click: $parent.getSearchedThread">
+        <b data-bind="text: $data.getUser().name"></b>
+        <div class="deployed-rows-subName" data-bind="text: $data.subject"></div>
+        <div class="deployed-rows-subName" data-bind="text: $data.messages()[$data.messages().length -1].getDateTimeRecent"></div>
+      </div>
+    </div>
+  </div>
+</div>

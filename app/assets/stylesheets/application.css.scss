@@ -1,0 +1,54 @@
+/*
+ *= require bootstrap
+ 
+ *= require jquery-ui-1.9.1.custom.min
+ *= require queryLoader
+ *= require_tree ./lib
+ *= require_self
+
+ *= require chat
+ *= require chats
+ *= require main_menu
+ *= require messages
+ *= require lead_generations
+ *= require tag_list
+ *= require sign_up
+ *= require member_search
+ *= require profile
+ *= require avatar
+ *= require home
+ *= require posts
+ *= require network
+ *= require notification
+ *= require mailer 
+*/
+
+.main_content_div {
+  padding-top: 41px;
+  overflow: auto;
+}
+
+div.controls {
+  &.need_inline {
+    input[type=checkbox], input[type=radio], label {
+      display: inline;
+      vertical-align: baseline;
+    }
+    p.error_mess {
+      display: inline;
+      margin-left: 5px;
+    }
+  }
+}
+
+.be_hidden {
+  display: none;
+}
+
+.header-name {
+  a.noti {
+    padding: 5px;
+    padding-right: 0;
+  }  
+}
+

@@ -1,0 +1,143 @@
+html{background: url("../../assets/body_bg.png"); }
+.last_visited{
+  font-size: 11px;
+  font-style: italic;
+}
+.visit_category{
+  float: left;
+  width: 200px;
+  text-align: left;
+  margin-right: 20px;
+  font-size: 14px;
+}
+.visit_category span{
+  border-bottom: 1px solid;
+}
+
+#note-completing-task, #note-edit-task{
+  display:none;
+  width: 360px;
+  height: 230px;
+  -moz-border-radius: 6px;
+  background: #EEF2F7;
+  -webkit-border-radius: 6px;
+  border: 1px solid #536376;
+  -webkit-box-shadow: rgba(0,0,0,.6) 0px 2px 12px;
+  -moz-box-shadow: rgba(0,0,0,.6) 0px 2px 12px;
+  padding: 14px 22px;
+  position: relative;
+}
+textarea#task-note{
+  width: 345px !important;
+}
+textarea#edit-task-note-popup{
+  width: 345px !important;
+}
+/*.rating{
+  text-align: center;
+  color: #ccc;
+  font-size:14px;
+  font-weight: bold;
+  width: 300px;
+  float: left;
+  margin-left: 15px;
+}*/
+/*.localtourism{
+  border-top: 3px solid #F47915;
+  padding-top: 5px;
+  font-weight: normal;
+  width: 140px;
+  float: left;
+}
+.ecotourism{
+  border-top: 3px solid green;
+  padding-top: 5px;
+  width: 140px;
+  float: right;
+}*/
+.localtourism a{
+  color:#F47915;
+  display: inline-block;
+  /*margin-bottom: 15px;
+  border-bottom: 1px solid transparent;*/
+}
+.localtourism a:hover{
+  /*border-bottom: 1px solid #F47915;*/
+  text-decoration:none;
+}
+.ecotourism a{
+  color:green;
+  display: inline-block;
+  /*margin-bottom: 15px;
+  border-bottom: 1px solid transparent;*/
+}
+.ecotourism a:hover{
+  /*border-bottom: 1px solid green;*/
+  text-decoration:none;
+}
+.rating .score-percentage{
+  padding: 10px;
+  border: 5px solid;
+  display: inline-block;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+}
+.localtourism .score-percentage{
+  border-color: #F47915;
+}
+.ecotourism .score-percentage{
+  border-color: green;
+}
+
+.task-item{
+  margin-top: 10px;
+  border-bottom: 1px solid #DDD;
+}
+
+.localtask, .ecotask{
+  display: none;
+  width: 100px;
+ 
+  margin-right: 8px;
+  float: left;
+}
+.ecotask, .localtask-box{
+  margin-top: 20px;
+  -webkit-box-shadow: 0 0px 5px #999;
+  -moz-box-shadow: 0 0px 5px #999;
+  box-shadow: 0 0px 5px #999;
+  filter: progid:DXImageTransform.Microsoft.Shadow(color='#969696', Direction=145, Strength=3);
+  background-color: #fefefe;
+  padding: 8px;
+}
+
+.task-box{
+  -webkit-box-shadow: 0 0px 5px #999;
+  -moz-box-shadow: 0 0px 5px #999;
+  box-shadow: 0 0px 5px #999;
+  filter: progid:DXImageTransform.Microsoft.Shadow(color='#969696', Direction=145, Strength=3);
+  background-color: #fefefe;
+}
+#localscore, #ecoscore{
+  display:none;
+}
+.chat_reply{/*padding:7px 5px 5px 15px;background: #ffffff;border-radius:5px;-webkit-border-radius:5px;box-shadow: 0px 1px 1px 0px #454545;-webkit-box-shadow:0px 1px 1px 0px #454545;*/margin-left: 172px;margin-right:84px ;behavior: url(PIE.htc);position: relative}
+.chat_reply input[type="text"]{background: url("../../assets/gr_input_bg.png");border: 1px solid #c9c8c4 ;padding:5px 18px 4px 18px;border-radius:7px;-webkit-border-radius:7px;width: 78%;margin-right: 4%;behavior: url(PIE.htc);position: relative}
+.chat_reply input[type="submit"]{color: #448ccb;font-size: 14px;border: none;background: transparent!important;cursor: pointer;}
+.right_block{float: left;padding: 0 0 20px 0;padding-left: 20px;width: 28%}
+.right_block p{margin: 0;}
+.rating{background: #ffffff;float: left;width: 293px;border-radius: 7px;-webkit-border-radius: 7px;box-shadow: 0px 1px 3px -1px #000;-webkit-border-radius: 0px 1px 3px -1px #000;padding-bottom: 20px;behavior: url(PIE.htc);position: relative}
+.rating > p{text-align: center;padding: 6px 0;font-weight: bold;font-size: 21px;color: #ccc;}
+.Rating_Block p{text-align: center;padding: 18px 0 4px 0;;background: url("../../assets/small_O.png") no-repeat right 5px}
+.Rating_Block input{color: #adaeb2!important;font-size: 21px!important;font-weight: bolder!important;font-family: arial!important ; text-shadow: 0px -1px 0px #A1A1A5}
+.Rating_Block.color1{border-top:3px solid #f2962a}
+.Rating_Block.color1 p{color: #f2962a;border-bottom: 3px solid #f2962a}
+.Rating_Block.color2{border-top:3px solid #3bc168}
+.Rating_Block.color2 p{color: #3bc168; border-bottom: 3px solid #3bc168}
+.Rating_Block{background: url("../../assets/body_bg.png");border-left: 1px solid #b9b9b8;border-bottom: 1px solid #b9b9b8;border-right:1px solid #b9b9b8;border-radius: 3px;-webkit-border-radius: 3px;float: left;margin-left: 21px;width: 101px;padding: 0 6px}
+.Rating_Block > div{display: block!important;margin: 0 auto;background: url("../../assets/rate.png") 5px 15px no-repeat;padding:20px 10px 10px 10px;height: 87px!important;}
+.TegO{float: left;padding: 48px 0 0 0 }
+.TegO a{color: #f2962a;font-size: 24px;display: block;padding-bottom: 38px;font-weight: bold;position: relative;line-height: 20px}
+.TegO a span{font-size: 36px}
+.Rating_Block > input {width: 50px;}

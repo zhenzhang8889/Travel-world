@@ -1,0 +1,14 @@
+.edit_profile.sign_up_steps
+  .container
+    = render :partial => 'account/sign_up_steps', :locals => {:step => 2}
+
+    %h2 Let's start to create your professional profile
+
+    - @profile.create_address if @profile.address.nil?
+    = form_for(@profile, :url => account_profile_path, :html => {:class => 'form-horizontal'}) do |f|
+      = render :partial => 'basic_info', :locals => {:f => f}
+      = f.hidden_field :step, :value => 1
+      .form-actions
+        = f.submit 'Next', :class => 'btn btn-primary', :disable_with => 'S...'
+        / =hidden_field_tag :step, params[:step]
+
